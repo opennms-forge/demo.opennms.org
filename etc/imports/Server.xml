@@ -1,10 +1,8 @@
-<model-import xmlns="http://xmlns.opennms.org/xsd/config/model-import" date-stamp="2017-08-10T12:41:04.270+02:00" foreign-source="Server" last-import="2017-08-10T12:45:51.192+02:00">
-   <node foreign-id="ofe" node-label="ofe">
-      <interface ip-addr="91.250.116.222" snmp-primary="P">
-         <monitored-service service-name="SSH"/>
-         <monitored-service service-name="SNMP"/>
+<model-import xmlns="http://xmlns.opennms.org/xsd/config/model-import" date-stamp="2017-08-10T14:28:37.680+02:00" foreign-source="Server" last-import="2017-08-10T14:28:37.709+02:00">
+   <node foreign-id="pris" node-label="pris">
+      <interface ip-addr="172.29.0.8" snmp-primary="P">
+         <monitored-service service-name="HTTP-8000"/>
          <monitored-service service-name="ICMP"/>
-         <monitored-service service-name="Process-Monitoring"/>
          <monitored-service service-name="StrafePing"/>
       </interface>
       <category name="type:server"/>
@@ -16,15 +14,102 @@
       <category name="threshold:memory-high-95"/>
       <category name="threshold:disk-high-95"/>
       <category name="environment:production"/>
-      <asset name="cpu" value="2 vCPU Intel(R) Xeon(R) CPU E5-2620@2.00GHz"/>
-      <asset name="city" value="Cologne"/>
-      <asset name="address1" value="Hansestrasse 109"/>
-      <asset name="department" value="Internet Services"/>
-      <asset name="manufacturer" value="Parallels"/>
-      <asset name="operatingSystem" value="Ubuntu 10.04 LTS"/>
-      <asset name="zip" value="51149"/>
-      <asset name="building" value="Host Europe Datacenter 1"/>
-      <asset name="ram" value="16 GB vMemory"/>
+      <asset name="serialNumber" value="42"/>
+      <asset name="modelNumber" value="Dedibox XC 2016 SSD"/>
+      <asset name="operatingSystem" value="Ubuntu 16.04 LTS"/>
+      <asset name="manufacturer" value="Online Labs"/>
+      <asset name="ram" value="2 x 8 GB DDR3 1600 MHz"/>
+      <asset name="cpu" value="Intel(R) Atom(TM) CPU C2750@2.40GHz"/>
+      <asset name="zip" value="75015"/>
+      <asset name="department" value="IT Operation"/>
+      <asset name="address1" value="Boulevard Lefebvre 58"/>
+      <asset name="city" value="Paris"/>
+      <asset name="building" value="OnlineNet Datacenter 1"/>
+   </node>
+   <node foreign-id="grafana" node-label="grafana">
+      <interface ip-addr="172.29.0.9" snmp-primary="P">
+         <monitored-service service-name="ICMP"/>
+         <monitored-service service-name="HTTP-3000"/>
+         <monitored-service service-name="StrafePing"/>
+      </interface>
+      <category name="type:server"/>
+      <category name="threshold:bandwidth-out-high-100MiBs"/>
+      <category name="organisation:opennms-eu"/>
+      <category name="threshold:cpu-high-95"/>
+      <category name="category:infrastructure"/>
+      <category name="threshold:bandwdth-in-high-100MiBs"/>
+      <category name="threshold:memory-high-95"/>
+      <category name="threshold:disk-high-95"/>
+      <category name="environment:production"/>
+      <asset name="serialNumber" value="42"/>
+      <asset name="modelNumber" value="Dedibox XC 2016 SSD"/>
+      <asset name="operatingSystem" value="Ubuntu 16.04 LTS"/>
+      <asset name="manufacturer" value="Online Labs"/>
+      <asset name="ram" value="2 x 8 GB DDR3 1600 MHz"/>
+      <asset name="cpu" value="Intel(R) Atom(TM) CPU C2750@2.40GHz"/>
+      <asset name="zip" value="75015"/>
+      <asset name="department" value="IT Operation"/>
+      <asset name="address1" value="Boulevard Lefebvre 58"/>
+      <asset name="city" value="Paris"/>
+      <asset name="building" value="OnlineNet Datacenter 1"/>
+   </node>
+   <node foreign-id="database" node-label="database">
+      <interface ip-addr="172.29.0.10" snmp-primary="P">
+         <monitored-service service-name="ICMP"/>
+         <monitored-service service-name="StrafePing"/>
+         <monitored-service service-name="PostgreSQL"/>
+      </interface>
+      <category name="type:server"/>
+      <category name="threshold:bandwidth-out-high-100MiBs"/>
+      <category name="organisation:opennms-eu"/>
+      <category name="threshold:cpu-high-95"/>
+      <category name="category:infrastructure"/>
+      <category name="threshold:bandwdth-in-high-100MiBs"/>
+      <category name="threshold:memory-high-95"/>
+      <category name="threshold:disk-high-95"/>
+      <category name="environment:production"/>
+      <asset name="serialNumber" value="42"/>
+      <asset name="modelNumber" value="Dedibox XC 2016 SSD"/>
+      <asset name="operatingSystem" value="Ubuntu 16.04 LTS"/>
+      <asset name="manufacturer" value="Online Labs"/>
+      <asset name="ram" value="2 x 8 GB DDR3 1600 MHz"/>
+      <asset name="cpu" value="Intel(R) Atom(TM) CPU C2750@2.40GHz"/>
+      <asset name="zip" value="75015"/>
+      <asset name="department" value="IT Operation"/>
+      <asset name="address1" value="Boulevard Lefebvre 58"/>
+      <asset name="city" value="Paris"/>
+      <asset name="building" value="OnlineNet Datacenter 1"/>
+   </node>
+   <node foreign-id="opennms" node-label="opennms">
+      <interface ip-addr="127.0.0.1" snmp-primary="P">
+         <monitored-service service-name="ICMP"/>
+         <monitored-service service-name="StrafePing"/>
+         <monitored-service service-name="OpenNMS-JVM"/>
+      </interface>
+      <interface ip-addr="172.29.0.11" snmp-primary="N">
+         <monitored-service service-name="ICMP"/>
+         <monitored-service service-name="StrafePing"/>
+      </interface>
+      <category name="type:server"/>
+      <category name="threshold:bandwidth-out-high-100MiBs"/>
+      <category name="organisation:opennms-eu"/>
+      <category name="threshold:cpu-high-95"/>
+      <category name="category:infrastructure"/>
+      <category name="threshold:bandwdth-in-high-100MiBs"/>
+      <category name="threshold:memory-high-95"/>
+      <category name="threshold:disk-high-95"/>
+      <category name="environment:production"/>
+      <asset name="serialNumber" value="42"/>
+      <asset name="modelNumber" value="Dedibox XC 2016 SSD"/>
+      <asset name="operatingSystem" value="Ubuntu 16.04 LTS"/>
+      <asset name="manufacturer" value="Online Labs"/>
+      <asset name="ram" value="2 x 8 GB DDR3 1600 MHz"/>
+      <asset name="cpu" value="Intel(R) Atom(TM) CPU C2750@2.40GHz"/>
+      <asset name="zip" value="75015"/>
+      <asset name="department" value="IT Operation"/>
+      <asset name="address1" value="Boulevard Lefebvre 58"/>
+      <asset name="city" value="Paris"/>
+      <asset name="building" value="OnlineNet Datacenter 1"/>
    </node>
    <node foreign-id="dc.srv.01" node-label="dc.srv.01">
       <interface ip-addr="172.29.0.32" snmp-primary="P">
@@ -83,6 +168,8 @@
    <node foreign-id="dc.web.01" node-label="dc.web.01">
       <interface ip-addr="172.29.0.34" snmp-primary="N">
          <monitored-service service-name="HTTP"/>
+         <monitored-service service-name="ICMP"/>
+         <monitored-service service-name="StrafePing"/>
       </interface>
       <category name="type:server"/>
       <category name="threshold:bandwidth-out-high-100MiBs"/>
@@ -162,6 +249,8 @@
    <node location="Branch" foreign-id="branch.web.01" node-label="branch.web.01">
       <interface ip-addr="192.168.2.102" snmp-primary="N">
          <monitored-service service-name="HTTP"/>
+         <monitored-service service-name="ICMP"/>
+         <monitored-service service-name="StrafePing"/>
       </interface>
       <category name="type:server"/>
       <category name="threshold:bandwidth-out-high-100MiBs"/>
@@ -183,5 +272,32 @@
       <asset name="address1" value="Leipziger Strasse 123"/>
       <asset name="department" value="IT Operation"/>
       <asset name="building" value="HS-Fulda"/>
+   </node>
+   <node foreign-id="ofe" node-label="ofe">
+      <interface ip-addr="91.250.116.222" snmp-primary="P">
+         <monitored-service service-name="SSH"/>
+         <monitored-service service-name="SNMP"/>
+         <monitored-service service-name="ICMP"/>
+         <monitored-service service-name="Process-Monitoring"/>
+         <monitored-service service-name="StrafePing"/>
+      </interface>
+      <category name="type:server"/>
+      <category name="threshold:bandwidth-out-high-100MiBs"/>
+      <category name="organisation:opennms-eu"/>
+      <category name="threshold:cpu-high-95"/>
+      <category name="category:infrastructure"/>
+      <category name="threshold:bandwdth-in-high-100MiBs"/>
+      <category name="threshold:memory-high-95"/>
+      <category name="threshold:disk-high-95"/>
+      <category name="environment:production"/>
+      <asset name="cpu" value="2 vCPU Intel(R) Xeon(R) CPU E5-2620@2.00GHz"/>
+      <asset name="city" value="Cologne"/>
+      <asset name="address1" value="Hansestrasse 109"/>
+      <asset name="department" value="Internet Services"/>
+      <asset name="manufacturer" value="Parallels"/>
+      <asset name="operatingSystem" value="Ubuntu 10.04 LTS"/>
+      <asset name="zip" value="51149"/>
+      <asset name="building" value="Host Europe Datacenter 1"/>
+      <asset name="ram" value="16 GB vMemory"/>
    </node>
 </model-import>
