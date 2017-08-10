@@ -1,7 +1,7 @@
 #!/bin/bash
 OPENNMS_HOST=localhost
 OPENNMS_USER=admin
-OPENNMS_PASS=admin
+OPENNMS_PASS=RejVojafecip
 OPENNMS_PORT=8988
 
 GRAFANA_HOST=localhost
