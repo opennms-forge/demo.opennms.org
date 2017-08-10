@@ -98,7 +98,7 @@ services:
       net.dc:
         ipv4_address: 172.29.0.12
       net.branch:
-        ipv4_address: 192.168.1.10
+        ipv4_address: 192.168.2.10
     env_file:
       - .minion.env
     command: ["-f"]
@@ -146,7 +146,7 @@ services:
     container_name: branch.srv.01
     networks:
       net.branch:
-        ipv4_address: 192.168.1.100
+        ipv4_address: 192.168.2.100
     environment:
       - TZ=Europe/Berlin
     ports:
@@ -157,7 +157,7 @@ services:
     container_name: branch.srv.02
     networks:
       net.branch:
-        ipv4_address: 192.168.1.101
+        ipv4_address: 192.168.2.101
     environment:
       - TZ=Europe/Berlin
     ports:
@@ -168,7 +168,7 @@ services:
     container_name: branch.web.01
     networks:
       net.branch:
-        ipv4_address: 192.168.1.102
+        ipv4_address: 192.168.2.102
     environment:
       - TZ=Europe/Berlin
     ports:
