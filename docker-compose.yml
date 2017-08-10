@@ -13,12 +13,12 @@ networks:
       driver: bridge
       ipam:
         config:
-          - subnet: 172.30.0.0/16
+          - subnet: 172.29.0.0/16
   net.branch:
       driver: bridge
       ipam:
         config:
-          - subnet: 192.168.1.0/24
+          - subnet: 192.168.2.0/24
 services:
   database:
     image: postgres:9.6.1
@@ -33,7 +33,7 @@ services:
       - data.postgres:/var/lib/postgresql/data
     networks:
       net.dc:
-        ipv4_address: 172.30.0.10
+        ipv4_address: 172.29.0.10
 
   opennms:
     image: opennms/horizon-core-web:latest
@@ -43,7 +43,7 @@ services:
       - NET_ADMIN
     networks:
       net.dc:
-        ipv4_address: 172.30.0.11
+        ipv4_address: 172.29.0.11
     env_file:
       - .opennms.env
       - .postgres.env
@@ -56,54 +56,54 @@ services:
       - ./etc:/opt/opennms/etc
     command: ["-s"]
     ports:
-      - "8980:8980"
-      - "18980:18980"
-      - "1099:1099"
-      - "8101:8101"
-      - "61616:61616"
-      - "5817:5817"
-      - "162:162/udp"
+      - "8988:8980"
+      - "18980"
+      - "1099"
+      - "8101"
+      - "61616"
+      - "5817"
+      - "162/udp"
 
   pris:
     image: opennms/pris:1.1.6
     container_name: opennms-pris
     networks:
       net.dc:
-        ipv4_address: 172.30.0.8
+        ipv4_address: 172.29.0.8
     environment:
       - TZ=Europe/Berlin
     volumes:
       - ./requisitions:/opt/opennms-pris/requisitions
       - ./scriptsteps:/opt/opennms-pris/scriptsteps
     ports:
-      - "8000:8000"
+      - "8000"
 
   grafana:
     image: opennms/helm-app:latest
     container_name: grafana
     networks:
       net.dc:
-        ipv4_address: 172.30.0.9
+        ipv4_address: 172.29.0.9
     environment:
       - TZ=Europe/Berlin
     env_file:
       - .grafana.env
     ports:
-      - "3000:3000"
+      - "3001:3000"
 
   minion:
     image: opennms/minion:latest
     container_name: minion
     networks:
       net.dc:
-        ipv4_address: 172.30.0.12
+        ipv4_address: 172.29.0.12
       net.branch:
         ipv4_address: 192.168.1.10
     env_file:
       - .minion.env
     command: ["-f"]
     ports:
-      - "8201:8201"
+      - "8201"
       - "18980"
       - "162/udp"
       - "514/udp"
@@ -113,7 +113,7 @@ services:
     container_name: dc.srv.01
     networks:
       net.dc:
-        ipv4_address: 172.30.0.32
+        ipv4_address: 172.29.0.32
     environment:
       - TZ=Europe/Berlin
     ports:
@@ -124,7 +124,7 @@ services:
     container_name: dc.srv.02
     networks:
       net.dc:
-        ipv4_address: 172.30.0.33
+        ipv4_address: 172.29.0.33
     environment:
       - TZ=Europe/Berlin
     ports:
@@ -135,7 +135,7 @@ services:
     container_name: dc.web.01
     networks:
       net.dc:
-        ipv4_address: 172.30.0.34
+        ipv4_address: 172.29.0.34
     environment:
       - TZ=Europe/Berlin
     ports:
