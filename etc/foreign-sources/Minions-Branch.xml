@@ -1,0 +1,5 @@
+<foreign-source xmlns="http://xmlns.opennms.org/xsd/config/foreign-source" name="Minions-Branch" date-stamp="2017-08-10T13:56:19.091+02:00">
+   <scan-interval>1d</scan-interval>
+   <detectors/>
+   <policies/>
+</foreign-source>

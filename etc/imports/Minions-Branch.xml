@@ -1,0 +1,7 @@
+<model-import xmlns="http://xmlns.opennms.org/xsd/config/model-import" date-stamp="2017-08-10T13:56:19.188+02:00" foreign-source="Minions-Branch" last-import="2017-08-10T13:56:19.498+02:00">
+   <node location="Branch" foreign-id="00000000-0000-0000-0000-deadbeef0001" node-label="00000000-0000-0000-0000-deadbeef0001">
+      <interface ip-addr="127.0.0.1" snmp-primary="N">
+         <monitored-service service-name="Minion-Heartbeat"/>
+      </interface>
+   </node>
+</model-import>

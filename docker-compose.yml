@@ -21,7 +21,7 @@ networks:
           - subnet: 192.168.2.0/24
 services:
   database:
-    image: postgres:9.6.1
+    image: postgres:9.6.3
     container_name: database
     env_file:
       - .postgres.env
