@@ -1,7 +1,7 @@
 <userinfo xmlns="http://xmlns.opennms.org/xsd/users">
    <header>
       <rev>.9</rev>
-      <created>Thursday, August 10, 2017 10:17:15 AM GMT</created>
+      <created>Thursday, August 10, 2017 11:19:54 AM GMT</created>
       <mstation>master.nmanage.com</mstation>
    </header>
    <users>
@@ -11,6 +11,21 @@
          <user-comments>Default administrator, do not delete</user-comments>
          <password salt="true">wdiheDrO4vZQ6xLyWWA/zxrleZcDWEUXrnlpTD640lOQ3KM85BRoKqystl9ex93Z</password>
          <role>ROLE_ADMIN</role>
+      </user>
+      <user>
+         <user-id>demo</user-id>
+         <password salt="true">SVhX+0tanquSG80I1TAzzB7jN3eMCkLMKFKOJ25+64Sn8Q8kud+jIjer6GLm8A8J</password>
+         <contact type="email"/>
+         <contact type="pagerEmail"/>
+         <contact type="xmppAddress"/>
+         <contact type="microblog"/>
+         <contact type="numericPage"/>
+         <contact type="textPage"/>
+         <contact type="workPhone"/>
+         <contact type="mobilePhone"/>
+         <contact type="homePhone"/>
+         <role>ROLE_READONLY</role>
+         <role>ROLE_USER</role>
       </user>
       <user>
          <user-id>minion</user-id>
