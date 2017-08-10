@@ -1,0 +1,116 @@
+version: '2.3'
+
+volumes:
+  data-postgres: {}
+  data-opennms: {}
+
+networks:
+  net-demo:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.29.0.0/16
+
+services:
+  database:
+    image: postgres:10
+    container_name: demo-database
+    env_file:
+      - .postgres.env
+    environment:
+      - TZ=Europe/Berlin
+    volumes:
+      - data-postgres:/var/lib/postgresql/data
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.5
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U postgres" ]
+      interval: 10s
+      timeout: 30s
+      retries: 3
+
+  horizon:
+    image: opennms/horizon-core-web:latest
+    container_name: demo-horizon
+    mem_limit: 3072M
+    cap_add:
+      - NET_ADMIN
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.6
+    env_file:
+      - .opennms.env
+      - .postgres.env
+    environment:
+      - TZ=Europe/Berlin
+    depends_on:
+      database:
+        condition: service_healthy
+    volumes:
+      - data-opennms:/opennms-data
+      - ./etc-overlay:/opt/opennms-etc-overlay
+    command: ["-s"]
+    ports:
+      - "8980:8980"
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "-I", "http://localhost:8980/opennms/login.jsp" ]
+      interval: 1m
+      timeout: 5s
+      retries: 3
+      
+  pris:
+    image: opennms/pris:1.1.6
+    container_name: demo-pris
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.7
+    environment:
+      - TZ=Europe/Berlin
+    volumes:
+      - ./requisitions:/opt/opennms-pris/requisitions
+      - ./scriptsteps:/opt/opennms-pris/scriptsteps
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "-I", "http://localhost:8000/documentation/index.html" ]
+      interval: 1m
+      timeout: 5s
+      retries: 3
+
+  dc.srv.01:
+    image: indigo/docker-netsnmp
+    container_name: dc.srv.01
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.30
+    environment:
+      - TZ=Europe/Berlin
+    healthcheck:
+      test: [ "CMD", "snmpget", "-v", "2c", "-c", "public", "localhost", ".1.3.6.1.2.1.1.2.0" ]
+      interval: 1m
+      timeout: 5s
+      retries: 3
+
+  dc.srv.02:
+    image: indigo/docker-netsnmp
+    container_name: dc.srv.02
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.31
+    environment:
+      - TZ=Europe/Berlin
+    healthcheck:
+      test: [ "CMD", "snmpget", "-v", "2c", "-c", "public", "localhost", ".1.3.6.1.2.1.1.2.0" ]
+      interval: 1m
+      timeout: 5s
+      retries: 3
+
+  dc.web.01:
+    image: httpd
+    container_name: dc.web.01
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.50
+    environment:
+      - TZ=Europe/Berlin
