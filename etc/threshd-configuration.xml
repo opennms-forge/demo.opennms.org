@@ -26,6 +26,14 @@
             <parameter key="thresholding-group" value="threshold:cpu-high-95"/>
         </service>
     </package>
+    <package name="threshold:disk-high-80">
+        <filter>categoryname == 'threshold:disk-high-80'</filter>
+        <include-range begin="1.1.1.1" end="254.254.254.254"/>
+        <include-range begin="::1" end="ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff"/>
+        <service name="SNMP" interval="300000" user-defined="false" status="on">
+            <parameter key="thresholding-group" value="threshold:disk-high-80"/>
+        </service>
+    </package>
     <package name="threshold:disk-high-95">
         <filter>categoryname == 'threshold:disk-high-95'</filter>
         <include-range begin="1.1.1.1" end="254.254.254.254"/>

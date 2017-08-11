@@ -103,6 +103,40 @@
         <alarm-data auto-clean="false" clear-key="uei.opennms.org/threshold/unix/cpu/high/major/exceeded:%dpname%:%nodeid%:%interface%:%parm[ds]%:%parm[threshold]%:%parm[trigger]%:%parm[rearm]%:%parm[label]%" alarm-type="2" reduction-key="%uei%:%dpname%:%nodeid%:%interface%:%parm[ds]%:%parm[threshold]%:%parm[trigger]%:%parm[rearm]%:%parm[label]%"/>
     </event>
     <event>
+        <uei>uei.opennms.org/threshold/disk/high/warning/exceeded</uei>
+        <event-label>custom.threshold: Disk Warning Threshold Exceeded</event-label>
+        <descr>&lt;p&gt;High threshold exceeded for %service% datasource %parm[ds]% on interface %interface% for node %nodelabel% (nodeId %nodeid%).&lt;/p&gt;&lt;br&gt;
+        &lt;table style='width:50%; white-space: nowrap;'&gt;
+        &lt;tr&gt;&lt;td&gt;&lt;b&gt;Data Source&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[ds]%&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;&lt;b&gt;Resource Label&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[label]%&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;&lt;b&gt;Resource Instance&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[instance]%&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;&lt;b&gt;Current Metric Value&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[value]%&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;&lt;b&gt;Threshold Value&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[threshold]%&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;&lt;b&gt;Rearm Value&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[rearm]%&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;&lt;b&gt;Trigger Value&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[trigger]%&lt;/td&gt;&lt;/tr&gt;
+        &lt;/table&gt;&lt;/br&gt;&lt;p&gt;All parameters: %parm[all]%&lt;/p&gt;</descr>
+        <logmsg dest="logndisplay">&lt;b&gt;DISK&lt;/a&gt;&lt;/b&gt; HIGH threshold &lt;b&gt;%parm[threshold]%&lt;/b&gt; exceeded with &lt;font color=#cc0000&gt;&lt;b&gt;%parm[value]%&lt;/b&gt;&lt;/font&gt;, on disk &lt;b&gt;%parm[label]%&lt;/b&gt; on node %nodelabel%.</logmsg>
+        <severity>Warning</severity>
+        <alarm-data auto-clean="false" alarm-type="1" reduction-key="%uei%:%dpname%:%nodeid%:%interface%:%parm[ds]%:%parm[threshold]%:%parm[trigger]%:%parm[rearm]%:%parm[label]%"/>
+    </event>
+    <event>
+        <uei>uei.opennms.org/threshold/disk/high/warning/rearmed</uei>
+        <event-label>custom.threshold: Disk Warning Threshold Rearmed</event-label>
+        <descr>&lt;p&gt;High threshold rearmed for %service% datasource %parm[ds]% on interface %interface% for node %nodelabel% (nodeId %nodeid%).&lt;/p&gt;&lt;br&gt;
+        &lt;table style='width:50%; white-space: nowrap;'&gt;
+        &lt;tr&gt;&lt;td&gt;&lt;b&gt;Data Source&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[ds]%&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;&lt;b&gt;Resource Label&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[label]%&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;&lt;b&gt;Resource Instance&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[instance]%&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;&lt;b&gt;Current Metric Value&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[value]%&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;&lt;b&gt;Threshold Value&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[threshold]%&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;&lt;b&gt;Rearm Value&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[rearm]%&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;&lt;b&gt;Trigger Value&lt;/b&gt;&lt;/td&gt;&lt;td&gt;%parm[trigger]%&lt;/td&gt;&lt;/tr&gt;
+        &lt;/table&gt;        &lt;/br&gt;&lt;p&gt;All parameters: %parm[all]%&lt;/p&gt;</descr>
+        <logmsg dest="logndisplay">&lt;b&gt;DISK&lt;/b&gt; HIGH threshold &lt;b&gt;%parm[threshold]%&lt;/b&gt; rearmed with &lt;font color=#4e9a06&gt;&lt;b&gt;%parm[value]%&lt;/b&gt;&lt;/font&gt;, on instance &lt;b&gt;%parm[label]%&lt;/b&gt;, for metric %parm[ds]%, on node %nodelabel%.</logmsg>
+        <severity>Normal</severity>
+        <alarm-data auto-clean="false" clear-key="uei.opennms.org/threshold/disk/high/warning/exceeded:%dpname%:%nodeid%:%interface%:%parm[ds]%:%parm[threshold]%:%parm[trigger]%:%parm[rearm]%:%parm[label]%" alarm-type="2" reduction-key="%uei%:%dpname%:%nodeid%:%interface%:%parm[ds]%:%parm[threshold]%:%parm[trigger]%:%parm[rearm]%:%parm[label]%"/>
+    </event>
+    <event>
         <uei>uei.opennms.org/threshold/disk/high/major/exceeded</uei>
         <event-label>custom.threshold: Disk Major Threshold Exceeded</event-label>
         <descr>&lt;p&gt;High threshold exceeded for %service% datasource %parm[ds]% on interface %interface% for node %nodelabel% (nodeId %nodeid%).&lt;/p&gt;&lt;br&gt;
