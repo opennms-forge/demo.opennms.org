@@ -1,7 +1,7 @@
 <userinfo xmlns="http://xmlns.opennms.org/xsd/users">
    <header>
       <rev>.9</rev>
-      <created>Thursday, August 10, 2017 11:19:54 AM GMT</created>
+      <created>Monday, August 14, 2017 3:16:13 PM GMT</created>
       <mstation>master.nmanage.com</mstation>
    </header>
    <users>
@@ -40,6 +40,20 @@
          <contact type="mobilePhone"/>
          <contact type="homePhone"/>
          <role>ROLE_MINION</role>
+      </user>
+      <user>
+         <user-id>rest</user-id>
+         <password salt="true">swaaz1U90zczgqSfQUvtViCAe4S8PFsaJoM1birFjnZeCak7HK222xeVEgaQPFrF</password>
+         <contact type="email"/>
+         <contact type="pagerEmail"/>
+         <contact type="xmppAddress"/>
+         <contact type="microblog"/>
+         <contact type="numericPage"/>
+         <contact type="textPage"/>
+         <contact type="workPhone"/>
+         <contact type="mobilePhone"/>
+         <contact type="homePhone"/>
+         <role>ROLE_REST</role>
       </user>
       <user>
          <user-id>rtc</user-id>

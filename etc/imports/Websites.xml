@@ -1,4 +1,4 @@
-<model-import xmlns="http://xmlns.opennms.org/xsd/config/model-import" date-stamp="2017-08-10T12:39:20.895+02:00" foreign-source="Websites" last-import="2017-08-10T12:39:20.952+02:00">
+<model-import xmlns="http://xmlns.opennms.org/xsd/config/model-import" date-stamp="2017-08-12T13:02:05.481+02:00" foreign-source="Websites" last-import="2017-08-12T13:02:05.600+02:00">
    <node foreign-id="ask.opennms.eu" node-label="ask.opennms.eu">
       <interface ip-addr="91.250.116.222" snmp-primary="P">
          <monitored-service service-name="Web-Landing-Page"/>
@@ -96,7 +96,7 @@
       <category name="environment:production"/>
    </node>
    <node foreign-id="issues.opennms.org" node-label="issues.opennms.org">
-      <interface ip-addr="64.34.164.236" snmp-primary="P">
+      <interface ip-addr="34.226.85.134" snmp-primary="P">
          <monitored-service service-name="Web-Landing-Page-SSL"/>
          <monitored-service service-name="Web-Landing-Page"/>
          <monitored-service service-name="SSL-Cert-HTTPS-443"/>
@@ -302,6 +302,17 @@
       <category name="type:website"/>
       <category name="category:service"/>
       <category name="organisation:opennms-org"/>
+      <category name="environment:production"/>
+   </node>
+   <node foreign-id="demo.opennms.eu" node-label="demo.opennms.eu">
+      <interface ip-addr="83.169.22.161" snmp-primary="P">
+         <monitored-service service-name="Web-Landing-Page-SSL"/>
+         <monitored-service service-name="Web-Landing-Page"/>
+         <monitored-service service-name="SSL-Cert-HTTPS-443"/>
+      </interface>
+      <category name="organisation:opennms-eu"/>
+      <category name="type:website"/>
+      <category name="category:service"/>
       <category name="environment:production"/>
    </node>
 </model-import>

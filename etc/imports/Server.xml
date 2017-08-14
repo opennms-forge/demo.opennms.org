@@ -1,4 +1,4 @@
-<model-import xmlns="http://xmlns.opennms.org/xsd/config/model-import" date-stamp="2017-08-10T14:28:37.680+02:00" foreign-source="Server" last-import="2017-08-10T14:28:37.709+02:00">
+<model-import xmlns="http://xmlns.opennms.org/xsd/config/model-import" date-stamp="2017-08-11T09:18:13.474+02:00" foreign-source="Server" last-import="2017-08-11T09:18:13.498+02:00">
    <node foreign-id="pris" node-label="pris">
       <interface ip-addr="172.29.0.8" snmp-primary="P">
          <monitored-service service-name="HTTP-8000"/>
@@ -8,6 +8,7 @@
       <category name="type:server"/>
       <category name="threshold:bandwidth-out-high-100MiBs"/>
       <category name="organisation:opennms-eu"/>
+      <category name="threshold:disk-high-80"/>
       <category name="threshold:cpu-high-95"/>
       <category name="category:infrastructure"/>
       <category name="threshold:bandwdth-in-high-100MiBs"/>
@@ -35,6 +36,7 @@
       <category name="type:server"/>
       <category name="threshold:bandwidth-out-high-100MiBs"/>
       <category name="organisation:opennms-eu"/>
+      <category name="threshold:disk-high-80"/>
       <category name="threshold:cpu-high-95"/>
       <category name="category:infrastructure"/>
       <category name="threshold:bandwdth-in-high-100MiBs"/>
@@ -62,6 +64,7 @@
       <category name="type:server"/>
       <category name="threshold:bandwidth-out-high-100MiBs"/>
       <category name="organisation:opennms-eu"/>
+      <category name="threshold:disk-high-80"/>
       <category name="threshold:cpu-high-95"/>
       <category name="category:infrastructure"/>
       <category name="threshold:bandwdth-in-high-100MiBs"/>
@@ -93,12 +96,14 @@
       <category name="type:server"/>
       <category name="threshold:bandwidth-out-high-100MiBs"/>
       <category name="organisation:opennms-eu"/>
+      <category name="threshold:disk-high-80"/>
       <category name="threshold:cpu-high-95"/>
       <category name="category:infrastructure"/>
       <category name="threshold:bandwdth-in-high-100MiBs"/>
       <category name="threshold:memory-high-95"/>
       <category name="threshold:disk-high-95"/>
       <category name="environment:production"/>
+      <category name="threshold:disk-high-80"/>
       <asset name="serialNumber" value="42"/>
       <asset name="modelNumber" value="Dedibox XC 2016 SSD"/>
       <asset name="operatingSystem" value="Ubuntu 16.04 LTS"/>
@@ -120,6 +125,7 @@
       <category name="type:server"/>
       <category name="threshold:bandwidth-out-high-100MiBs"/>
       <category name="organisation:opennms-eu"/>
+      <category name="threshold:disk-high-80"/>
       <category name="threshold:cpu-high-95"/>
       <category name="category:infrastructure"/>
       <category name="threshold:bandwdth-in-high-100MiBs"/>
@@ -147,6 +153,7 @@
       <category name="type:server"/>
       <category name="threshold:bandwidth-out-high-100MiBs"/>
       <category name="organisation:opennms-eu"/>
+      <category name="threshold:disk-high-80"/>
       <category name="threshold:cpu-high-95"/>
       <category name="category:infrastructure"/>
       <category name="threshold:bandwdth-in-high-100MiBs"/>
@@ -174,6 +181,7 @@
       <category name="type:server"/>
       <category name="threshold:bandwidth-out-high-100MiBs"/>
       <category name="organisation:opennms-eu"/>
+      <category name="threshold:disk-high-80"/>
       <category name="threshold:cpu-high-95"/>
       <category name="category:infrastructure"/>
       <category name="threshold:bandwdth-in-high-100MiBs"/>
@@ -201,6 +209,7 @@
       <category name="type:server"/>
       <category name="threshold:bandwidth-out-high-100MiBs"/>
       <category name="organisation:opennms-eu"/>
+      <category name="threshold:disk-high-80"/>
       <category name="threshold:cpu-high-95"/>
       <category name="category:infrastructure"/>
       <category name="threshold:bandwdth-in-high-100MiBs"/>
@@ -228,6 +237,7 @@
       <category name="type:server"/>
       <category name="threshold:bandwidth-out-high-100MiBs"/>
       <category name="organisation:opennms-eu"/>
+      <category name="threshold:disk-high-80"/>
       <category name="threshold:cpu-high-95"/>
       <category name="category:infrastructure"/>
       <category name="threshold:bandwdth-in-high-100MiBs"/>
@@ -255,6 +265,7 @@
       <category name="type:server"/>
       <category name="threshold:bandwidth-out-high-100MiBs"/>
       <category name="organisation:opennms-eu"/>
+      <category name="threshold:disk-high-80"/>
       <category name="threshold:cpu-high-95"/>
       <category name="category:infrastructure"/>
       <category name="threshold:bandwdth-in-high-100MiBs"/>
@@ -284,6 +295,7 @@
       <category name="type:server"/>
       <category name="threshold:bandwidth-out-high-100MiBs"/>
       <category name="organisation:opennms-eu"/>
+      <category name="threshold:disk-high-80"/>
       <category name="threshold:cpu-high-95"/>
       <category name="category:infrastructure"/>
       <category name="threshold:bandwdth-in-high-100MiBs"/>

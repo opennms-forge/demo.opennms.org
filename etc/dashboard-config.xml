@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<wallboards>
+    <wallboard title="Demo System">
+        <dashlets>
+            <dashlet>
+                <boostDuration>0</boostDuration>
+                <boostPriority>0</boostPriority>
+                <dashletName>RRD</dashletName>
+                <duration>15</duration>
+                <parameters>
+                    <entry>
+                        <key>columns</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>graphId0</key>
+                        <value>node[Server:ofe].nodeSnmp[].CPU Statistics</value>
+                    </entry>
+                    <entry>
+                        <key>graphLabel0</key>
+                        <value>CPU Statistics</value>
+                    </entry>
+                    <entry>
+                        <key>graphUrl0</key>
+                        <value>resourceId=node[Server:ofe].nodeSnmp[]&amp;report=netsnmp.cpuStatsFull</value>
+                    </entry>
+                    <entry>
+                        <key>height</key>
+                        <value>200</value>
+                    </entry>
+                    <entry>
+                        <key>nodeId0</key>
+                        <value>5</value>
+                    </entry>
+                    <entry>
+                        <key>nodeLabel0</key>
+                        <value>ofe (5)</value>
+                    </entry>
+                    <entry>
+                        <key>resourceId0</key>
+                        <value>node[Server:ofe].nodeSnmp[]</value>
+                    </entry>
+                    <entry>
+                        <key>resourceLabel0</key>
+                        <value>Node-level Performance Data</value>
+                    </entry>
+                    <entry>
+                        <key>resourceTypeId0</key>
+                        <value>node[5].nodeSnmp</value>
+                    </entry>
+                    <entry>
+                        <key>resourceTypeLabel0</key>
+                        <value>SNMP Node Data</value>
+                    </entry>
+                    <entry>
+                        <key>rows</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>timeFrameType</key>
+                        <value>6</value>
+                    </entry>
+                    <entry>
+                        <key>timeFrameValue</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>width</key>
+                        <value>800</value>
+                    </entry>
+                </parameters>
+                <priority>5</priority>
+                <title></title>
+            </dashlet>
+        </dashlets>
+        <default>false</default>
+    </wallboard>
+</wallboards>
