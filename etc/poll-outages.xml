@@ -1,1 +1,4 @@
-<outages xmlns="http://xmlns.opennms.org/xsd/config/poller/outages"/>
+<?xml version="1.0"?>
+<outages>
+</outages>
+
