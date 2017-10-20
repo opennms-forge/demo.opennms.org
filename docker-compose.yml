@@ -21,7 +21,7 @@ networks:
           - subnet: 192.168.2.0/24
 services:
   database:
-    image: postgres:9.6.3
+    image: postgres:9.6
     container_name: database
     env_file:
       - .postgres.env
@@ -36,7 +36,7 @@ services:
         ipv4_address: 172.29.0.10
 
   opennms:
-    image: opennms/horizon-core-web:latest
+    image: opennms/horizon-core-web:stable
     container_name: horizon-core-web
     mem_limit: 3072M
     cap_add:
@@ -92,7 +92,7 @@ services:
       - "3001:3000"
 
   minion:
-    image: opennms/minion:latest
+    image: opennms/minion:stable
     container_name: minion
     networks:
       net.dc:
