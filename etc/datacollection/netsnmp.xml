@@ -142,9 +142,6 @@
          <includeGroup>net-snmp-disk</includeGroup>
          <includeGroup>net-snmp-disk-more</includeGroup>
          <includeGroup>net-snmp-disk-highlow</includeGroup>
-         <includeGroup>openmanage-coolingdevices</includeGroup>
-         <includeGroup>openmanage-temperatureprobe</includeGroup>
-         <includeGroup>openmanage-powerusage</includeGroup>
          <includeGroup>ucd-loadavg</includeGroup>
          <includeGroup>ucd-memory</includeGroup>
          <includeGroup>ucd-sysstat</includeGroup>
@@ -168,9 +165,6 @@
          <includeGroup>net-snmp-disk</includeGroup>
          <includeGroup>net-snmp-disk-more</includeGroup>
          <includeGroup>net-snmp-disk-highlow</includeGroup>
-         <includeGroup>openmanage-coolingdevices</includeGroup>
-         <includeGroup>openmanage-temperatureprobe</includeGroup>
-         <includeGroup>openmanage-powerusage</includeGroup>
          <includeGroup>ucd-loadavg</includeGroup>
          <includeGroup>ucd-memory</includeGroup>
          <includeGroup>ucd-sysstat</includeGroup>
@@ -194,9 +188,6 @@
          <includeGroup>net-snmp-disk</includeGroup>
          <includeGroup>net-snmp-disk-more</includeGroup>
          <includeGroup>net-snmp-disk-highlow</includeGroup>
-         <includeGroup>openmanage-coolingdevices</includeGroup>
-         <includeGroup>openmanage-temperatureprobe</includeGroup>
-         <includeGroup>openmanage-powerusage</includeGroup>
          <includeGroup>ucd-loadavg</includeGroup>
          <includeGroup>ucd-memory</includeGroup>
          <includeGroup>ucd-sysstat</includeGroup>
