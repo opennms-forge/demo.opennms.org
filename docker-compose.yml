@@ -79,7 +79,7 @@ services:
       - "8000"
 
   grafana:
-    image: opennms/helm-app:latest
+    image: opennms/helm:stable
     container_name: grafana
     networks:
       net.dc:
