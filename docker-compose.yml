@@ -5,8 +5,6 @@ volumes:
     driver: "local"
   data.opennms:
     driver: "local"
-  data.graylog.es.01:
-    driver: local
 
 networks:
   net.dc:
@@ -22,13 +20,13 @@ networks:
 services:
   database:
     image: postgres:9.6
-    container_name: database
+    container_name: demo.horizon.postgres
     env_file:
       - .postgres.env
     environment:
       - TZ=Europe/Berlin
     ports:
-      - "5432:5432"
+      - "5432"
     volumes:
       - data.postgres:/var/lib/postgresql/data
     networks:
@@ -36,8 +34,8 @@ services:
         ipv4_address: 172.29.0.10
 
   opennms:
-    image: opennms/horizon-core-web:stable
-    container_name: horizon-core-web
+    image: opennms/horizon-core-web:latest
+    container_name: demo.horizon.core.web
     mem_limit: 3072M
     cap_add:
       - NET_ADMIN
@@ -52,8 +50,8 @@ services:
     depends_on:
       - database
     volumes:
-      - ./data:/opennms-data
-      - ./etc:/opt/opennms/etc
+      - data.opennms:/opennms-data
+      - ./etc-overlay:/opt/opennms-etc-overlay
     command: ["-s"]
     ports:
       - "8988:8980"
@@ -65,8 +63,8 @@ services:
       - "162/udp"
 
   pris:
-    image: opennms/pris:1.1.6
-    container_name: opennms-pris
+    image: opennms/pris:latest
+    container_name: demo.pris
     networks:
       net.dc:
         ipv4_address: 172.29.0.8
@@ -78,9 +76,9 @@ services:
     ports:
       - "8000"
 
-  grafana:
-    image: opennms/helm:stable
-    container_name: grafana
+  helm:
+    image: opennms/helm:latest
+    container_name: demo.helm
     networks:
       net.dc:
         ipv4_address: 172.29.0.9
@@ -89,11 +87,11 @@ services:
     env_file:
       - .grafana.env
     ports:
-      - "3001:3000"
+      - "3000"
 
   minion:
-    image: opennms/minion:stable
-    container_name: minion
+    image: opennms/minion:latest
+    container_name: demo.minion
     networks:
       net.dc:
         ipv4_address: 172.29.0.12
@@ -101,7 +99,7 @@ services:
         ipv4_address: 192.168.2.10
     env_file:
       - .minion.env
-    command: ["-f"]
+    command: ["-c"]
     ports:
       - "8201"
       - "18980"

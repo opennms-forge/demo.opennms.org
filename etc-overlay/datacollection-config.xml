@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<datacollection-config rrdRepository="/opt/opennms/share/rrd/snmp/">
+    <snmp-collection name="default" snmpStorageFlag="select">
+        <rrd step="30">
+            <rra>RRA:AVERAGE:0.5:1:20160</rra>
+            <rra>RRA:AVERAGE:0.5:12:14880</rra>
+            <rra>RRA:AVERAGE:0.5:288:3660</rra>
+            <rra>RRA:MAX:0.5:288:3660</rra>
+            <rra>RRA:MIN:0.5:288:3660</rra>
+        </rrd>
+        <include-collection dataCollectionGroup="MIB2-Protocols"/>
+        <include-collection dataCollectionGroup="MIB2-Interfaces"/>
+        <include-collection dataCollectionGroup="MIB2-Host-Resources"/>
+        <include-collection dataCollectionGroup="Net-SNMP"/>
+        <include-collection dataCollectionGroup="PostgreSQL-JDBC"/>
+    </snmp-collection>
+</datacollection-config>
