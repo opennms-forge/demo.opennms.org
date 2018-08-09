@@ -1,6 +1,0 @@
-2018-08-09 21:01:22,874 INFO  [Main] o.s.c.s.ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5cc25853: startup date [Thu Aug 09 21:01:22 CEST 2018]; parent: ApplicationContext 'daoContext'
-2018-08-09 21:01:22,876 INFO  [Main] o.s.b.f.x.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [META-INF/opennms/applicationContext-trapDaemon.xml]
-2018-08-09 21:01:22,914 INFO  [Main] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2018-08-09 21:05:53,151 INFO  [Main] o.s.c.s.ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7bca73b5: startup date [Thu Aug 09 21:05:53 CEST 2018]; parent: ApplicationContext 'daoContext'
-2018-08-09 21:05:53,153 INFO  [Main] o.s.b.f.x.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [META-INF/opennms/applicationContext-trapDaemon.xml]
-2018-08-09 21:05:53,179 INFO  [Main] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
