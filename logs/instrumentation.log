@@ -250,3 +250,1179 @@
 2018-08-09 21:06:04,484 INFO  [Collectd-Thread-7-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
 2018-08-09 21:06:04,597 INFO  [Collectd-Thread-8-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
 2018-08-09 21:06:05,091 INFO  [Collectd-Thread-6-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 21:11:02,045 INFO  [Collectd-Thread-10-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:11:02,045 INFO  [Collectd-Thread-11-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:11:02,187 INFO  [Collectd-Thread-10-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:11:02,187 INFO  [Collectd-Thread-10-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:11:02,195 INFO  [Collectd-Thread-11-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:11:02,195 INFO  [Collectd-Thread-11-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:11:02,361 INFO  [Collectd-Thread-10-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:11:02,589 INFO  [Collectd-Thread-11-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:11:03,046 INFO  [Collectd-Thread-12-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:11:03,065 INFO  [Collectd-Thread-12-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:11:03,065 INFO  [Collectd-Thread-12-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:11:03,079 INFO  [Collectd-Thread-12-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:11:05,051 INFO  [Collectd-Thread-14-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 21:11:05,052 INFO  [Collectd-Thread-13-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 21:11:05,068 INFO  [Collectd-Thread-15-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 21:11:05,634 INFO  [Collectd-Thread-14-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 21:11:05,634 INFO  [Collectd-Thread-14-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 21:11:05,742 INFO  [Collectd-Thread-15-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 21:11:05,743 INFO  [Collectd-Thread-15-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 21:11:05,843 INFO  [Collectd-Thread-15-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 21:11:05,864 INFO  [Collectd-Thread-14-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 21:11:05,953 INFO  [Collectd-Thread-13-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 21:11:05,953 INFO  [Collectd-Thread-13-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 21:11:05,986 INFO  [Collectd-Thread-13-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 21:11:06,053 INFO  [Collectd-Thread-16-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 21:11:06,068 INFO  [Collectd-Thread-17-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 21:11:06,362 INFO  [Collectd-Thread-16-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 21:11:06,362 INFO  [Collectd-Thread-16-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 21:11:06,584 INFO  [Collectd-Thread-16-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 21:11:06,922 INFO  [Collectd-Thread-17-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 21:11:06,923 INFO  [Collectd-Thread-17-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 21:11:07,155 INFO  [Collectd-Thread-17-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 21:16:03,156 INFO  [Collectd-Thread-18-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:16:03,157 INFO  [Collectd-Thread-19-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:16:03,158 INFO  [Collectd-Thread-20-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:16:03,204 INFO  [Collectd-Thread-20-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:16:03,204 INFO  [Collectd-Thread-20-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:16:03,221 INFO  [Collectd-Thread-20-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:16:03,223 INFO  [Collectd-Thread-18-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:16:03,223 INFO  [Collectd-Thread-18-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:16:03,365 INFO  [Collectd-Thread-18-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:16:03,370 INFO  [Collectd-Thread-19-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:16:03,370 INFO  [Collectd-Thread-19-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:16:03,450 INFO  [Collectd-Thread-19-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:16:06,159 INFO  [Collectd-Thread-21-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 21:16:06,160 INFO  [Collectd-Thread-22-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 21:16:06,161 INFO  [Collectd-Thread-23-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 21:16:06,575 INFO  [Collectd-Thread-22-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 21:16:06,576 INFO  [Collectd-Thread-22-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 21:16:06,758 INFO  [Collectd-Thread-22-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 21:16:06,800 INFO  [Collectd-Thread-21-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 21:16:06,800 INFO  [Collectd-Thread-21-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 21:16:06,884 INFO  [Collectd-Thread-23-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 21:16:06,884 INFO  [Collectd-Thread-23-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 21:16:06,909 INFO  [Collectd-Thread-21-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 21:16:06,941 INFO  [Collectd-Thread-23-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 21:16:07,161 INFO  [Collectd-Thread-24-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 21:16:07,580 INFO  [Collectd-Thread-24-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 21:16:07,580 INFO  [Collectd-Thread-24-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 21:16:07,862 INFO  [Collectd-Thread-24-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 21:16:08,190 INFO  [Collectd-Thread-25-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 21:16:08,440 INFO  [Collectd-Thread-25-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 21:16:08,440 INFO  [Collectd-Thread-25-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 21:16:08,639 INFO  [Collectd-Thread-25-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 21:21:03,261 INFO  [Collectd-Thread-26-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:21:03,278 INFO  [Collectd-Thread-26-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:21:03,278 INFO  [Collectd-Thread-26-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:21:03,288 INFO  [Collectd-Thread-26-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:21:04,262 INFO  [Collectd-Thread-27-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:21:04,262 INFO  [Collectd-Thread-28-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:21:04,287 INFO  [Collectd-Thread-27-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:21:04,287 INFO  [Collectd-Thread-27-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:21:04,302 INFO  [Collectd-Thread-28-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:21:04,302 INFO  [Collectd-Thread-28-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:21:04,323 INFO  [Collectd-Thread-27-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:21:04,372 INFO  [Collectd-Thread-28-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:21:07,264 INFO  [Collectd-Thread-29-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 21:21:07,285 INFO  [Collectd-Thread-30-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 21:21:07,293 INFO  [Collectd-Thread-31-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 21:21:07,733 INFO  [Collectd-Thread-31-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 21:21:07,733 INFO  [Collectd-Thread-31-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 21:21:07,742 INFO  [Collectd-Thread-29-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 21:21:07,742 INFO  [Collectd-Thread-29-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 21:21:07,834 INFO  [Collectd-Thread-31-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 21:21:07,894 INFO  [Collectd-Thread-29-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 21:21:08,071 INFO  [Collectd-Thread-30-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 21:21:08,071 INFO  [Collectd-Thread-30-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 21:21:08,096 INFO  [Collectd-Thread-30-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 21:21:08,295 INFO  [Collectd-Thread-32-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 21:21:09,295 INFO  [Collectd-Thread-33-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 21:21:09,621 INFO  [Collectd-Thread-33-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 21:21:09,621 INFO  [Collectd-Thread-33-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 21:21:09,867 INFO  [Collectd-Thread-33-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 21:21:10,111 INFO  [Collectd-Thread-32-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 21:21:10,111 INFO  [Collectd-Thread-32-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 21:21:10,350 INFO  [Collectd-Thread-32-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 21:26:03,382 INFO  [Collectd-Thread-34-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:26:03,399 INFO  [Collectd-Thread-34-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:26:03,400 INFO  [Collectd-Thread-34-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:26:03,408 INFO  [Collectd-Thread-34-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:26:04,383 INFO  [Collectd-Thread-35-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:26:04,403 INFO  [Collectd-Thread-35-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:26:04,404 INFO  [Collectd-Thread-35-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:26:04,428 INFO  [Collectd-Thread-36-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:26:04,480 INFO  [Collectd-Thread-35-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:26:04,498 INFO  [Collectd-Thread-36-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:26:04,498 INFO  [Collectd-Thread-36-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:26:04,600 INFO  [Collectd-Thread-36-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:26:08,388 INFO  [Collectd-Thread-37-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 21:26:08,388 INFO  [Collectd-Thread-38-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 21:26:08,391 INFO  [Collectd-Thread-39-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 21:26:08,762 INFO  [Collectd-Thread-37-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 21:26:08,763 INFO  [Collectd-Thread-37-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 21:26:08,853 INFO  [Collectd-Thread-38-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 21:26:08,853 INFO  [Collectd-Thread-38-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 21:26:09,107 INFO  [Collectd-Thread-39-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 21:26:09,107 INFO  [Collectd-Thread-39-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 21:26:09,198 INFO  [Collectd-Thread-39-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 21:26:09,231 INFO  [Collectd-Thread-38-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 21:26:09,244 INFO  [Collectd-Thread-37-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 21:26:10,393 INFO  [Collectd-Thread-40-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 21:26:10,700 INFO  [Collectd-Thread-40-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 21:26:10,700 INFO  [Collectd-Thread-40-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 21:26:11,217 INFO  [Collectd-Thread-40-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 21:26:11,394 INFO  [Collectd-Thread-41-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 21:26:11,684 INFO  [Collectd-Thread-41-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 21:26:11,684 INFO  [Collectd-Thread-41-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 21:26:12,015 INFO  [Collectd-Thread-41-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 21:31:03,512 INFO  [Collectd-Thread-42-of-50] collector.release: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:31:03,512 INFO  [Collectd-Thread-42-of-50] collector.release: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:31:03,541 INFO  [Collectd-Thread-42-of-50] collector.initialize: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:31:03,542 INFO  [Collectd-Thread-42-of-50] collector.initialize: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:31:03,542 INFO  [Collectd-Thread-42-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:31:03,629 INFO  [Collectd-Thread-42-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:31:03,629 INFO  [Collectd-Thread-42-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:31:03,641 INFO  [Collectd-Thread-42-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:31:04,514 INFO  [Collectd-Thread-43-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:31:04,536 INFO  [Collectd-Thread-43-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:31:04,536 INFO  [Collectd-Thread-43-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:31:04,565 INFO  [Collectd-Thread-43-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:31:05,515 INFO  [Collectd-Thread-44-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:31:05,533 INFO  [Collectd-Thread-44-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:31:05,534 INFO  [Collectd-Thread-44-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:31:05,573 INFO  [Collectd-Thread-44-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:31:09,517 INFO  [Collectd-Thread-45-of-50] collector.release: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 21:31:09,517 INFO  [Collectd-Thread-45-of-50] collector.release: end: example1/573/172.20.1.26/SNMP
+2018-08-09 21:31:09,517 INFO  [Collectd-Thread-46-of-50] collector.release: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 21:31:09,517 INFO  [Collectd-Thread-46-of-50] collector.release: end: example1/575/172.29.0.30/SNMP
+2018-08-09 21:31:09,519 INFO  [Collectd-Thread-47-of-50] collector.release: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 21:31:09,519 INFO  [Collectd-Thread-47-of-50] collector.release: end: example1/577/172.29.0.31/SNMP
+2018-08-09 21:31:09,538 INFO  [Collectd-Thread-47-of-50] collector.initialize: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 21:31:09,549 INFO  [Collectd-Thread-45-of-50] collector.initialize: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 21:31:09,553 INFO  [Collectd-Thread-47-of-50] collector.initialize: end: example1/577/172.29.0.31/SNMP
+2018-08-09 21:31:09,553 INFO  [Collectd-Thread-47-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 21:31:09,561 INFO  [Collectd-Thread-46-of-50] collector.initialize: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 21:31:09,574 INFO  [Collectd-Thread-46-of-50] collector.initialize: end: example1/575/172.29.0.30/SNMP
+2018-08-09 21:31:09,574 INFO  [Collectd-Thread-46-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 21:31:09,587 INFO  [Collectd-Thread-45-of-50] collector.initialize: end: example1/573/172.20.1.26/SNMP
+2018-08-09 21:31:09,587 INFO  [Collectd-Thread-45-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 21:31:10,025 INFO  [Collectd-Thread-47-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 21:31:10,025 INFO  [Collectd-Thread-47-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 21:31:10,032 INFO  [Collectd-Thread-46-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 21:31:10,032 INFO  [Collectd-Thread-46-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 21:31:10,259 INFO  [Collectd-Thread-45-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 21:31:10,259 INFO  [Collectd-Thread-45-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 21:31:10,293 INFO  [Collectd-Thread-46-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 21:31:10,316 INFO  [Collectd-Thread-45-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 21:31:10,336 INFO  [Collectd-Thread-47-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 21:31:11,521 INFO  [Collectd-Thread-48-of-50] collector.release: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 21:31:11,521 INFO  [Collectd-Thread-48-of-50] collector.release: end: example1/574/172.20.1.238/SNMP
+2018-08-09 21:31:11,537 INFO  [Collectd-Thread-48-of-50] collector.initialize: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 21:31:11,546 INFO  [Collectd-Thread-48-of-50] collector.initialize: end: example1/574/172.20.1.238/SNMP
+2018-08-09 21:31:11,546 INFO  [Collectd-Thread-48-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 21:31:11,877 INFO  [Collectd-Thread-48-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 21:31:11,877 INFO  [Collectd-Thread-48-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 21:31:12,232 INFO  [Collectd-Thread-48-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 21:31:12,522 INFO  [Collectd-Thread-49-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 21:31:12,861 INFO  [Collectd-Thread-49-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 21:31:12,861 INFO  [Collectd-Thread-49-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 21:31:13,324 INFO  [Collectd-Thread-49-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 21:36:04,628 INFO  [Collectd-Thread-1-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:36:04,627 INFO  [Collectd-Thread-50-of-50] collector.release: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:36:04,628 INFO  [Collectd-Thread-50-of-50] collector.release: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:36:04,641 INFO  [Collectd-Thread-50-of-50] collector.initialize: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:36:04,641 INFO  [Collectd-Thread-50-of-50] collector.initialize: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:36:04,642 INFO  [Collectd-Thread-50-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:36:04,654 INFO  [Collectd-Thread-1-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:36:04,654 INFO  [Collectd-Thread-1-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:36:04,683 INFO  [Collectd-Thread-1-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:36:04,698 INFO  [Collectd-Thread-50-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:36:04,698 INFO  [Collectd-Thread-50-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:36:04,712 INFO  [Collectd-Thread-50-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:36:05,628 INFO  [Collectd-Thread-2-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:36:05,658 INFO  [Collectd-Thread-2-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:36:05,658 INFO  [Collectd-Thread-2-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:36:05,715 INFO  [Collectd-Thread-2-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:36:10,654 INFO  [Collectd-Thread-5-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 21:36:10,666 INFO  [Collectd-Thread-4-of-50] collector.release: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 21:36:10,666 INFO  [Collectd-Thread-4-of-50] collector.release: end: example1/573/172.20.1.26/SNMP
+2018-08-09 21:36:10,679 INFO  [Collectd-Thread-4-of-50] collector.initialize: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 21:36:10,686 INFO  [Collectd-Thread-3-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 21:36:10,723 INFO  [Collectd-Thread-4-of-50] collector.initialize: end: example1/573/172.20.1.26/SNMP
+2018-08-09 21:36:10,724 INFO  [Collectd-Thread-4-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 21:36:11,114 INFO  [Collectd-Thread-5-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 21:36:11,114 INFO  [Collectd-Thread-5-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 21:36:11,160 INFO  [Collectd-Thread-3-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 21:36:11,160 INFO  [Collectd-Thread-3-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 21:36:11,239 INFO  [Collectd-Thread-5-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 21:36:11,306 INFO  [Collectd-Thread-3-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 21:36:11,534 INFO  [Collectd-Thread-4-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 21:36:11,535 INFO  [Collectd-Thread-4-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 21:36:11,563 INFO  [Collectd-Thread-4-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 21:36:12,682 INFO  [Collectd-Thread-9-of-50] collector.release: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 21:36:12,682 INFO  [Collectd-Thread-9-of-50] collector.release: end: example1/574/172.20.1.238/SNMP
+2018-08-09 21:36:12,695 INFO  [Collectd-Thread-9-of-50] collector.initialize: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 21:36:12,704 INFO  [Collectd-Thread-9-of-50] collector.initialize: end: example1/574/172.20.1.238/SNMP
+2018-08-09 21:36:12,704 INFO  [Collectd-Thread-9-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 21:36:13,193 INFO  [Collectd-Thread-9-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 21:36:13,193 INFO  [Collectd-Thread-9-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 21:36:13,394 INFO  [Collectd-Thread-9-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 21:36:13,637 INFO  [Collectd-Thread-7-of-50] collector.release: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 21:36:13,638 INFO  [Collectd-Thread-7-of-50] collector.release: end: example1/576/172.20.1.239/SNMP
+2018-08-09 21:36:13,679 INFO  [Collectd-Thread-7-of-50] collector.initialize: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 21:36:13,692 INFO  [Collectd-Thread-7-of-50] collector.initialize: end: example1/576/172.20.1.239/SNMP
+2018-08-09 21:36:13,692 INFO  [Collectd-Thread-7-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 21:36:13,960 INFO  [Collectd-Thread-7-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 21:36:13,960 INFO  [Collectd-Thread-7-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 21:36:14,122 INFO  [Collectd-Thread-7-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 21:41:04,734 INFO  [Collectd-Thread-8-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:41:04,735 INFO  [Collectd-Thread-6-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:41:04,752 INFO  [Collectd-Thread-6-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:41:04,752 INFO  [Collectd-Thread-6-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:41:04,761 INFO  [Collectd-Thread-6-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:41:04,761 INFO  [Collectd-Thread-8-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:41:04,762 INFO  [Collectd-Thread-8-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:41:04,787 INFO  [Collectd-Thread-8-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:41:05,735 INFO  [Collectd-Thread-10-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:41:05,765 INFO  [Collectd-Thread-10-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:41:05,765 INFO  [Collectd-Thread-10-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:41:05,842 INFO  [Collectd-Thread-10-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:41:11,741 INFO  [Collectd-Thread-11-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 21:41:11,741 INFO  [Collectd-Thread-12-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 21:41:11,940 INFO  [Collectd-Thread-15-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 21:41:12,098 INFO  [Collectd-Thread-11-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 21:41:12,099 INFO  [Collectd-Thread-11-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 21:41:12,246 INFO  [Collectd-Thread-12-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 21:41:12,246 INFO  [Collectd-Thread-12-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 21:41:12,351 INFO  [Collectd-Thread-11-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 21:41:12,414 INFO  [Collectd-Thread-12-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 21:41:12,762 INFO  [Collectd-Thread-15-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 21:41:12,763 INFO  [Collectd-Thread-15-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 21:41:12,806 INFO  [Collectd-Thread-15-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 21:41:13,769 INFO  [Collectd-Thread-14-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 21:41:14,037 INFO  [Collectd-Thread-14-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 21:41:14,037 INFO  [Collectd-Thread-14-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 21:41:14,306 INFO  [Collectd-Thread-14-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 21:41:14,757 INFO  [Collectd-Thread-13-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 21:41:17,432 INFO  [Collectd-Thread-13-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 21:41:17,433 INFO  [Collectd-Thread-13-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 21:41:17,742 INFO  [Collectd-Thread-13-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 21:46:04,819 INFO  [Collectd-Thread-16-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:46:04,820 INFO  [Collectd-Thread-17-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:46:04,837 INFO  [Collectd-Thread-17-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:46:04,837 INFO  [Collectd-Thread-17-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:46:04,846 INFO  [Collectd-Thread-16-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:46:04,846 INFO  [Collectd-Thread-16-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:46:04,864 INFO  [Collectd-Thread-17-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:46:04,873 INFO  [Collectd-Thread-16-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:46:06,820 INFO  [Collectd-Thread-20-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:46:06,839 INFO  [Collectd-Thread-20-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:46:06,839 INFO  [Collectd-Thread-20-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:46:06,876 INFO  [Collectd-Thread-20-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:46:12,822 INFO  [Collectd-Thread-18-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 21:46:12,822 INFO  [Collectd-Thread-19-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 21:46:13,052 INFO  [Collectd-Thread-18-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 21:46:13,052 INFO  [Collectd-Thread-18-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 21:46:13,134 INFO  [Collectd-Thread-19-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 21:46:13,134 INFO  [Collectd-Thread-19-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 21:46:13,472 INFO  [Collectd-Thread-19-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 21:46:13,472 INFO  [Collectd-Thread-18-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 21:46:13,822 INFO  [Collectd-Thread-22-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 21:46:14,322 INFO  [Collectd-Thread-22-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 21:46:14,322 INFO  [Collectd-Thread-22-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 21:46:14,379 INFO  [Collectd-Thread-22-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 21:46:14,823 INFO  [Collectd-Thread-23-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 21:46:15,075 INFO  [Collectd-Thread-23-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 21:46:15,076 INFO  [Collectd-Thread-23-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 21:46:15,261 INFO  [Collectd-Thread-23-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 21:46:18,824 INFO  [Collectd-Thread-21-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 21:46:24,173 INFO  [Collectd-Thread-21-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 21:46:24,173 INFO  [Collectd-Thread-21-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 21:46:24,476 INFO  [Collectd-Thread-21-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 21:51:04,902 INFO  [Collectd-Thread-24-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:51:04,902 INFO  [Collectd-Thread-25-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:51:04,918 INFO  [Collectd-Thread-24-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:51:04,918 INFO  [Collectd-Thread-24-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:51:04,927 INFO  [Collectd-Thread-25-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:51:04,927 INFO  [Collectd-Thread-25-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:51:04,933 INFO  [Collectd-Thread-25-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:51:04,975 INFO  [Collectd-Thread-24-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:51:06,903 INFO  [Collectd-Thread-26-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:51:06,919 INFO  [Collectd-Thread-26-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:51:06,919 INFO  [Collectd-Thread-26-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:51:06,953 INFO  [Collectd-Thread-26-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:51:13,904 INFO  [Collectd-Thread-27-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 21:51:13,904 INFO  [Collectd-Thread-28-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 21:51:14,070 INFO  [Collectd-Thread-27-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 21:51:14,070 INFO  [Collectd-Thread-27-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 21:51:14,237 INFO  [Collectd-Thread-28-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 21:51:14,237 INFO  [Collectd-Thread-28-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 21:51:14,359 INFO  [Collectd-Thread-27-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 21:51:14,637 INFO  [Collectd-Thread-28-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 21:51:14,905 INFO  [Collectd-Thread-31-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 21:51:15,385 INFO  [Collectd-Thread-31-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 21:51:15,385 INFO  [Collectd-Thread-31-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 21:51:15,442 INFO  [Collectd-Thread-31-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 21:51:15,905 INFO  [Collectd-Thread-29-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 21:51:16,154 INFO  [Collectd-Thread-29-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 21:51:16,154 INFO  [Collectd-Thread-29-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 21:51:16,491 INFO  [Collectd-Thread-29-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 21:51:24,910 INFO  [Collectd-Thread-30-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 21:51:25,204 INFO  [Collectd-Thread-30-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 21:51:25,205 INFO  [Collectd-Thread-30-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 21:51:25,431 INFO  [Collectd-Thread-30-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 21:56:04,988 INFO  [Collectd-Thread-33-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:56:04,988 INFO  [Collectd-Thread-32-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:56:05,002 INFO  [Collectd-Thread-32-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:56:05,002 INFO  [Collectd-Thread-32-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:56:05,008 INFO  [Collectd-Thread-33-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:56:05,008 INFO  [Collectd-Thread-33-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:56:05,014 INFO  [Collectd-Thread-33-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:56:05,028 INFO  [Collectd-Thread-32-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:56:06,988 INFO  [Collectd-Thread-34-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:56:07,005 INFO  [Collectd-Thread-34-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:56:07,005 INFO  [Collectd-Thread-34-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:56:07,041 INFO  [Collectd-Thread-34-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:56:14,990 INFO  [Collectd-Thread-35-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 21:56:14,990 INFO  [Collectd-Thread-36-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 21:56:15,214 INFO  [Collectd-Thread-36-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 21:56:15,214 INFO  [Collectd-Thread-36-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 21:56:15,319 INFO  [Collectd-Thread-35-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 21:56:15,319 INFO  [Collectd-Thread-35-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 21:56:15,422 INFO  [Collectd-Thread-36-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 21:56:15,671 INFO  [Collectd-Thread-35-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 21:56:15,991 INFO  [Collectd-Thread-39-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 21:56:16,498 INFO  [Collectd-Thread-39-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 21:56:16,499 INFO  [Collectd-Thread-39-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 21:56:16,556 INFO  [Collectd-Thread-39-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 21:56:16,991 INFO  [Collectd-Thread-37-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 21:56:17,237 INFO  [Collectd-Thread-37-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 21:56:17,237 INFO  [Collectd-Thread-37-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 21:56:17,506 INFO  [Collectd-Thread-37-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 21:56:25,993 INFO  [Collectd-Thread-38-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 21:56:26,407 INFO  [Collectd-Thread-38-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 21:56:26,407 INFO  [Collectd-Thread-38-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 21:56:26,695 INFO  [Collectd-Thread-38-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 22:01:05,130 INFO  [Collectd-Thread-40-of-50] collector.release: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:01:05,131 INFO  [Collectd-Thread-40-of-50] collector.release: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:01:05,131 INFO  [Collectd-Thread-41-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:01:05,139 INFO  [Collectd-Thread-41-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:01:05,139 INFO  [Collectd-Thread-41-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:01:05,143 INFO  [Collectd-Thread-40-of-50] collector.initialize: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:01:05,143 INFO  [Collectd-Thread-40-of-50] collector.initialize: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:01:05,143 INFO  [Collectd-Thread-40-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:01:05,149 INFO  [Collectd-Thread-41-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:01:05,166 INFO  [Collectd-Thread-40-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:01:05,166 INFO  [Collectd-Thread-40-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:01:05,169 INFO  [Collectd-Thread-40-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:01:07,131 INFO  [Collectd-Thread-42-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:01:07,152 INFO  [Collectd-Thread-42-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:01:07,152 INFO  [Collectd-Thread-42-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:01:07,214 INFO  [Collectd-Thread-42-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:01:16,139 INFO  [Collectd-Thread-43-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 22:01:16,139 INFO  [Collectd-Thread-44-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 22:01:16,673 INFO  [Collectd-Thread-43-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 22:01:16,673 INFO  [Collectd-Thread-43-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 22:01:16,971 INFO  [Collectd-Thread-43-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 22:01:17,100 INFO  [Collectd-Thread-44-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 22:01:17,100 INFO  [Collectd-Thread-44-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 22:01:17,138 INFO  [Collectd-Thread-46-of-50] collector.release: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 22:01:17,139 INFO  [Collectd-Thread-46-of-50] collector.release: end: example1/573/172.20.1.26/SNMP
+2018-08-09 22:01:17,164 INFO  [Collectd-Thread-46-of-50] collector.initialize: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 22:01:17,186 INFO  [Collectd-Thread-46-of-50] collector.initialize: end: example1/573/172.20.1.26/SNMP
+2018-08-09 22:01:17,186 INFO  [Collectd-Thread-46-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 22:01:17,355 INFO  [Collectd-Thread-44-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 22:01:17,894 INFO  [Collectd-Thread-46-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 22:01:17,895 INFO  [Collectd-Thread-46-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 22:01:17,968 INFO  [Collectd-Thread-46-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 22:01:18,142 INFO  [Collectd-Thread-45-of-50] collector.release: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 22:01:18,142 INFO  [Collectd-Thread-45-of-50] collector.release: end: example1/574/172.20.1.238/SNMP
+2018-08-09 22:01:18,183 INFO  [Collectd-Thread-45-of-50] collector.initialize: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 22:01:18,224 INFO  [Collectd-Thread-45-of-50] collector.initialize: end: example1/574/172.20.1.238/SNMP
+2018-08-09 22:01:18,224 INFO  [Collectd-Thread-45-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 22:01:18,867 INFO  [Collectd-Thread-45-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 22:01:18,868 INFO  [Collectd-Thread-45-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 22:01:19,090 INFO  [Collectd-Thread-45-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 22:01:27,147 INFO  [Collectd-Thread-47-of-50] collector.release: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 22:01:27,147 INFO  [Collectd-Thread-47-of-50] collector.release: end: example1/576/172.20.1.239/SNMP
+2018-08-09 22:01:27,158 INFO  [Collectd-Thread-47-of-50] collector.initialize: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 22:01:27,168 INFO  [Collectd-Thread-47-of-50] collector.initialize: end: example1/576/172.20.1.239/SNMP
+2018-08-09 22:01:27,168 INFO  [Collectd-Thread-47-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 22:01:27,529 INFO  [Collectd-Thread-47-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 22:01:27,530 INFO  [Collectd-Thread-47-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 22:01:27,944 INFO  [Collectd-Thread-47-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 22:06:05,291 INFO  [Collectd-Thread-48-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:06:05,291 INFO  [Collectd-Thread-49-of-50] collector.release: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:06:05,291 INFO  [Collectd-Thread-49-of-50] collector.release: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:06:05,307 INFO  [Collectd-Thread-48-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:06:05,307 INFO  [Collectd-Thread-48-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:06:05,316 INFO  [Collectd-Thread-49-of-50] collector.initialize: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:06:05,316 INFO  [Collectd-Thread-49-of-50] collector.initialize: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:06:05,316 INFO  [Collectd-Thread-49-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:06:05,347 INFO  [Collectd-Thread-48-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:06:05,394 INFO  [Collectd-Thread-49-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:06:05,394 INFO  [Collectd-Thread-49-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:06:05,400 INFO  [Collectd-Thread-49-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:06:07,291 INFO  [Collectd-Thread-1-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:06:07,308 INFO  [Collectd-Thread-1-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:06:07,308 INFO  [Collectd-Thread-1-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:06:07,342 INFO  [Collectd-Thread-1-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:06:17,293 INFO  [Collectd-Thread-50-of-50] collector.release: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 22:06:17,294 INFO  [Collectd-Thread-50-of-50] collector.release: end: example1/575/172.29.0.30/SNMP
+2018-08-09 22:06:17,306 INFO  [Collectd-Thread-50-of-50] collector.initialize: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 22:06:17,323 INFO  [Collectd-Thread-50-of-50] collector.initialize: end: example1/575/172.29.0.30/SNMP
+2018-08-09 22:06:17,323 INFO  [Collectd-Thread-50-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 22:06:17,465 INFO  [Collectd-Thread-50-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 22:06:17,465 INFO  [Collectd-Thread-50-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 22:06:17,616 INFO  [Collectd-Thread-50-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 22:06:18,294 INFO  [Collectd-Thread-2-of-50] collector.release: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 22:06:18,294 INFO  [Collectd-Thread-2-of-50] collector.release: end: example1/577/172.29.0.31/SNMP
+2018-08-09 22:06:18,310 INFO  [Collectd-Thread-2-of-50] collector.initialize: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 22:06:18,321 INFO  [Collectd-Thread-2-of-50] collector.initialize: end: example1/577/172.29.0.31/SNMP
+2018-08-09 22:06:18,321 INFO  [Collectd-Thread-2-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 22:06:18,340 INFO  [Collectd-Thread-5-of-50] collector.release: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 22:06:18,341 INFO  [Collectd-Thread-5-of-50] collector.release: end: example1/573/172.20.1.26/SNMP
+2018-08-09 22:06:18,353 INFO  [Collectd-Thread-5-of-50] collector.initialize: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 22:06:18,365 INFO  [Collectd-Thread-5-of-50] collector.initialize: end: example1/573/172.20.1.26/SNMP
+2018-08-09 22:06:18,365 INFO  [Collectd-Thread-5-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 22:06:18,492 INFO  [Collectd-Thread-2-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 22:06:18,492 INFO  [Collectd-Thread-2-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 22:06:18,568 INFO  [Collectd-Thread-2-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 22:06:18,907 INFO  [Collectd-Thread-5-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 22:06:18,907 INFO  [Collectd-Thread-5-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 22:06:18,954 INFO  [Collectd-Thread-5-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 22:06:19,315 INFO  [Collectd-Thread-3-of-50] collector.release: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 22:06:19,316 INFO  [Collectd-Thread-3-of-50] collector.release: end: example1/574/172.20.1.238/SNMP
+2018-08-09 22:06:19,324 INFO  [Collectd-Thread-3-of-50] collector.initialize: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 22:06:19,337 INFO  [Collectd-Thread-3-of-50] collector.initialize: end: example1/574/172.20.1.238/SNMP
+2018-08-09 22:06:19,338 INFO  [Collectd-Thread-3-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 22:06:19,615 INFO  [Collectd-Thread-3-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 22:06:19,616 INFO  [Collectd-Thread-3-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 22:06:19,920 INFO  [Collectd-Thread-3-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 22:06:29,316 INFO  [Collectd-Thread-4-of-50] collector.release: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 22:06:29,316 INFO  [Collectd-Thread-4-of-50] collector.release: end: example1/576/172.20.1.239/SNMP
+2018-08-09 22:06:29,325 INFO  [Collectd-Thread-4-of-50] collector.initialize: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 22:06:29,336 INFO  [Collectd-Thread-4-of-50] collector.initialize: end: example1/576/172.20.1.239/SNMP
+2018-08-09 22:06:29,336 INFO  [Collectd-Thread-4-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 22:06:29,698 INFO  [Collectd-Thread-4-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 22:06:29,699 INFO  [Collectd-Thread-4-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 22:06:29,974 INFO  [Collectd-Thread-4-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 22:11:06,012 INFO  [Collectd-Thread-9-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:11:06,015 INFO  [Collectd-Thread-7-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:11:06,046 INFO  [Collectd-Thread-9-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:11:06,047 INFO  [Collectd-Thread-9-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:11:06,101 INFO  [Collectd-Thread-9-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:11:06,113 INFO  [Collectd-Thread-7-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:11:06,114 INFO  [Collectd-Thread-7-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:11:06,128 INFO  [Collectd-Thread-7-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:11:08,013 INFO  [Collectd-Thread-6-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:11:08,029 INFO  [Collectd-Thread-6-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:11:08,029 INFO  [Collectd-Thread-6-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:11:08,091 INFO  [Collectd-Thread-6-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:11:18,052 INFO  [Collectd-Thread-8-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 22:11:18,328 INFO  [Collectd-Thread-8-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 22:11:18,328 INFO  [Collectd-Thread-8-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 22:11:18,425 INFO  [Collectd-Thread-8-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 22:11:19,054 INFO  [Collectd-Thread-12-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 22:11:19,073 INFO  [Collectd-Thread-10-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 22:11:19,254 INFO  [Collectd-Thread-10-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 22:11:19,254 INFO  [Collectd-Thread-10-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 22:11:19,349 INFO  [Collectd-Thread-10-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 22:11:19,684 INFO  [Collectd-Thread-12-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 22:11:19,684 INFO  [Collectd-Thread-12-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 22:11:19,748 INFO  [Collectd-Thread-12-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 22:11:21,046 INFO  [Collectd-Thread-11-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 22:11:21,322 INFO  [Collectd-Thread-11-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 22:11:21,323 INFO  [Collectd-Thread-11-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 22:11:21,599 INFO  [Collectd-Thread-11-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 22:11:31,044 INFO  [Collectd-Thread-15-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 22:11:31,320 INFO  [Collectd-Thread-15-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 22:11:31,320 INFO  [Collectd-Thread-15-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 22:11:31,581 INFO  [Collectd-Thread-15-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 22:16:07,081 INFO  [Collectd-Thread-14-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:16:07,081 INFO  [Collectd-Thread-13-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:16:07,095 INFO  [Collectd-Thread-14-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:16:07,095 INFO  [Collectd-Thread-14-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:16:07,117 INFO  [Collectd-Thread-13-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:16:07,117 INFO  [Collectd-Thread-13-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:16:07,124 INFO  [Collectd-Thread-13-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:16:07,127 INFO  [Collectd-Thread-14-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:16:09,082 INFO  [Collectd-Thread-17-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:16:09,098 INFO  [Collectd-Thread-17-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:16:09,098 INFO  [Collectd-Thread-17-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:16:09,133 INFO  [Collectd-Thread-17-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:16:19,084 INFO  [Collectd-Thread-16-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 22:16:19,240 INFO  [Collectd-Thread-16-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 22:16:19,240 INFO  [Collectd-Thread-16-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 22:16:19,390 INFO  [Collectd-Thread-16-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 22:16:20,084 INFO  [Collectd-Thread-20-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 22:16:20,085 INFO  [Collectd-Thread-19-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 22:16:20,225 INFO  [Collectd-Thread-20-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 22:16:20,225 INFO  [Collectd-Thread-20-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 22:16:20,318 INFO  [Collectd-Thread-20-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 22:16:20,653 INFO  [Collectd-Thread-19-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 22:16:20,654 INFO  [Collectd-Thread-19-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 22:16:20,694 INFO  [Collectd-Thread-19-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 22:16:22,085 INFO  [Collectd-Thread-18-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 22:16:22,341 INFO  [Collectd-Thread-18-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 22:16:22,341 INFO  [Collectd-Thread-18-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 22:16:22,591 INFO  [Collectd-Thread-18-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 22:16:32,087 INFO  [Collectd-Thread-22-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 22:16:34,534 INFO  [Collectd-Thread-22-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 22:16:34,534 INFO  [Collectd-Thread-22-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 22:16:34,818 INFO  [Collectd-Thread-22-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 22:21:07,160 INFO  [Collectd-Thread-21-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:21:07,160 INFO  [Collectd-Thread-23-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:21:07,175 INFO  [Collectd-Thread-23-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:21:07,176 INFO  [Collectd-Thread-23-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:21:07,182 INFO  [Collectd-Thread-23-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:21:07,184 INFO  [Collectd-Thread-21-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:21:07,184 INFO  [Collectd-Thread-21-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:21:07,208 INFO  [Collectd-Thread-21-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:21:09,161 INFO  [Collectd-Thread-25-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:21:09,229 INFO  [Collectd-Thread-25-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:21:09,229 INFO  [Collectd-Thread-25-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:21:09,285 INFO  [Collectd-Thread-25-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:21:20,163 INFO  [Collectd-Thread-24-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 22:21:20,288 INFO  [Collectd-Thread-24-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 22:21:20,288 INFO  [Collectd-Thread-24-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 22:21:20,470 INFO  [Collectd-Thread-24-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 22:21:21,164 INFO  [Collectd-Thread-26-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 22:21:21,164 INFO  [Collectd-Thread-27-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 22:21:21,367 INFO  [Collectd-Thread-26-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 22:21:21,367 INFO  [Collectd-Thread-26-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 22:21:21,543 INFO  [Collectd-Thread-26-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 22:21:21,791 INFO  [Collectd-Thread-27-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 22:21:21,791 INFO  [Collectd-Thread-27-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 22:21:21,831 INFO  [Collectd-Thread-27-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 22:21:23,164 INFO  [Collectd-Thread-28-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 22:21:23,429 INFO  [Collectd-Thread-28-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 22:21:23,429 INFO  [Collectd-Thread-28-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 22:21:23,707 INFO  [Collectd-Thread-28-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 22:21:35,168 INFO  [Collectd-Thread-31-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 22:21:35,593 INFO  [Collectd-Thread-31-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 22:21:35,593 INFO  [Collectd-Thread-31-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 22:21:35,890 INFO  [Collectd-Thread-31-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 22:26:07,242 INFO  [Collectd-Thread-29-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:26:07,242 INFO  [Collectd-Thread-30-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:26:07,263 INFO  [Collectd-Thread-30-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:26:07,263 INFO  [Collectd-Thread-30-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:26:07,273 INFO  [Collectd-Thread-29-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:26:07,273 INFO  [Collectd-Thread-29-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:26:07,279 INFO  [Collectd-Thread-29-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:26:07,297 INFO  [Collectd-Thread-30-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:26:10,242 INFO  [Collectd-Thread-33-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:26:10,269 INFO  [Collectd-Thread-33-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:26:10,269 INFO  [Collectd-Thread-33-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:26:10,303 INFO  [Collectd-Thread-33-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:26:21,247 INFO  [Collectd-Thread-32-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 22:26:21,374 INFO  [Collectd-Thread-32-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 22:26:21,374 INFO  [Collectd-Thread-32-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 22:26:21,492 INFO  [Collectd-Thread-32-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 22:26:22,247 INFO  [Collectd-Thread-34-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 22:26:22,248 INFO  [Collectd-Thread-36-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 22:26:22,376 INFO  [Collectd-Thread-34-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 22:26:22,376 INFO  [Collectd-Thread-34-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 22:26:22,592 INFO  [Collectd-Thread-34-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 22:26:22,839 INFO  [Collectd-Thread-36-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 22:26:22,839 INFO  [Collectd-Thread-36-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 22:26:22,875 INFO  [Collectd-Thread-36-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 22:26:24,299 INFO  [Collectd-Thread-35-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 22:26:24,567 INFO  [Collectd-Thread-35-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 22:26:24,567 INFO  [Collectd-Thread-35-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 22:26:24,747 INFO  [Collectd-Thread-35-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 22:26:36,306 INFO  [Collectd-Thread-39-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 22:26:36,724 INFO  [Collectd-Thread-39-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 22:26:36,724 INFO  [Collectd-Thread-39-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 22:26:36,960 INFO  [Collectd-Thread-39-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 22:31:07,382 INFO  [Collectd-Thread-37-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:31:07,383 INFO  [Collectd-Thread-38-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:31:07,397 INFO  [Collectd-Thread-38-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:31:07,397 INFO  [Collectd-Thread-38-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:31:07,398 INFO  [Collectd-Thread-37-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:31:07,398 INFO  [Collectd-Thread-37-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:31:07,405 INFO  [Collectd-Thread-37-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:31:07,422 INFO  [Collectd-Thread-38-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:31:10,383 INFO  [Collectd-Thread-41-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:31:10,398 INFO  [Collectd-Thread-41-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:31:10,399 INFO  [Collectd-Thread-41-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:31:10,449 INFO  [Collectd-Thread-41-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:31:22,402 INFO  [Collectd-Thread-40-of-50] collector.release: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 22:31:22,402 INFO  [Collectd-Thread-40-of-50] collector.release: end: example1/575/172.29.0.30/SNMP
+2018-08-09 22:31:22,413 INFO  [Collectd-Thread-40-of-50] collector.initialize: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 22:31:22,420 INFO  [Collectd-Thread-40-of-50] collector.initialize: end: example1/575/172.29.0.30/SNMP
+2018-08-09 22:31:22,420 INFO  [Collectd-Thread-40-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 22:31:22,565 INFO  [Collectd-Thread-40-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 22:31:22,565 INFO  [Collectd-Thread-40-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 22:31:22,705 INFO  [Collectd-Thread-40-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 22:31:23,402 INFO  [Collectd-Thread-42-of-50] collector.release: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 22:31:23,403 INFO  [Collectd-Thread-43-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 22:31:23,403 INFO  [Collectd-Thread-42-of-50] collector.release: end: example1/577/172.29.0.31/SNMP
+2018-08-09 22:31:23,472 INFO  [Collectd-Thread-42-of-50] collector.initialize: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 22:31:23,485 INFO  [Collectd-Thread-42-of-50] collector.initialize: end: example1/577/172.29.0.31/SNMP
+2018-08-09 22:31:23,485 INFO  [Collectd-Thread-42-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 22:31:23,652 INFO  [Collectd-Thread-42-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 22:31:23,652 INFO  [Collectd-Thread-42-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 22:31:23,746 INFO  [Collectd-Thread-42-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 22:31:24,068 INFO  [Collectd-Thread-43-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 22:31:24,068 INFO  [Collectd-Thread-43-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 22:31:24,108 INFO  [Collectd-Thread-43-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 22:31:25,403 INFO  [Collectd-Thread-44-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 22:31:25,657 INFO  [Collectd-Thread-44-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 22:31:25,657 INFO  [Collectd-Thread-44-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 22:31:25,988 INFO  [Collectd-Thread-44-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 22:31:37,405 INFO  [Collectd-Thread-46-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 22:31:37,778 INFO  [Collectd-Thread-46-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 22:31:37,779 INFO  [Collectd-Thread-46-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 22:31:37,956 INFO  [Collectd-Thread-46-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 22:36:07,482 INFO  [Collectd-Thread-45-of-50] collector.release: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:36:07,482 INFO  [Collectd-Thread-45-of-50] collector.release: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:36:07,482 INFO  [Collectd-Thread-47-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:36:07,495 INFO  [Collectd-Thread-47-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:36:07,496 INFO  [Collectd-Thread-47-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:36:07,503 INFO  [Collectd-Thread-45-of-50] collector.initialize: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:36:07,503 INFO  [Collectd-Thread-45-of-50] collector.initialize: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:36:07,503 INFO  [Collectd-Thread-45-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:36:07,562 INFO  [Collectd-Thread-47-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:36:07,644 INFO  [Collectd-Thread-45-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:36:07,645 INFO  [Collectd-Thread-45-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:36:07,651 INFO  [Collectd-Thread-45-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:36:10,483 INFO  [Collectd-Thread-48-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:36:10,498 INFO  [Collectd-Thread-48-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:36:10,499 INFO  [Collectd-Thread-48-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:36:10,533 INFO  [Collectd-Thread-48-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:36:23,512 INFO  [Collectd-Thread-49-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 22:36:23,679 INFO  [Collectd-Thread-49-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 22:36:23,679 INFO  [Collectd-Thread-49-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 22:36:23,778 INFO  [Collectd-Thread-49-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 22:36:24,487 INFO  [Collectd-Thread-50-of-50] collector.release: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 22:36:24,487 INFO  [Collectd-Thread-50-of-50] collector.release: end: example1/573/172.20.1.26/SNMP
+2018-08-09 22:36:24,506 INFO  [Collectd-Thread-50-of-50] collector.initialize: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 22:36:24,517 INFO  [Collectd-Thread-50-of-50] collector.initialize: end: example1/573/172.20.1.26/SNMP
+2018-08-09 22:36:24,518 INFO  [Collectd-Thread-50-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 22:36:24,559 INFO  [Collectd-Thread-1-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 22:36:24,728 INFO  [Collectd-Thread-1-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 22:36:24,729 INFO  [Collectd-Thread-1-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 22:36:25,018 INFO  [Collectd-Thread-1-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 22:36:25,153 INFO  [Collectd-Thread-50-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 22:36:25,153 INFO  [Collectd-Thread-50-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 22:36:25,230 INFO  [Collectd-Thread-50-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 22:36:26,487 INFO  [Collectd-Thread-2-of-50] collector.release: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 22:36:26,487 INFO  [Collectd-Thread-2-of-50] collector.release: end: example1/574/172.20.1.238/SNMP
+2018-08-09 22:36:26,501 INFO  [Collectd-Thread-2-of-50] collector.initialize: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 22:36:26,513 INFO  [Collectd-Thread-2-of-50] collector.initialize: end: example1/574/172.20.1.238/SNMP
+2018-08-09 22:36:26,513 INFO  [Collectd-Thread-2-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 22:36:26,784 INFO  [Collectd-Thread-2-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 22:36:26,784 INFO  [Collectd-Thread-2-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 22:36:26,968 INFO  [Collectd-Thread-2-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 22:36:38,489 INFO  [Collectd-Thread-5-of-50] collector.release: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 22:36:38,490 INFO  [Collectd-Thread-5-of-50] collector.release: end: example1/576/172.20.1.239/SNMP
+2018-08-09 22:36:38,503 INFO  [Collectd-Thread-5-of-50] collector.initialize: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 22:36:38,515 INFO  [Collectd-Thread-5-of-50] collector.initialize: end: example1/576/172.20.1.239/SNMP
+2018-08-09 22:36:38,515 INFO  [Collectd-Thread-5-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 22:36:38,842 INFO  [Collectd-Thread-5-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 22:36:38,842 INFO  [Collectd-Thread-5-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 22:36:39,064 INFO  [Collectd-Thread-5-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 22:41:07,564 INFO  [Collectd-Thread-3-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:41:07,578 INFO  [Collectd-Thread-3-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:41:07,578 INFO  [Collectd-Thread-3-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:41:07,603 INFO  [Collectd-Thread-3-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:41:08,564 INFO  [Collectd-Thread-4-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:41:08,580 INFO  [Collectd-Thread-4-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:41:08,580 INFO  [Collectd-Thread-4-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:41:08,586 INFO  [Collectd-Thread-4-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:41:10,565 INFO  [Collectd-Thread-9-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:41:10,579 INFO  [Collectd-Thread-9-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:41:10,580 INFO  [Collectd-Thread-9-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:41:10,615 INFO  [Collectd-Thread-9-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:41:24,574 INFO  [Collectd-Thread-7-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 22:41:24,708 INFO  [Collectd-Thread-7-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 22:41:24,708 INFO  [Collectd-Thread-7-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 22:41:24,904 INFO  [Collectd-Thread-7-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 22:41:25,574 INFO  [Collectd-Thread-6-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 22:41:25,629 INFO  [Collectd-Thread-8-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 22:41:25,740 INFO  [Collectd-Thread-6-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 22:41:25,740 INFO  [Collectd-Thread-6-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 22:41:25,986 INFO  [Collectd-Thread-6-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 22:41:26,250 INFO  [Collectd-Thread-8-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 22:41:26,250 INFO  [Collectd-Thread-8-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 22:41:26,288 INFO  [Collectd-Thread-8-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 22:41:27,603 INFO  [Collectd-Thread-10-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 22:41:27,847 INFO  [Collectd-Thread-10-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 22:41:27,848 INFO  [Collectd-Thread-10-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 22:41:28,140 INFO  [Collectd-Thread-10-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 22:41:39,604 INFO  [Collectd-Thread-12-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 22:41:39,925 INFO  [Collectd-Thread-12-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 22:41:39,926 INFO  [Collectd-Thread-12-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 22:41:40,303 INFO  [Collectd-Thread-12-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 22:46:07,668 INFO  [Collectd-Thread-11-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:46:07,681 INFO  [Collectd-Thread-11-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:46:07,682 INFO  [Collectd-Thread-11-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:46:07,706 INFO  [Collectd-Thread-11-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:46:08,668 INFO  [Collectd-Thread-15-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:46:08,683 INFO  [Collectd-Thread-15-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:46:08,683 INFO  [Collectd-Thread-15-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:46:08,690 INFO  [Collectd-Thread-15-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:46:10,670 INFO  [Collectd-Thread-13-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:46:10,686 INFO  [Collectd-Thread-13-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:46:10,686 INFO  [Collectd-Thread-13-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:46:10,721 INFO  [Collectd-Thread-13-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:46:25,678 INFO  [Collectd-Thread-14-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 22:46:25,816 INFO  [Collectd-Thread-14-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 22:46:25,816 INFO  [Collectd-Thread-14-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 22:46:25,908 INFO  [Collectd-Thread-14-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 22:46:26,678 INFO  [Collectd-Thread-17-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 22:46:26,678 INFO  [Collectd-Thread-16-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 22:46:26,803 INFO  [Collectd-Thread-17-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 22:46:26,803 INFO  [Collectd-Thread-17-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 22:46:27,013 INFO  [Collectd-Thread-17-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 22:46:27,303 INFO  [Collectd-Thread-16-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 22:46:27,303 INFO  [Collectd-Thread-16-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 22:46:27,350 INFO  [Collectd-Thread-16-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 22:46:28,679 INFO  [Collectd-Thread-20-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 22:46:28,943 INFO  [Collectd-Thread-20-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 22:46:28,943 INFO  [Collectd-Thread-20-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 22:46:29,230 INFO  [Collectd-Thread-20-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 22:46:40,682 INFO  [Collectd-Thread-19-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 22:46:41,004 INFO  [Collectd-Thread-19-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 22:46:41,004 INFO  [Collectd-Thread-19-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 22:46:41,287 INFO  [Collectd-Thread-19-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 22:51:07,827 INFO  [Collectd-Thread-18-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:51:07,841 INFO  [Collectd-Thread-18-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:51:07,841 INFO  [Collectd-Thread-18-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:51:07,866 INFO  [Collectd-Thread-18-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:51:08,827 INFO  [Collectd-Thread-22-of-50] collector.release: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:51:08,827 INFO  [Collectd-Thread-22-of-50] collector.release: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:51:08,852 INFO  [Collectd-Thread-22-of-50] collector.initialize: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:51:08,852 INFO  [Collectd-Thread-22-of-50] collector.initialize: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:51:08,852 INFO  [Collectd-Thread-22-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:51:08,930 INFO  [Collectd-Thread-22-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:51:08,931 INFO  [Collectd-Thread-22-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:51:08,937 INFO  [Collectd-Thread-22-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:51:10,828 INFO  [Collectd-Thread-23-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:51:10,843 INFO  [Collectd-Thread-23-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:51:10,843 INFO  [Collectd-Thread-23-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:51:10,891 INFO  [Collectd-Thread-23-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:51:26,834 INFO  [Collectd-Thread-21-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 22:51:26,976 INFO  [Collectd-Thread-21-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 22:51:26,976 INFO  [Collectd-Thread-21-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 22:51:27,115 INFO  [Collectd-Thread-21-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 22:51:27,834 INFO  [Collectd-Thread-25-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 22:51:27,835 INFO  [Collectd-Thread-24-of-50] collector.release: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 22:51:27,835 INFO  [Collectd-Thread-24-of-50] collector.release: end: example1/573/172.20.1.26/SNMP
+2018-08-09 22:51:27,858 INFO  [Collectd-Thread-24-of-50] collector.initialize: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 22:51:27,888 INFO  [Collectd-Thread-24-of-50] collector.initialize: end: example1/573/172.20.1.26/SNMP
+2018-08-09 22:51:27,888 INFO  [Collectd-Thread-24-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 22:51:28,041 INFO  [Collectd-Thread-25-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 22:51:28,041 INFO  [Collectd-Thread-25-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 22:51:28,227 INFO  [Collectd-Thread-25-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 22:51:28,496 INFO  [Collectd-Thread-24-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 22:51:28,497 INFO  [Collectd-Thread-24-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 22:51:28,552 INFO  [Collectd-Thread-24-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 22:51:29,835 INFO  [Collectd-Thread-26-of-50] collector.release: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 22:51:29,835 INFO  [Collectd-Thread-26-of-50] collector.release: end: example1/574/172.20.1.238/SNMP
+2018-08-09 22:51:29,846 INFO  [Collectd-Thread-26-of-50] collector.initialize: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 22:51:29,855 INFO  [Collectd-Thread-26-of-50] collector.initialize: end: example1/574/172.20.1.238/SNMP
+2018-08-09 22:51:29,856 INFO  [Collectd-Thread-26-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 22:51:30,116 INFO  [Collectd-Thread-26-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 22:51:30,116 INFO  [Collectd-Thread-26-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 22:51:30,298 INFO  [Collectd-Thread-26-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 22:51:41,838 INFO  [Collectd-Thread-27-of-50] collector.release: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 22:51:41,838 INFO  [Collectd-Thread-27-of-50] collector.release: end: example1/576/172.20.1.239/SNMP
+2018-08-09 22:51:41,852 INFO  [Collectd-Thread-27-of-50] collector.initialize: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 22:51:41,861 INFO  [Collectd-Thread-27-of-50] collector.initialize: end: example1/576/172.20.1.239/SNMP
+2018-08-09 22:51:41,861 INFO  [Collectd-Thread-27-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 22:51:42,159 INFO  [Collectd-Thread-27-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 22:51:42,160 INFO  [Collectd-Thread-27-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 22:51:42,391 INFO  [Collectd-Thread-27-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 22:56:07,907 INFO  [Collectd-Thread-28-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:56:07,926 INFO  [Collectd-Thread-28-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:56:07,926 INFO  [Collectd-Thread-28-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:56:07,950 INFO  [Collectd-Thread-28-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 22:56:09,908 INFO  [Collectd-Thread-31-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:56:09,923 INFO  [Collectd-Thread-31-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:56:09,923 INFO  [Collectd-Thread-31-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:56:09,930 INFO  [Collectd-Thread-31-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 22:56:10,908 INFO  [Collectd-Thread-29-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:56:10,923 INFO  [Collectd-Thread-29-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:56:10,923 INFO  [Collectd-Thread-29-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:56:10,957 INFO  [Collectd-Thread-29-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 22:56:27,912 INFO  [Collectd-Thread-30-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 22:56:28,062 INFO  [Collectd-Thread-30-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 22:56:28,062 INFO  [Collectd-Thread-30-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 22:56:28,168 INFO  [Collectd-Thread-30-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 22:56:28,912 INFO  [Collectd-Thread-33-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 22:56:28,946 INFO  [Collectd-Thread-32-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 22:56:29,055 INFO  [Collectd-Thread-33-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 22:56:29,055 INFO  [Collectd-Thread-33-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 22:56:29,197 INFO  [Collectd-Thread-33-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 22:56:29,546 INFO  [Collectd-Thread-32-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 22:56:29,546 INFO  [Collectd-Thread-32-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 22:56:29,583 INFO  [Collectd-Thread-32-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 22:56:30,935 INFO  [Collectd-Thread-34-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 22:56:31,871 INFO  [Collectd-Thread-34-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 22:56:31,871 INFO  [Collectd-Thread-34-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 22:56:32,170 INFO  [Collectd-Thread-34-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 22:56:42,945 INFO  [Collectd-Thread-36-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 22:56:45,300 INFO  [Collectd-Thread-36-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 22:56:45,301 INFO  [Collectd-Thread-36-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 22:56:45,486 INFO  [Collectd-Thread-36-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 23:01:08,021 INFO  [Collectd-Thread-35-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:01:08,035 INFO  [Collectd-Thread-35-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:01:08,035 INFO  [Collectd-Thread-35-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:01:08,077 INFO  [Collectd-Thread-35-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:01:10,022 INFO  [Collectd-Thread-39-of-50] collector.release: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:01:10,022 INFO  [Collectd-Thread-39-of-50] collector.release: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:01:10,040 INFO  [Collectd-Thread-39-of-50] collector.initialize: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:01:10,040 INFO  [Collectd-Thread-39-of-50] collector.initialize: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:01:10,040 INFO  [Collectd-Thread-39-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:01:10,074 INFO  [Collectd-Thread-39-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:01:10,075 INFO  [Collectd-Thread-39-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:01:10,082 INFO  [Collectd-Thread-39-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:01:11,022 INFO  [Collectd-Thread-37-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:01:11,029 INFO  [Collectd-Thread-37-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:01:11,029 INFO  [Collectd-Thread-37-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:01:11,045 INFO  [Collectd-Thread-37-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:01:29,029 INFO  [Collectd-Thread-38-of-50] collector.release: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 23:01:29,029 INFO  [Collectd-Thread-38-of-50] collector.release: end: example1/575/172.29.0.30/SNMP
+2018-08-09 23:01:29,040 INFO  [Collectd-Thread-38-of-50] collector.initialize: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 23:01:29,049 INFO  [Collectd-Thread-38-of-50] collector.initialize: end: example1/575/172.29.0.30/SNMP
+2018-08-09 23:01:29,049 INFO  [Collectd-Thread-38-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 23:01:29,181 INFO  [Collectd-Thread-38-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 23:01:29,181 INFO  [Collectd-Thread-38-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 23:01:29,371 INFO  [Collectd-Thread-38-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 23:01:30,029 INFO  [Collectd-Thread-41-of-50] collector.release: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 23:01:30,030 INFO  [Collectd-Thread-41-of-50] collector.release: end: example1/577/172.29.0.31/SNMP
+2018-08-09 23:01:30,030 INFO  [Collectd-Thread-40-of-50] collector.release: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 23:01:30,031 INFO  [Collectd-Thread-40-of-50] collector.release: end: example1/573/172.20.1.26/SNMP
+2018-08-09 23:01:30,040 INFO  [Collectd-Thread-40-of-50] collector.initialize: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 23:01:30,041 INFO  [Collectd-Thread-41-of-50] collector.initialize: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 23:01:30,049 INFO  [Collectd-Thread-40-of-50] collector.initialize: end: example1/573/172.20.1.26/SNMP
+2018-08-09 23:01:30,049 INFO  [Collectd-Thread-40-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 23:01:30,050 INFO  [Collectd-Thread-41-of-50] collector.initialize: end: example1/577/172.29.0.31/SNMP
+2018-08-09 23:01:30,050 INFO  [Collectd-Thread-41-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 23:01:30,211 INFO  [Collectd-Thread-41-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 23:01:30,211 INFO  [Collectd-Thread-41-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 23:01:30,423 INFO  [Collectd-Thread-41-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 23:01:30,622 INFO  [Collectd-Thread-40-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 23:01:30,622 INFO  [Collectd-Thread-40-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 23:01:30,659 INFO  [Collectd-Thread-40-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 23:01:33,030 INFO  [Collectd-Thread-42-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 23:01:33,284 INFO  [Collectd-Thread-42-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 23:01:33,284 INFO  [Collectd-Thread-42-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 23:01:33,480 INFO  [Collectd-Thread-42-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 23:01:46,077 INFO  [Collectd-Thread-43-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 23:01:51,109 INFO  [Collectd-Thread-43-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 23:01:51,109 INFO  [Collectd-Thread-43-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 23:01:51,187 INFO  [Collectd-Thread-43-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 23:06:08,198 INFO  [Collectd-Thread-44-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:06:08,211 INFO  [Collectd-Thread-44-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:06:08,212 INFO  [Collectd-Thread-44-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:06:08,258 INFO  [Collectd-Thread-44-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:06:10,198 INFO  [Collectd-Thread-46-of-50] collector.release: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:06:10,198 INFO  [Collectd-Thread-46-of-50] collector.release: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:06:10,209 INFO  [Collectd-Thread-46-of-50] collector.initialize: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:06:10,209 INFO  [Collectd-Thread-46-of-50] collector.initialize: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:06:10,210 INFO  [Collectd-Thread-46-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:06:10,244 INFO  [Collectd-Thread-46-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:06:10,244 INFO  [Collectd-Thread-46-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:06:10,250 INFO  [Collectd-Thread-46-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:06:11,198 INFO  [Collectd-Thread-47-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:06:11,214 INFO  [Collectd-Thread-47-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:06:11,214 INFO  [Collectd-Thread-47-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:06:11,260 INFO  [Collectd-Thread-47-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:06:30,218 INFO  [Collectd-Thread-45-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 23:06:30,370 INFO  [Collectd-Thread-45-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 23:06:30,370 INFO  [Collectd-Thread-45-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 23:06:30,525 INFO  [Collectd-Thread-45-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 23:06:31,221 INFO  [Collectd-Thread-48-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 23:06:31,224 INFO  [Collectd-Thread-49-of-50] collector.release: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 23:06:31,224 INFO  [Collectd-Thread-49-of-50] collector.release: end: example1/573/172.20.1.26/SNMP
+2018-08-09 23:06:31,231 INFO  [Collectd-Thread-49-of-50] collector.initialize: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 23:06:31,240 INFO  [Collectd-Thread-49-of-50] collector.initialize: end: example1/573/172.20.1.26/SNMP
+2018-08-09 23:06:31,240 INFO  [Collectd-Thread-49-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 23:06:31,388 INFO  [Collectd-Thread-48-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 23:06:31,388 INFO  [Collectd-Thread-48-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 23:06:31,557 INFO  [Collectd-Thread-48-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 23:06:31,825 INFO  [Collectd-Thread-49-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 23:06:31,825 INFO  [Collectd-Thread-49-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 23:06:31,912 INFO  [Collectd-Thread-49-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 23:06:34,204 INFO  [Collectd-Thread-1-of-50] collector.release: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 23:06:34,204 INFO  [Collectd-Thread-1-of-50] collector.release: end: example1/574/172.20.1.238/SNMP
+2018-08-09 23:06:34,215 INFO  [Collectd-Thread-1-of-50] collector.initialize: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 23:06:34,224 INFO  [Collectd-Thread-1-of-50] collector.initialize: end: example1/574/172.20.1.238/SNMP
+2018-08-09 23:06:34,224 INFO  [Collectd-Thread-1-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 23:06:34,550 INFO  [Collectd-Thread-1-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 23:06:34,550 INFO  [Collectd-Thread-1-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 23:06:34,726 INFO  [Collectd-Thread-1-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 23:06:51,751 INFO  [Collectd-Thread-50-of-50] collector.release: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 23:06:51,751 INFO  [Collectd-Thread-50-of-50] collector.release: end: example1/576/172.20.1.239/SNMP
+2018-08-09 23:06:51,763 INFO  [Collectd-Thread-50-of-50] collector.initialize: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 23:06:51,772 INFO  [Collectd-Thread-50-of-50] collector.initialize: end: example1/576/172.20.1.239/SNMP
+2018-08-09 23:06:51,772 INFO  [Collectd-Thread-50-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 23:06:52,108 INFO  [Collectd-Thread-50-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 23:06:52,108 INFO  [Collectd-Thread-50-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 23:06:52,280 INFO  [Collectd-Thread-50-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 23:11:08,833 INFO  [Collectd-Thread-2-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:11:08,848 INFO  [Collectd-Thread-2-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:11:08,848 INFO  [Collectd-Thread-2-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:11:08,884 INFO  [Collectd-Thread-2-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:11:10,833 INFO  [Collectd-Thread-5-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:11:10,849 INFO  [Collectd-Thread-5-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:11:10,850 INFO  [Collectd-Thread-5-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:11:10,856 INFO  [Collectd-Thread-5-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:11:11,834 INFO  [Collectd-Thread-3-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:11:11,856 INFO  [Collectd-Thread-3-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:11:11,856 INFO  [Collectd-Thread-3-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:11:11,905 INFO  [Collectd-Thread-3-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:11:30,837 INFO  [Collectd-Thread-4-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 23:11:31,013 INFO  [Collectd-Thread-4-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 23:11:31,013 INFO  [Collectd-Thread-4-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 23:11:31,101 INFO  [Collectd-Thread-4-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 23:11:31,838 INFO  [Collectd-Thread-9-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 23:11:31,996 INFO  [Collectd-Thread-9-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 23:11:31,996 INFO  [Collectd-Thread-9-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 23:11:32,099 INFO  [Collectd-Thread-9-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 23:11:32,856 INFO  [Collectd-Thread-7-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 23:11:33,375 INFO  [Collectd-Thread-7-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 23:11:33,376 INFO  [Collectd-Thread-7-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 23:11:33,413 INFO  [Collectd-Thread-7-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 23:11:35,886 INFO  [Collectd-Thread-6-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 23:11:36,282 INFO  [Collectd-Thread-6-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 23:11:36,282 INFO  [Collectd-Thread-6-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 23:11:36,461 INFO  [Collectd-Thread-6-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 23:11:52,862 INFO  [Collectd-Thread-8-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 23:11:53,141 INFO  [Collectd-Thread-8-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 23:11:53,142 INFO  [Collectd-Thread-8-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 23:11:53,310 INFO  [Collectd-Thread-8-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 23:16:08,939 INFO  [Collectd-Thread-10-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:16:08,953 INFO  [Collectd-Thread-10-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:16:08,953 INFO  [Collectd-Thread-10-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:16:08,978 INFO  [Collectd-Thread-10-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:16:10,939 INFO  [Collectd-Thread-12-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:16:10,954 INFO  [Collectd-Thread-12-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:16:10,955 INFO  [Collectd-Thread-12-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:16:10,962 INFO  [Collectd-Thread-12-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:16:11,939 INFO  [Collectd-Thread-11-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:16:11,954 INFO  [Collectd-Thread-11-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:16:11,954 INFO  [Collectd-Thread-11-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:16:12,003 INFO  [Collectd-Thread-11-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:16:31,943 INFO  [Collectd-Thread-15-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 23:16:32,095 INFO  [Collectd-Thread-15-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 23:16:32,095 INFO  [Collectd-Thread-15-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 23:16:32,248 INFO  [Collectd-Thread-15-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 23:16:32,943 INFO  [Collectd-Thread-13-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 23:16:33,092 INFO  [Collectd-Thread-13-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 23:16:33,092 INFO  [Collectd-Thread-13-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 23:16:33,199 INFO  [Collectd-Thread-13-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 23:16:33,944 INFO  [Collectd-Thread-14-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 23:16:34,460 INFO  [Collectd-Thread-14-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 23:16:34,461 INFO  [Collectd-Thread-14-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 23:16:34,498 INFO  [Collectd-Thread-14-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 23:16:36,944 INFO  [Collectd-Thread-17-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 23:16:37,259 INFO  [Collectd-Thread-17-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 23:16:37,259 INFO  [Collectd-Thread-17-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 23:16:37,549 INFO  [Collectd-Thread-17-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 23:16:53,947 INFO  [Collectd-Thread-16-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 23:16:54,273 INFO  [Collectd-Thread-16-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 23:16:54,273 INFO  [Collectd-Thread-16-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 23:16:54,502 INFO  [Collectd-Thread-16-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 23:21:09,005 INFO  [Collectd-Thread-20-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:21:09,019 INFO  [Collectd-Thread-20-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:21:09,019 INFO  [Collectd-Thread-20-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:21:09,043 INFO  [Collectd-Thread-20-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:21:11,006 INFO  [Collectd-Thread-19-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:21:11,021 INFO  [Collectd-Thread-19-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:21:11,022 INFO  [Collectd-Thread-19-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:21:11,028 INFO  [Collectd-Thread-19-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:21:12,006 INFO  [Collectd-Thread-18-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:21:12,021 INFO  [Collectd-Thread-18-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:21:12,021 INFO  [Collectd-Thread-18-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:21:12,062 INFO  [Collectd-Thread-18-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:21:33,011 INFO  [Collectd-Thread-22-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 23:21:33,192 INFO  [Collectd-Thread-22-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 23:21:33,192 INFO  [Collectd-Thread-22-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 23:21:33,281 INFO  [Collectd-Thread-22-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 23:21:34,012 INFO  [Collectd-Thread-23-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 23:21:34,147 INFO  [Collectd-Thread-23-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 23:21:34,148 INFO  [Collectd-Thread-23-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 23:21:34,392 INFO  [Collectd-Thread-23-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 23:21:35,012 INFO  [Collectd-Thread-21-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 23:21:35,553 INFO  [Collectd-Thread-21-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 23:21:35,554 INFO  [Collectd-Thread-21-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 23:21:35,617 INFO  [Collectd-Thread-21-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 23:21:38,013 INFO  [Collectd-Thread-25-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 23:21:38,286 INFO  [Collectd-Thread-25-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 23:21:38,286 INFO  [Collectd-Thread-25-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 23:21:38,460 INFO  [Collectd-Thread-25-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 23:21:55,017 INFO  [Collectd-Thread-24-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 23:21:55,366 INFO  [Collectd-Thread-24-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 23:21:55,366 INFO  [Collectd-Thread-24-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 23:21:55,624 INFO  [Collectd-Thread-24-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 23:26:09,077 INFO  [Collectd-Thread-26-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:26:09,108 INFO  [Collectd-Thread-26-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:26:09,108 INFO  [Collectd-Thread-26-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:26:09,161 INFO  [Collectd-Thread-26-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:26:11,077 INFO  [Collectd-Thread-27-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:26:11,095 INFO  [Collectd-Thread-27-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:26:11,096 INFO  [Collectd-Thread-27-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:26:11,102 INFO  [Collectd-Thread-27-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:26:12,077 INFO  [Collectd-Thread-28-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:26:12,094 INFO  [Collectd-Thread-28-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:26:12,094 INFO  [Collectd-Thread-28-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:26:12,140 INFO  [Collectd-Thread-28-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:26:34,081 INFO  [Collectd-Thread-31-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 23:26:34,204 INFO  [Collectd-Thread-31-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 23:26:34,204 INFO  [Collectd-Thread-31-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 23:26:34,302 INFO  [Collectd-Thread-31-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 23:26:35,082 INFO  [Collectd-Thread-29-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 23:26:35,203 INFO  [Collectd-Thread-29-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 23:26:35,204 INFO  [Collectd-Thread-29-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 23:26:35,372 INFO  [Collectd-Thread-29-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 23:26:36,082 INFO  [Collectd-Thread-30-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 23:26:36,644 INFO  [Collectd-Thread-30-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 23:26:36,644 INFO  [Collectd-Thread-30-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 23:26:36,681 INFO  [Collectd-Thread-30-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 23:26:39,083 INFO  [Collectd-Thread-33-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 23:26:39,349 INFO  [Collectd-Thread-33-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 23:26:39,349 INFO  [Collectd-Thread-33-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 23:26:39,522 INFO  [Collectd-Thread-33-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 23:26:56,088 INFO  [Collectd-Thread-32-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 23:26:56,627 INFO  [Collectd-Thread-32-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 23:26:56,628 INFO  [Collectd-Thread-32-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 23:26:56,756 INFO  [Collectd-Thread-32-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 23:31:10,158 INFO  [Collectd-Thread-34-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:31:10,174 INFO  [Collectd-Thread-34-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:31:10,174 INFO  [Collectd-Thread-34-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:31:10,236 INFO  [Collectd-Thread-34-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:31:11,158 INFO  [Collectd-Thread-36-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:31:11,174 INFO  [Collectd-Thread-36-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:31:11,174 INFO  [Collectd-Thread-36-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:31:11,181 INFO  [Collectd-Thread-36-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:31:12,159 INFO  [Collectd-Thread-35-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:31:12,173 INFO  [Collectd-Thread-35-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:31:12,173 INFO  [Collectd-Thread-35-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:31:12,208 INFO  [Collectd-Thread-35-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:31:35,170 INFO  [Collectd-Thread-39-of-50] collector.release: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 23:31:35,170 INFO  [Collectd-Thread-39-of-50] collector.release: end: example1/575/172.29.0.30/SNMP
+2018-08-09 23:31:35,183 INFO  [Collectd-Thread-39-of-50] collector.initialize: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 23:31:35,193 INFO  [Collectd-Thread-39-of-50] collector.initialize: end: example1/575/172.29.0.30/SNMP
+2018-08-09 23:31:35,193 INFO  [Collectd-Thread-39-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 23:31:35,349 INFO  [Collectd-Thread-39-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 23:31:35,349 INFO  [Collectd-Thread-39-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 23:31:35,437 INFO  [Collectd-Thread-39-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 23:31:36,171 INFO  [Collectd-Thread-37-of-50] collector.release: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 23:31:36,171 INFO  [Collectd-Thread-37-of-50] collector.release: end: example1/577/172.29.0.31/SNMP
+2018-08-09 23:31:36,181 INFO  [Collectd-Thread-37-of-50] collector.initialize: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 23:31:36,191 INFO  [Collectd-Thread-37-of-50] collector.initialize: end: example1/577/172.29.0.31/SNMP
+2018-08-09 23:31:36,191 INFO  [Collectd-Thread-37-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 23:31:36,321 INFO  [Collectd-Thread-37-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 23:31:36,321 INFO  [Collectd-Thread-37-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 23:31:36,415 INFO  [Collectd-Thread-37-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 23:31:37,171 INFO  [Collectd-Thread-38-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 23:31:37,685 INFO  [Collectd-Thread-38-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 23:31:37,685 INFO  [Collectd-Thread-38-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 23:31:37,725 INFO  [Collectd-Thread-38-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 23:31:40,172 INFO  [Collectd-Thread-41-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 23:31:40,574 INFO  [Collectd-Thread-41-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 23:31:40,574 INFO  [Collectd-Thread-41-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 23:31:40,998 INFO  [Collectd-Thread-41-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 23:31:57,209 INFO  [Collectd-Thread-40-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 23:31:57,575 INFO  [Collectd-Thread-40-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 23:31:57,576 INFO  [Collectd-Thread-40-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 23:31:57,780 INFO  [Collectd-Thread-40-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 23:36:10,370 INFO  [Collectd-Thread-42-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:36:10,385 INFO  [Collectd-Thread-42-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:36:10,385 INFO  [Collectd-Thread-42-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:36:10,409 INFO  [Collectd-Thread-42-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:36:11,374 INFO  [Collectd-Thread-43-of-50] collector.release: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:36:11,374 INFO  [Collectd-Thread-43-of-50] collector.release: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:36:11,385 INFO  [Collectd-Thread-43-of-50] collector.initialize: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:36:11,385 INFO  [Collectd-Thread-43-of-50] collector.initialize: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:36:11,385 INFO  [Collectd-Thread-43-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:36:11,424 INFO  [Collectd-Thread-43-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:36:11,424 INFO  [Collectd-Thread-43-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:36:11,431 INFO  [Collectd-Thread-43-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:36:12,373 INFO  [Collectd-Thread-44-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:36:12,388 INFO  [Collectd-Thread-44-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:36:12,388 INFO  [Collectd-Thread-44-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:36:12,421 INFO  [Collectd-Thread-44-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:36:36,397 INFO  [Collectd-Thread-46-of-50] collector.release: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 23:36:36,397 INFO  [Collectd-Thread-46-of-50] collector.release: end: example1/575/172.29.0.30/SNMP
+2018-08-09 23:36:36,405 INFO  [Collectd-Thread-46-of-50] collector.initialize: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 23:36:36,414 INFO  [Collectd-Thread-46-of-50] collector.initialize: end: example1/575/172.29.0.30/SNMP
+2018-08-09 23:36:36,414 INFO  [Collectd-Thread-46-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 23:36:36,578 INFO  [Collectd-Thread-46-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 23:36:36,578 INFO  [Collectd-Thread-46-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 23:36:36,672 INFO  [Collectd-Thread-46-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 23:36:37,394 INFO  [Collectd-Thread-47-of-50] collector.release: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 23:36:37,394 INFO  [Collectd-Thread-47-of-50] collector.release: end: example1/577/172.29.0.31/SNMP
+2018-08-09 23:36:37,403 INFO  [Collectd-Thread-47-of-50] collector.initialize: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 23:36:37,411 INFO  [Collectd-Thread-47-of-50] collector.initialize: end: example1/577/172.29.0.31/SNMP
+2018-08-09 23:36:37,411 INFO  [Collectd-Thread-47-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 23:36:37,621 INFO  [Collectd-Thread-47-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 23:36:37,621 INFO  [Collectd-Thread-47-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 23:36:37,732 INFO  [Collectd-Thread-47-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 23:36:38,379 INFO  [Collectd-Thread-45-of-50] collector.release: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 23:36:38,379 INFO  [Collectd-Thread-45-of-50] collector.release: end: example1/573/172.20.1.26/SNMP
+2018-08-09 23:36:38,389 INFO  [Collectd-Thread-45-of-50] collector.initialize: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 23:36:38,397 INFO  [Collectd-Thread-45-of-50] collector.initialize: end: example1/573/172.20.1.26/SNMP
+2018-08-09 23:36:38,397 INFO  [Collectd-Thread-45-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 23:36:38,969 INFO  [Collectd-Thread-45-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 23:36:38,969 INFO  [Collectd-Thread-45-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 23:36:39,031 INFO  [Collectd-Thread-45-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 23:36:41,380 INFO  [Collectd-Thread-48-of-50] collector.release: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 23:36:41,380 INFO  [Collectd-Thread-48-of-50] collector.release: end: example1/574/172.20.1.238/SNMP
+2018-08-09 23:36:41,390 INFO  [Collectd-Thread-48-of-50] collector.initialize: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 23:36:41,399 INFO  [Collectd-Thread-48-of-50] collector.initialize: end: example1/574/172.20.1.238/SNMP
+2018-08-09 23:36:41,399 INFO  [Collectd-Thread-48-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 23:36:41,730 INFO  [Collectd-Thread-48-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 23:36:41,730 INFO  [Collectd-Thread-48-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 23:36:42,042 INFO  [Collectd-Thread-48-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 23:36:58,384 INFO  [Collectd-Thread-49-of-50] collector.release: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 23:36:58,384 INFO  [Collectd-Thread-49-of-50] collector.release: end: example1/576/172.20.1.239/SNMP
+2018-08-09 23:36:58,393 INFO  [Collectd-Thread-49-of-50] collector.initialize: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 23:36:58,400 INFO  [Collectd-Thread-49-of-50] collector.initialize: end: example1/576/172.20.1.239/SNMP
+2018-08-09 23:36:58,400 INFO  [Collectd-Thread-49-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 23:36:58,803 INFO  [Collectd-Thread-49-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 23:36:58,804 INFO  [Collectd-Thread-49-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 23:36:59,087 INFO  [Collectd-Thread-49-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 23:41:10,454 INFO  [Collectd-Thread-1-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:41:10,466 INFO  [Collectd-Thread-1-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:41:10,466 INFO  [Collectd-Thread-1-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:41:10,490 INFO  [Collectd-Thread-1-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 23:41:11,454 INFO  [Collectd-Thread-50-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:41:11,470 INFO  [Collectd-Thread-50-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:41:11,470 INFO  [Collectd-Thread-50-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:41:11,476 INFO  [Collectd-Thread-50-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 23:41:12,458 INFO  [Collectd-Thread-2-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:41:12,477 INFO  [Collectd-Thread-2-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:41:12,477 INFO  [Collectd-Thread-2-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:41:12,548 INFO  [Collectd-Thread-2-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 23:41:37,487 INFO  [Collectd-Thread-5-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 23:41:37,606 INFO  [Collectd-Thread-5-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 23:41:37,607 INFO  [Collectd-Thread-5-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 23:41:37,708 INFO  [Collectd-Thread-5-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 23:41:38,491 INFO  [Collectd-Thread-3-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 23:41:38,640 INFO  [Collectd-Thread-3-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 23:41:38,640 INFO  [Collectd-Thread-3-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 23:41:38,729 INFO  [Collectd-Thread-3-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 23:41:39,490 INFO  [Collectd-Thread-4-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 23:41:40,006 INFO  [Collectd-Thread-4-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 23:41:40,006 INFO  [Collectd-Thread-4-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 23:41:40,043 INFO  [Collectd-Thread-4-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 23:41:42,485 INFO  [Collectd-Thread-9-of-50] collector.release: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 23:41:42,486 INFO  [Collectd-Thread-9-of-50] collector.release: end: example1/574/172.20.1.238/SNMP
+2018-08-09 23:41:42,495 INFO  [Collectd-Thread-9-of-50] collector.initialize: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 23:41:42,506 INFO  [Collectd-Thread-9-of-50] collector.initialize: end: example1/574/172.20.1.238/SNMP
+2018-08-09 23:41:42,506 INFO  [Collectd-Thread-9-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 23:41:44,290 INFO  [Collectd-Thread-9-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 23:41:44,290 INFO  [Collectd-Thread-9-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 23:41:44,470 INFO  [Collectd-Thread-9-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 23:41:59,514 INFO  [Collectd-Thread-7-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 23:41:59,962 INFO  [Collectd-Thread-7-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 23:41:59,962 INFO  [Collectd-Thread-7-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 23:42:00,142 INFO  [Collectd-Thread-7-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP

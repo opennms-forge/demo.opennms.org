@@ -58,3 +58,4 @@
 2018-08-09 21:05:55,288 INFO  [Main] o.s.c.s.DefaultLifecycleProcessor: Starting beans in phase 2147483647
 2018-08-09 21:05:55,288 INFO  [Main] o.s.s.q.SchedulerFactoryBean: Starting Quartz Scheduler now
 2018-08-09 21:05:55,288 INFO  [Main] o.q.c.QuartzScheduler: Scheduler PollerBackEnd_$_NON_CLUSTERED started.
+2018-08-09 23:02:21,497 ERROR [Poller:PollerEventProcessor-Thread] o.o.n.p.PollerEventProcessor: Interface 576/10.0.0.1 does not exist in pollable node map, unable to delete node.
