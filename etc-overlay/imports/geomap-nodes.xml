@@ -1,0 +1,145 @@
+<model-import xmlns="http://xmlns.opennms.org/xsd/config/model-import" date-stamp="2018-08-09T19:30:02.111+02:00" foreign-source="geomap-nodes" last-import="2018-08-09T19:30:02.118+02:00">
+   <node foreign-id="sydney" node-label="sydney">
+      <interface ip-addr="42.99.164.65" snmp-primary="P">
+         <monitored-service service-name="ICMP"/>
+         <monitored-service service-name="StrafePing"/>
+      </interface>
+      <category name="environment:public"/>
+      <category name="type:external"/>
+      <category name="filter:geomap"/>
+      <asset name="longitude" value="151.207"/>
+      <asset name="latitude" value="-33.8675"/>
+   </node>
+   <node foreign-id="singapur" node-label="singapur">
+      <interface ip-addr="42.99.164.65" snmp-primary="P">
+         <monitored-service service-name="ICMP"/>
+         <monitored-service service-name="StrafePing"/>
+      </interface>
+      <category name="environment:public"/>
+      <category name="type:external"/>
+      <category name="filter:geomap"/>
+      <asset name="longitude" value="103.8501"/>
+      <asset name="latitude" value="1.2897"/>
+   </node>
+   <node foreign-id="claremont" node-label="claremont">
+      <interface ip-addr="41.215.237.20" snmp-primary="P">
+         <monitored-service service-name="ICMP"/>
+         <monitored-service service-name="StrafePing"/>
+      </interface>
+      <category name="environment:public"/>
+      <category name="type:external"/>
+      <category name="filter:geomap"/>
+      <asset name="latitude" value="-33.9806"/>
+      <asset name="longitude" value="18.4653"/>
+   </node>
+   <node foreign-id="capetown" node-label="capetown">
+      <interface ip-addr="41.215.237.20" snmp-primary="P">
+         <monitored-service service-name="ICMP"/>
+         <monitored-service service-name="StrafePing"/>
+      </interface>
+      <category name="environment:public"/>
+      <category name="type:external"/>
+      <category name="filter:geomap"/>
+      <asset name="longitude" value="18.4232"/>
+      <asset name="latitude" value="-33.9258"/>
+   </node>
+   <node foreign-id="moscow" node-label="moscow">
+      <interface ip-addr="95.108.142.138" snmp-primary="P">
+         <monitored-service service-name="ICMP"/>
+         <monitored-service service-name="StrafePing"/>
+      </interface>
+      <category name="environment:public"/>
+      <category name="type:external"/>
+      <category name="filter:geomap"/>
+      <asset name="longitude" value="37.6156"/>
+      <asset name="latitude" value="55.7522"/>
+   </node>
+   <node foreign-id="oslo" node-label="oslo">
+      <interface ip-addr="84.208.209.12" snmp-primary="P">
+         <monitored-service service-name="ICMP"/>
+         <monitored-service service-name="StrafePing"/>
+      </interface>
+      <category name="environment:public"/>
+      <category name="type:external"/>
+      <category name="filter:geomap"/>
+      <asset name="longitude" value="10.7461"/>
+      <asset name="latitude" value="59.9127"/>
+   </node>
+   <node foreign-id="palermo" node-label="palermo">
+      <interface ip-addr="79.36.86.119" snmp-primary="P">
+         <monitored-service service-name="ICMP"/>
+         <monitored-service service-name="StrafePing"/>
+      </interface>
+      <category name="environment:public"/>
+      <category name="type:external"/>
+      <category name="filter:geomap"/>
+      <asset name="latitude" value="38.1157"/>
+      <asset name="longitude" value="13.3613"/>
+   </node>
+   <node foreign-id="lisbon" node-label="lisbon">
+      <interface ip-addr="93.108.162.94" snmp-primary="P">
+         <monitored-service service-name="ICMP"/>
+         <monitored-service service-name="StrafePing"/>
+      </interface>
+      <category name="environment:public"/>
+      <category name="type:external"/>
+      <category name="filter:geomap"/>
+      <asset name="latitude" value="38.7663"/>
+      <asset name="longitude" value="-9.09784"/>
+   </node>
+   <node foreign-id="são Paulo" node-label="são Paulo">
+      <interface ip-addr="189.11.132.117" snmp-primary="P">
+         <monitored-service service-name="ICMP"/>
+         <monitored-service service-name="StrafePing"/>
+      </interface>
+      <category name="environment:public"/>
+      <category name="type:external"/>
+      <category name="filter:geomap"/>
+      <asset name="longitude" value="-46.6333"/>
+      <asset name="latitude" value="-23.5505"/>
+   </node>
+   <node foreign-id="mumbai" node-label="mumbai">
+      <interface ip-addr="125.99.114.130" snmp-primary="P">
+         <monitored-service service-name="ICMP"/>
+         <monitored-service service-name="StrafePing"/>
+      </interface>
+      <category name="environment:public"/>
+      <category name="type:external"/>
+      <category name="filter:geomap"/>
+      <asset name="latitude" value="19.0144"/>
+      <asset name="longitude" value="72.8479"/>
+   </node>
+   <node foreign-id="washington" node-label="washington">
+      <interface ip-addr="64.110.24.162" snmp-primary="P">
+         <monitored-service service-name="ICMP"/>
+         <monitored-service service-name="StrafePing"/>
+      </interface>
+      <category name="environment:public"/>
+      <category name="type:external"/>
+      <category name="filter:geomap"/>
+      <asset name="latitude" value="45.6022"/>
+      <asset name="longitude" value="-122.5262"/>
+   </node>
+   <node foreign-id="los-angeles" node-label="los-angeles">
+      <interface ip-addr="64.110.24.162" snmp-primary="P">
+         <monitored-service service-name="ICMP"/>
+         <monitored-service service-name="StrafePing"/>
+      </interface>
+      <category name="environment:public"/>
+      <category name="type:external"/>
+      <category name="filter:geomap"/>
+      <asset name="longitude" value="-118.2606"/>
+      <asset name="latitude" value="34.0729"/>
+   </node>
+   <node foreign-id="vancouver" node-label="vancouver">
+      <interface ip-addr="204.101.161.58" snmp-primary="P">
+         <monitored-service service-name="ICMP"/>
+         <monitored-service service-name="StrafePing"/>
+      </interface>
+      <category name="environment:public"/>
+      <category name="type:external"/>
+      <category name="filter:geomap"/>
+      <asset name="longitude" value="-123.1193"/>
+      <asset name="latitude" value="49.2497"/>
+   </node>
+</model-import>

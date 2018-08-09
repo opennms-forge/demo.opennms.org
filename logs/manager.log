@@ -1,0 +1,548 @@
+2018-08-09 21:00:57,253 DEBUG [Main] o.o.n.v.Starter: System property 'opennms.library.jicmp' already set to '/usr/lib64/libjicmp.so'.
+2018-08-09 21:00:57,324 DEBUG [Main] o.o.n.v.Starter: System property 'opennms.library.jicmp6' already set to '/usr/lib64/libjicmp6.so'.
+2018-08-09 21:00:57,324 DEBUG [Main] o.o.n.v.Starter: System property 'opennms.library.jrrd' not set.  Searching for file 'libjrrd.so' in the class path.
+2018-08-09 21:00:57,325 WARN  [Main] o.o.n.v.Starter: Did not find file 'libjrrd.so' in the class path. Initialization of RRD code will likely fail if the JniRrdStrategy is used. Set the property 'opennms.library.jrrd' to the location of the file.
+2018-08-09 21:00:57,325 DEBUG [Main] o.o.n.v.Starter: System property 'jcifs.properties' not set.  Searching for file 'jcifs.properties' in the class path.
+2018-08-09 21:00:57,326 INFO  [Main] o.o.n.v.Starter: Found file 'jcifs.properties' at '/opt/opennms/etc/jcifs.properties'.  Setting 'jcifs.properties' to this path.
+2018-08-09 21:00:57,327 DEBUG [Main] o.o.n.v.Starter: Beginning startup
+2018-08-09 21:00:57,338 DEBUG [Main] o.o.n.c.ServiceConfigFactory: ServiceConfigFactory.init: config file path /opt/opennms/etc/service-configuration.xml
+2018-08-09 21:00:58,582 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.vmmgr.Manager
+2018-08-09 21:00:58,587 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.vmmgr.Manager
+2018-08-09 21:00:58,588 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Manager
+2018-08-09 21:00:58,588 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.vmmgr.Manager
+2018-08-09 21:00:58,589 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.vmmgr.Manager
+2018-08-09 21:00:58,589 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=TestLoadLibraries
+2018-08-09 21:00:58,589 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.eventd.jmx.Eventd
+2018-08-09 21:00:58,601 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.eventd.jmx.Eventd
+2018-08-09 21:00:58,601 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Eventd
+2018-08-09 21:00:58,602 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.daemon.SimpleSpringContextJmxServiceDaemon
+2018-08-09 21:00:58,603 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.daemon.SimpleSpringContextJmxServiceDaemon
+2018-08-09 21:00:58,604 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Alarmd
+2018-08-09 21:00:58,604 DEBUG [Main] o.o.n.v.Invoker: setting attribute LoggingPrefix
+2018-08-09 21:00:58,609 DEBUG [Main] o.o.n.v.Invoker: setting attribute SpringContext
+2018-08-09 21:00:58,609 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.daemon.SimpleSpringContextJmxServiceDaemon
+2018-08-09 21:00:58,610 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.daemon.SimpleSpringContextJmxServiceDaemon
+2018-08-09 21:00:58,610 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Bsmd
+2018-08-09 21:00:58,610 DEBUG [Main] o.o.n.v.Invoker: setting attribute LoggingPrefix
+2018-08-09 21:00:58,610 DEBUG [Main] o.o.n.v.Invoker: setting attribute SpringContext
+2018-08-09 21:00:58,610 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.ticketd.jmx.TroubleTicketer
+2018-08-09 21:00:58,612 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.ticketd.jmx.TroubleTicketer
+2018-08-09 21:00:58,612 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Ticketer
+2018-08-09 21:00:58,613 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.trapd.jmx.Trapd
+2018-08-09 21:00:58,615 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.trapd.jmx.Trapd
+2018-08-09 21:00:58,615 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Trapd
+2018-08-09 21:00:58,615 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.queued.jmx.Queued
+2018-08-09 21:00:58,617 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.queued.jmx.Queued
+2018-08-09 21:00:58,618 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Queued
+2018-08-09 21:00:58,618 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.actiond.jmx.Actiond
+2018-08-09 21:00:58,621 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.actiond.jmx.Actiond
+2018-08-09 21:00:58,621 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Actiond
+2018-08-09 21:00:58,622 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.notifd.jmx.Notifd
+2018-08-09 21:00:58,625 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.notifd.jmx.Notifd
+2018-08-09 21:00:58,625 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Notifd
+2018-08-09 21:00:58,626 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.scriptd.jmx.Scriptd
+2018-08-09 21:00:58,628 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.scriptd.jmx.Scriptd
+2018-08-09 21:00:58,628 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Scriptd
+2018-08-09 21:00:58,628 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.rtc.jmx.Rtcd
+2018-08-09 21:00:58,631 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.rtc.jmx.Rtcd
+2018-08-09 21:00:58,631 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Rtcd
+2018-08-09 21:00:58,631 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.poller.jmx.Pollerd
+2018-08-09 21:00:58,633 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.poller.jmx.Pollerd
+2018-08-09 21:00:58,633 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Pollerd
+2018-08-09 21:00:58,634 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.poller.remote.jmx.RemotePollerBackEnd
+2018-08-09 21:00:58,638 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.poller.remote.jmx.RemotePollerBackEnd
+2018-08-09 21:00:58,639 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=PollerBackEnd
+2018-08-09 21:00:58,639 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.enlinkd.jmx.EnhancedLinkd
+2018-08-09 21:00:58,641 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.enlinkd.jmx.EnhancedLinkd
+2018-08-09 21:00:58,641 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=EnhancedLinkd
+2018-08-09 21:00:58,641 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.collectd.jmx.Collectd
+2018-08-09 21:00:58,643 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.collectd.jmx.Collectd
+2018-08-09 21:00:58,644 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Collectd
+2018-08-09 21:00:58,644 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.discovery.jmx.Discovery
+2018-08-09 21:00:58,646 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.discovery.jmx.Discovery
+2018-08-09 21:00:58,646 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Discovery
+2018-08-09 21:00:58,647 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.vacuumd.jmx.Vacuumd
+2018-08-09 21:00:58,648 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.vacuumd.jmx.Vacuumd
+2018-08-09 21:00:58,648 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Vacuumd
+2018-08-09 21:00:58,649 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.translator.jmx.EventTranslator
+2018-08-09 21:00:58,659 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.translator.jmx.EventTranslator
+2018-08-09 21:00:58,659 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=EventTranslator
+2018-08-09 21:00:58,659 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.passive.jmx.PassiveStatusd
+2018-08-09 21:00:58,662 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.passive.jmx.PassiveStatusd
+2018-08-09 21:00:58,662 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=PassiveStatusd
+2018-08-09 21:00:58,663 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.statsd.jmx.Statsd
+2018-08-09 21:00:58,664 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.statsd.jmx.Statsd
+2018-08-09 21:00:58,664 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Statsd
+2018-08-09 21:00:58,665 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.daemon.SimpleSpringContextJmxServiceDaemon
+2018-08-09 21:00:58,665 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.daemon.SimpleSpringContextJmxServiceDaemon
+2018-08-09 21:00:58,665 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Provisiond
+2018-08-09 21:00:58,665 DEBUG [Main] o.o.n.v.Invoker: setting attribute LoggingPrefix
+2018-08-09 21:00:58,665 DEBUG [Main] o.o.n.v.Invoker: setting attribute SpringContext
+2018-08-09 21:00:58,666 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.daemon.SimpleSpringContextJmxServiceDaemon
+2018-08-09 21:00:58,666 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.daemon.SimpleSpringContextJmxServiceDaemon
+2018-08-09 21:00:58,666 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Reportd
+2018-08-09 21:00:58,666 DEBUG [Main] o.o.n.v.Invoker: setting attribute LoggingPrefix
+2018-08-09 21:00:58,666 DEBUG [Main] o.o.n.v.Invoker: setting attribute SpringContext
+2018-08-09 21:00:58,666 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.daemon.SimpleSpringContextJmxServiceDaemon
+2018-08-09 21:00:58,666 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.daemon.SimpleSpringContextJmxServiceDaemon
+2018-08-09 21:00:58,667 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Ackd
+2018-08-09 21:00:58,667 DEBUG [Main] o.o.n.v.Invoker: setting attribute LoggingPrefix
+2018-08-09 21:00:58,667 DEBUG [Main] o.o.n.v.Invoker: setting attribute SpringContext
+2018-08-09 21:00:58,667 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.jetty.jmx.JettyServer
+2018-08-09 21:00:58,669 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.jetty.jmx.JettyServer
+2018-08-09 21:00:58,669 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=JettyServer
+2018-08-09 21:00:58,670 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.daemon.SimpleSpringContextJmxServiceDaemon
+2018-08-09 21:00:58,670 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.daemon.SimpleSpringContextJmxServiceDaemon
+2018-08-09 21:00:58,670 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Telemetryd
+2018-08-09 21:00:58,670 DEBUG [Main] o.o.n.v.Invoker: setting attribute LoggingPrefix
+2018-08-09 21:00:58,670 DEBUG [Main] o.o.n.v.Invoker: setting attribute SpringContext
+2018-08-09 21:00:58,670 DEBUG [Main] o.o.n.v.Invoker: starting pass 0
+2018-08-09 21:00:58,671 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=TestLoadLibraries will invoke method "doTestLoadLibraries"
+2018-08-09 21:00:58,671 DEBUG [Main] o.o.n.v.Invoker: Invoking doTestLoadLibraries on object OpenNMS:Name=TestLoadLibraries
+2018-08-09 21:00:58,744 INFO  [Main] o.o.n.i.b.BestMatchPingerFactory: Searching for best available pinger...
+2018-08-09 21:00:58,817 DEBUG [Main] o.o.n.i.j.JniPingRequest: 1533841258817: Sending Ping Request: [ID=JniPingRequestId[addr = 66b6bf928aa9/172.29.0.6, ident = 7755, seqNum = 1, tId = 1],Retries=0,Timeout=500,Packet-Size=64,Expiration=-1,Callback=org.opennms.netmgt.icmp.LogPrefixPreservingPingResponseCallback@3598db2d]
+2018-08-09 21:00:58,820 DEBUG [Main] o.o.p.r.RequestTracker: Scheding timeout for request to [ID=JniPingRequestId[addr = 66b6bf928aa9/172.29.0.6, ident = 7755, seqNum = 1, tId = 1],Retries=0,Timeout=500,Packet-Size=64,Expiration=1533841259317,Callback=org.opennms.netmgt.icmp.LogPrefixPreservingPingResponseCallback@3598db2d] in 497 ms
+2018-08-09 21:00:58,821 INFO  [Main] o.o.n.i.SinglePingResponseCallback: waiting for ping to 66b6bf928aa9/172.29.0.6 to finish
+2018-08-09 21:00:58,826 INFO  [JNI-ICMP-7755-Callback-Processor] o.o.n.i.SinglePingResponseCallback: got response for address 66b6bf928aa9/172.29.0.6, thread 7755, seq 1 with a responseTime 3.457ms
+2018-08-09 21:00:58,827 INFO  [Main] o.o.n.i.SinglePingResponseCallback: finished waiting for ping to 66b6bf928aa9/172.29.0.6 to finish
+2018-08-09 21:00:58,851 DEBUG [Main] o.o.n.i.j.JniPingRequest: 1533841258851: Sending Ping Request: [ID=JniPingRequestId[addr = 66b6bf928aa9/172.29.0.6, ident = 30703, seqNum = 1, tId = 2],Retries=0,Timeout=500,Packet-Size=64,Expiration=-1,Callback=org.opennms.netmgt.icmp.LogPrefixPreservingPingResponseCallback@7c18bd2d]
+2018-08-09 21:00:58,851 DEBUG [Main] o.o.p.r.RequestTracker: Scheding timeout for request to [ID=JniPingRequestId[addr = 66b6bf928aa9/172.29.0.6, ident = 30703, seqNum = 1, tId = 2],Retries=0,Timeout=500,Packet-Size=64,Expiration=1533841259351,Callback=org.opennms.netmgt.icmp.LogPrefixPreservingPingResponseCallback@7c18bd2d] in 500 ms
+2018-08-09 21:00:58,851 INFO  [Main] o.o.n.i.SinglePingResponseCallback: waiting for ping to 66b6bf928aa9/172.29.0.6 to finish
+2018-08-09 21:00:58,853 INFO  [JNI-ICMP-30703-Callback-Processor] o.o.n.i.SinglePingResponseCallback: got response for address 66b6bf928aa9/172.29.0.6, thread 30703, seq 1 with a responseTime 0.535ms
+2018-08-09 21:00:58,853 INFO  [Main] o.o.n.i.SinglePingResponseCallback: finished waiting for ping to 66b6bf928aa9/172.29.0.6 to finish
+2018-08-09 21:00:58,875 DEBUG [Main] o.o.j.j.NativeDatagramSocket: org.opennms.jicmp.jna.UnixV4NativeSocket(2, 1, 3399)
+2018-08-09 21:00:58,977 DEBUG [Main] o.o.j.j.NativeDatagramSocket: Failed to create class org.opennms.jicmp.jna.UnixV4NativeSocket SOCK_DGRAM socket (null).  Trying with SOCK_RAW.
+2018-08-09 21:00:58,988 DEBUG [Main] o.o.j.j.NativeDatagramSocket: org.opennms.jicmp.jna.UnixV6NativeSocket(10, 58, 3399)
+2018-08-09 21:00:58,994 DEBUG [Main] o.o.j.j.NativeDatagramSocket: Failed to create class org.opennms.jicmp.jna.UnixV6NativeSocket SOCK_DGRAM socket (null).  Trying with SOCK_RAW.
+2018-08-09 21:00:59,001 DEBUG [Main] o.o.n.i.j.JnaPingRequest: 1533841259001: Sending Ping Request: [ID=JnaPingRequestId[addr = 66b6bf928aa9/172.29.0.6, ident = 3399, seqNum = 1, tId = 1],Retries=0,Timeout=500,Packet-Size=64,Expiration=-1,Callback=org.opennms.netmgt.icmp.LogPrefixPreservingPingResponseCallback@40e03d2d]
+2018-08-09 21:00:59,006 DEBUG [Main] o.o.p.r.RequestTracker: Scheding timeout for request to [ID=JnaPingRequestId[addr = 66b6bf928aa9/172.29.0.6, ident = 3399, seqNum = 1, tId = 1],Retries=0,Timeout=500,Packet-Size=64,Expiration=1533841259502,Callback=org.opennms.netmgt.icmp.LogPrefixPreservingPingResponseCallback@40e03d2d] in 496 ms
+2018-08-09 21:00:59,007 INFO  [Main] o.o.n.i.SinglePingResponseCallback: waiting for ping to 66b6bf928aa9/172.29.0.6 to finish
+2018-08-09 21:00:59,011 INFO  [JNA-ICMP-3399-Callback-Processor] o.o.n.i.SinglePingResponseCallback: got response for address 66b6bf928aa9/172.29.0.6, thread 3399, seq 1 with a responseTime 2.70762ms
+2018-08-09 21:00:59,013 INFO  [Main] o.o.n.i.SinglePingResponseCallback: finished waiting for ping to 66b6bf928aa9/172.29.0.6 to finish
+2018-08-09 21:00:59,013 INFO  [Main] o.o.n.i.b.BestMatchPingerFactory: Best available pinger is: class org.opennms.netmgt.icmp.jni6.Jni6Pinger
+2018-08-09 21:00:59,018 INFO  [Main] o.o.n.v.Manager: Using ICMP implementation: org.opennms.netmgt.icmp.best.BestMatchPinger
+2018-08-09 21:00:59,019 INFO  [Main] o.o.n.v.Manager: IPv4 ICMP available? true
+2018-08-09 21:00:59,019 INFO  [Main] o.o.n.v.Manager: IPv6 ICMP available? true
+2018-08-09 21:00:59,023 DEBUG [Main] o.o.n.v.Invoker: Invocation doTestLoadLibraries successful for MBean OpenNMS:Name=TestLoadLibraries
+2018-08-09 21:00:59,024 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Eventd will invoke method "init"
+2018-08-09 21:00:59,024 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Eventd
+2018-08-09 21:01:22,585 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Eventd
+2018-08-09 21:01:22,585 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Alarmd will invoke method "init"
+2018-08-09 21:01:22,585 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Alarmd
+2018-08-09 21:01:22,697 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Alarmd
+2018-08-09 21:01:22,697 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Bsmd will invoke method "init"
+2018-08-09 21:01:22,697 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Bsmd
+2018-08-09 21:01:22,763 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Bsmd
+2018-08-09 21:01:22,763 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Ticketer will invoke method "init"
+2018-08-09 21:01:22,763 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Ticketer
+2018-08-09 21:01:22,870 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Ticketer
+2018-08-09 21:01:22,870 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Trapd will invoke method "init"
+2018-08-09 21:01:22,870 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Trapd
+2018-08-09 21:01:22,980 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Trapd
+2018-08-09 21:01:22,989 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Queued will invoke method "init"
+2018-08-09 21:01:22,989 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Queued
+2018-08-09 21:01:23,080 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Queued
+2018-08-09 21:01:23,080 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Actiond will invoke method "init"
+2018-08-09 21:01:23,080 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Actiond
+2018-08-09 21:01:23,112 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Actiond
+2018-08-09 21:01:23,112 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Notifd will invoke method "init"
+2018-08-09 21:01:23,112 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Notifd
+2018-08-09 21:01:23,478 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Notifd
+2018-08-09 21:01:23,478 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Scriptd will invoke method "init"
+2018-08-09 21:01:23,478 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Scriptd
+2018-08-09 21:01:23,513 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Scriptd
+2018-08-09 21:01:23,513 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Rtcd will invoke method "init"
+2018-08-09 21:01:23,513 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Rtcd
+2018-08-09 21:01:23,655 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Rtcd
+2018-08-09 21:01:23,656 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Pollerd will invoke method "init"
+2018-08-09 21:01:23,656 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Pollerd
+2018-08-09 21:01:24,458 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Pollerd
+2018-08-09 21:01:24,458 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=PollerBackEnd will invoke method "init"
+2018-08-09 21:01:24,459 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=PollerBackEnd
+2018-08-09 21:01:24,908 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=PollerBackEnd
+2018-08-09 21:01:24,908 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=EnhancedLinkd will invoke method "init"
+2018-08-09 21:01:24,908 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=EnhancedLinkd
+2018-08-09 21:01:25,392 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=EnhancedLinkd
+2018-08-09 21:01:25,392 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Collectd will invoke method "init"
+2018-08-09 21:01:25,392 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Collectd
+2018-08-09 21:01:25,832 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Collectd
+2018-08-09 21:01:25,832 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Discovery will invoke method "init"
+2018-08-09 21:01:25,832 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Discovery
+2018-08-09 21:01:25,924 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Discovery
+2018-08-09 21:01:25,924 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Vacuumd will invoke method "init"
+2018-08-09 21:01:25,924 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Vacuumd
+2018-08-09 21:01:25,986 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Vacuumd
+2018-08-09 21:01:25,986 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=EventTranslator will invoke method "init"
+2018-08-09 21:01:25,986 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=EventTranslator
+2018-08-09 21:01:26,015 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=EventTranslator
+2018-08-09 21:01:26,015 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=PassiveStatusd will invoke method "init"
+2018-08-09 21:01:26,015 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=PassiveStatusd
+2018-08-09 21:01:26,028 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=PassiveStatusd
+2018-08-09 21:01:26,028 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Statsd will invoke method "init"
+2018-08-09 21:01:26,028 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Statsd
+2018-08-09 21:01:26,108 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Statsd
+2018-08-09 21:01:26,108 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Provisiond will invoke method "init"
+2018-08-09 21:01:26,108 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Provisiond
+2018-08-09 21:01:27,390 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Provisiond
+2018-08-09 21:01:27,390 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Reportd will invoke method "init"
+2018-08-09 21:01:27,390 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Reportd
+2018-08-09 21:01:27,539 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Reportd
+2018-08-09 21:01:27,540 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Ackd will invoke method "init"
+2018-08-09 21:01:27,540 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Ackd
+2018-08-09 21:01:27,657 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Ackd
+2018-08-09 21:01:27,658 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=JettyServer will invoke method "init"
+2018-08-09 21:01:27,658 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=JettyServer
+2018-08-09 21:01:28,057 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=JettyServer
+2018-08-09 21:01:28,057 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Telemetryd will invoke method "init"
+2018-08-09 21:01:28,057 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Telemetryd
+2018-08-09 21:01:28,177 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Telemetryd
+2018-08-09 21:01:28,177 DEBUG [Main] o.o.n.v.Invoker: completed pass 0
+2018-08-09 21:01:28,177 DEBUG [Main] o.o.n.v.Invoker: starting pass 1
+2018-08-09 21:01:28,177 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Eventd will invoke method "start"
+2018-08-09 21:01:28,177 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Eventd
+2018-08-09 21:01:28,181 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Eventd
+2018-08-09 21:01:28,181 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Alarmd will invoke method "start"
+2018-08-09 21:01:28,181 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Alarmd
+2018-08-09 21:01:28,181 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Alarmd
+2018-08-09 21:01:28,181 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Bsmd will invoke method "start"
+2018-08-09 21:01:28,181 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Bsmd
+2018-08-09 21:01:28,207 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Bsmd
+2018-08-09 21:01:28,207 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Ticketer will invoke method "start"
+2018-08-09 21:01:28,207 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Ticketer
+2018-08-09 21:01:28,207 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Ticketer
+2018-08-09 21:01:28,207 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Trapd will invoke method "start"
+2018-08-09 21:01:28,207 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Trapd
+2018-08-09 21:01:28,270 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Trapd
+2018-08-09 21:01:28,271 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Queued will invoke method "start"
+2018-08-09 21:01:28,271 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Queued
+2018-08-09 21:01:28,271 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Queued
+2018-08-09 21:01:28,271 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Actiond will invoke method "start"
+2018-08-09 21:01:28,271 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Actiond
+2018-08-09 21:01:28,282 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Actiond
+2018-08-09 21:01:28,283 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Notifd will invoke method "start"
+2018-08-09 21:01:28,283 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Notifd
+2018-08-09 21:01:28,283 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Notifd
+2018-08-09 21:01:28,283 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Scriptd will invoke method "start"
+2018-08-09 21:01:28,283 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Scriptd
+2018-08-09 21:01:28,294 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Scriptd
+2018-08-09 21:01:28,294 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Rtcd will invoke method "start"
+2018-08-09 21:01:28,294 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Rtcd
+2018-08-09 21:01:28,294 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Rtcd
+2018-08-09 21:01:28,301 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Pollerd will invoke method "start"
+2018-08-09 21:01:28,301 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Pollerd
+2018-08-09 21:01:28,324 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Pollerd
+2018-08-09 21:01:28,324 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=PollerBackEnd will invoke method "start"
+2018-08-09 21:01:28,324 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=PollerBackEnd
+2018-08-09 21:01:28,327 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=PollerBackEnd
+2018-08-09 21:01:28,327 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=EnhancedLinkd will invoke method "start"
+2018-08-09 21:01:28,327 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=EnhancedLinkd
+2018-08-09 21:01:28,346 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=EnhancedLinkd
+2018-08-09 21:01:28,347 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Collectd will invoke method "start"
+2018-08-09 21:01:28,347 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Collectd
+2018-08-09 21:01:28,368 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Collectd
+2018-08-09 21:01:28,368 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Discovery will invoke method "start"
+2018-08-09 21:01:28,368 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Discovery
+2018-08-09 21:01:28,373 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Discovery
+2018-08-09 21:01:28,373 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Vacuumd will invoke method "start"
+2018-08-09 21:01:28,374 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Vacuumd
+2018-08-09 21:01:28,444 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Vacuumd
+2018-08-09 21:01:28,445 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=EventTranslator will invoke method "start"
+2018-08-09 21:01:28,445 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=EventTranslator
+2018-08-09 21:01:28,445 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=EventTranslator
+2018-08-09 21:01:28,445 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=PassiveStatusd will invoke method "start"
+2018-08-09 21:01:28,445 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=PassiveStatusd
+2018-08-09 21:01:28,445 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=PassiveStatusd
+2018-08-09 21:01:28,445 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Statsd will invoke method "start"
+2018-08-09 21:01:28,445 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Statsd
+2018-08-09 21:01:28,446 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Statsd
+2018-08-09 21:01:28,446 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Provisiond will invoke method "start"
+2018-08-09 21:01:28,446 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Provisiond
+2018-08-09 21:01:30,787 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Provisiond
+2018-08-09 21:01:30,787 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Reportd will invoke method "start"
+2018-08-09 21:01:30,787 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Reportd
+2018-08-09 21:01:30,789 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Reportd
+2018-08-09 21:01:30,789 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Ackd will invoke method "start"
+2018-08-09 21:01:30,789 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Ackd
+2018-08-09 21:01:30,790 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Ackd
+2018-08-09 21:01:30,790 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=JettyServer will invoke method "start"
+2018-08-09 21:01:30,790 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=JettyServer
+2018-08-09 21:01:57,824 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=JettyServer
+2018-08-09 21:01:57,824 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Telemetryd will invoke method "start"
+2018-08-09 21:01:57,824 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Telemetryd
+2018-08-09 21:01:57,825 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Telemetryd
+2018-08-09 21:01:57,825 DEBUG [Main] o.o.n.v.Invoker: completed pass 1
+2018-08-09 21:01:57,825 DEBUG [Main] o.o.n.v.Starter: Startup complete
+2018-08-09 21:05:26,549 DEBUG [Main] o.o.n.v.Starter: System property 'opennms.library.jicmp' already set to '/usr/lib64/libjicmp.so'.
+2018-08-09 21:05:26,627 DEBUG [Main] o.o.n.v.Starter: System property 'opennms.library.jicmp6' already set to '/usr/lib64/libjicmp6.so'.
+2018-08-09 21:05:26,627 DEBUG [Main] o.o.n.v.Starter: System property 'opennms.library.jrrd' not set.  Searching for file 'libjrrd.so' in the class path.
+2018-08-09 21:05:26,628 WARN  [Main] o.o.n.v.Starter: Did not find file 'libjrrd.so' in the class path. Initialization of RRD code will likely fail if the JniRrdStrategy is used. Set the property 'opennms.library.jrrd' to the location of the file.
+2018-08-09 21:05:26,628 DEBUG [Main] o.o.n.v.Starter: System property 'jcifs.properties' not set.  Searching for file 'jcifs.properties' in the class path.
+2018-08-09 21:05:26,629 INFO  [Main] o.o.n.v.Starter: Found file 'jcifs.properties' at '/opt/opennms/etc/jcifs.properties'.  Setting 'jcifs.properties' to this path.
+2018-08-09 21:05:26,630 DEBUG [Main] o.o.n.v.Starter: Beginning startup
+2018-08-09 21:05:26,642 DEBUG [Main] o.o.n.c.ServiceConfigFactory: ServiceConfigFactory.init: config file path /opt/opennms/etc/service-configuration.xml
+2018-08-09 21:05:27,903 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.vmmgr.Manager
+2018-08-09 21:05:27,908 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.vmmgr.Manager
+2018-08-09 21:05:27,908 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Manager
+2018-08-09 21:05:27,909 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.vmmgr.Manager
+2018-08-09 21:05:27,909 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.vmmgr.Manager
+2018-08-09 21:05:27,909 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=TestLoadLibraries
+2018-08-09 21:05:27,909 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.eventd.jmx.Eventd
+2018-08-09 21:05:27,920 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.eventd.jmx.Eventd
+2018-08-09 21:05:27,920 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Eventd
+2018-08-09 21:05:27,921 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.daemon.SimpleSpringContextJmxServiceDaemon
+2018-08-09 21:05:27,923 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.daemon.SimpleSpringContextJmxServiceDaemon
+2018-08-09 21:05:27,923 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Alarmd
+2018-08-09 21:05:27,923 DEBUG [Main] o.o.n.v.Invoker: setting attribute LoggingPrefix
+2018-08-09 21:05:27,927 DEBUG [Main] o.o.n.v.Invoker: setting attribute SpringContext
+2018-08-09 21:05:27,927 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.daemon.SimpleSpringContextJmxServiceDaemon
+2018-08-09 21:05:27,928 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.daemon.SimpleSpringContextJmxServiceDaemon
+2018-08-09 21:05:27,928 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Bsmd
+2018-08-09 21:05:27,928 DEBUG [Main] o.o.n.v.Invoker: setting attribute LoggingPrefix
+2018-08-09 21:05:27,928 DEBUG [Main] o.o.n.v.Invoker: setting attribute SpringContext
+2018-08-09 21:05:27,928 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.ticketd.jmx.TroubleTicketer
+2018-08-09 21:05:27,930 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.ticketd.jmx.TroubleTicketer
+2018-08-09 21:05:27,931 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Ticketer
+2018-08-09 21:05:27,931 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.trapd.jmx.Trapd
+2018-08-09 21:05:27,933 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.trapd.jmx.Trapd
+2018-08-09 21:05:27,933 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Trapd
+2018-08-09 21:05:27,934 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.queued.jmx.Queued
+2018-08-09 21:05:27,936 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.queued.jmx.Queued
+2018-08-09 21:05:27,936 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Queued
+2018-08-09 21:05:27,937 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.actiond.jmx.Actiond
+2018-08-09 21:05:27,939 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.actiond.jmx.Actiond
+2018-08-09 21:05:27,939 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Actiond
+2018-08-09 21:05:27,940 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.notifd.jmx.Notifd
+2018-08-09 21:05:27,944 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.notifd.jmx.Notifd
+2018-08-09 21:05:27,944 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Notifd
+2018-08-09 21:05:27,944 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.scriptd.jmx.Scriptd
+2018-08-09 21:05:27,947 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.scriptd.jmx.Scriptd
+2018-08-09 21:05:27,947 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Scriptd
+2018-08-09 21:05:27,948 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.rtc.jmx.Rtcd
+2018-08-09 21:05:27,949 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.rtc.jmx.Rtcd
+2018-08-09 21:05:27,949 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Rtcd
+2018-08-09 21:05:27,950 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.poller.jmx.Pollerd
+2018-08-09 21:05:27,952 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.poller.jmx.Pollerd
+2018-08-09 21:05:27,952 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Pollerd
+2018-08-09 21:05:27,952 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.poller.remote.jmx.RemotePollerBackEnd
+2018-08-09 21:05:27,955 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.poller.remote.jmx.RemotePollerBackEnd
+2018-08-09 21:05:27,956 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=PollerBackEnd
+2018-08-09 21:05:27,956 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.enlinkd.jmx.EnhancedLinkd
+2018-08-09 21:05:27,958 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.enlinkd.jmx.EnhancedLinkd
+2018-08-09 21:05:27,958 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=EnhancedLinkd
+2018-08-09 21:05:27,958 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.collectd.jmx.Collectd
+2018-08-09 21:05:27,961 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.collectd.jmx.Collectd
+2018-08-09 21:05:27,961 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Collectd
+2018-08-09 21:05:27,962 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.discovery.jmx.Discovery
+2018-08-09 21:05:27,964 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.discovery.jmx.Discovery
+2018-08-09 21:05:27,964 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Discovery
+2018-08-09 21:05:27,966 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.vacuumd.jmx.Vacuumd
+2018-08-09 21:05:27,968 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.vacuumd.jmx.Vacuumd
+2018-08-09 21:05:27,968 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Vacuumd
+2018-08-09 21:05:27,969 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.translator.jmx.EventTranslator
+2018-08-09 21:05:27,979 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.translator.jmx.EventTranslator
+2018-08-09 21:05:27,979 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=EventTranslator
+2018-08-09 21:05:27,980 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.passive.jmx.PassiveStatusd
+2018-08-09 21:05:27,983 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.passive.jmx.PassiveStatusd
+2018-08-09 21:05:27,983 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=PassiveStatusd
+2018-08-09 21:05:27,984 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.statsd.jmx.Statsd
+2018-08-09 21:05:27,986 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.statsd.jmx.Statsd
+2018-08-09 21:05:27,986 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Statsd
+2018-08-09 21:05:27,987 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.daemon.SimpleSpringContextJmxServiceDaemon
+2018-08-09 21:05:27,987 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.daemon.SimpleSpringContextJmxServiceDaemon
+2018-08-09 21:05:27,987 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Provisiond
+2018-08-09 21:05:27,987 DEBUG [Main] o.o.n.v.Invoker: setting attribute LoggingPrefix
+2018-08-09 21:05:27,988 DEBUG [Main] o.o.n.v.Invoker: setting attribute SpringContext
+2018-08-09 21:05:27,988 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.daemon.SimpleSpringContextJmxServiceDaemon
+2018-08-09 21:05:27,988 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.daemon.SimpleSpringContextJmxServiceDaemon
+2018-08-09 21:05:27,988 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Reportd
+2018-08-09 21:05:27,988 DEBUG [Main] o.o.n.v.Invoker: setting attribute LoggingPrefix
+2018-08-09 21:05:27,988 DEBUG [Main] o.o.n.v.Invoker: setting attribute SpringContext
+2018-08-09 21:05:27,989 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.daemon.SimpleSpringContextJmxServiceDaemon
+2018-08-09 21:05:27,989 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.daemon.SimpleSpringContextJmxServiceDaemon
+2018-08-09 21:05:27,989 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Ackd
+2018-08-09 21:05:27,989 DEBUG [Main] o.o.n.v.Invoker: setting attribute LoggingPrefix
+2018-08-09 21:05:27,989 DEBUG [Main] o.o.n.v.Invoker: setting attribute SpringContext
+2018-08-09 21:05:27,989 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.jetty.jmx.JettyServer
+2018-08-09 21:05:27,991 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.jetty.jmx.JettyServer
+2018-08-09 21:05:27,991 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=JettyServer
+2018-08-09 21:05:27,992 DEBUG [Main] o.o.n.v.Invoker: loading class org.opennms.netmgt.daemon.SimpleSpringContextJmxServiceDaemon
+2018-08-09 21:05:27,992 DEBUG [Main] o.o.n.v.Invoker: create new instance of org.opennms.netmgt.daemon.SimpleSpringContextJmxServiceDaemon
+2018-08-09 21:05:27,992 DEBUG [Main] o.o.n.v.Invoker: registering mbean instance OpenNMS:Name=Telemetryd
+2018-08-09 21:05:27,992 DEBUG [Main] o.o.n.v.Invoker: setting attribute LoggingPrefix
+2018-08-09 21:05:27,993 DEBUG [Main] o.o.n.v.Invoker: setting attribute SpringContext
+2018-08-09 21:05:27,993 DEBUG [Main] o.o.n.v.Invoker: starting pass 0
+2018-08-09 21:05:27,993 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=TestLoadLibraries will invoke method "doTestLoadLibraries"
+2018-08-09 21:05:27,993 DEBUG [Main] o.o.n.v.Invoker: Invoking doTestLoadLibraries on object OpenNMS:Name=TestLoadLibraries
+2018-08-09 21:05:28,060 INFO  [Main] o.o.n.i.b.BestMatchPingerFactory: Searching for best available pinger...
+2018-08-09 21:05:28,115 DEBUG [Main] o.o.n.i.j.JniPingRequest: 1533841528115: Sending Ping Request: [ID=JniPingRequestId[addr = 0464dba52392/172.29.0.6, ident = 9533, seqNum = 1, tId = 1],Retries=0,Timeout=500,Packet-Size=64,Expiration=-1,Callback=org.opennms.netmgt.icmp.LogPrefixPreservingPingResponseCallback@3598db2d]
+2018-08-09 21:05:28,116 DEBUG [Main] o.o.p.r.RequestTracker: Scheding timeout for request to [ID=JniPingRequestId[addr = 0464dba52392/172.29.0.6, ident = 9533, seqNum = 1, tId = 1],Retries=0,Timeout=500,Packet-Size=64,Expiration=1533841528615,Callback=org.opennms.netmgt.icmp.LogPrefixPreservingPingResponseCallback@3598db2d] in 499 ms
+2018-08-09 21:05:28,117 INFO  [Main] o.o.n.i.SinglePingResponseCallback: waiting for ping to 0464dba52392/172.29.0.6 to finish
+2018-08-09 21:05:28,122 INFO  [JNI-ICMP-9533-Callback-Processor] o.o.n.i.SinglePingResponseCallback: got response for address 0464dba52392/172.29.0.6, thread 9533, seq 1 with a responseTime 3.253ms
+2018-08-09 21:05:28,122 INFO  [Main] o.o.n.i.SinglePingResponseCallback: finished waiting for ping to 0464dba52392/172.29.0.6 to finish
+2018-08-09 21:05:28,148 DEBUG [Main] o.o.n.i.j.JniPingRequest: 1533841528148: Sending Ping Request: [ID=JniPingRequestId[addr = 0464dba52392/172.29.0.6, ident = 25319, seqNum = 1, tId = 2],Retries=0,Timeout=500,Packet-Size=64,Expiration=-1,Callback=org.opennms.netmgt.icmp.LogPrefixPreservingPingResponseCallback@7c18bd2d]
+2018-08-09 21:05:28,149 DEBUG [Main] o.o.p.r.RequestTracker: Scheding timeout for request to [ID=JniPingRequestId[addr = 0464dba52392/172.29.0.6, ident = 25319, seqNum = 1, tId = 2],Retries=0,Timeout=500,Packet-Size=64,Expiration=1533841528649,Callback=org.opennms.netmgt.icmp.LogPrefixPreservingPingResponseCallback@7c18bd2d] in 500 ms
+2018-08-09 21:05:28,149 INFO  [Main] o.o.n.i.SinglePingResponseCallback: waiting for ping to 0464dba52392/172.29.0.6 to finish
+2018-08-09 21:05:28,150 INFO  [JNI-ICMP-25319-Callback-Processor] o.o.n.i.SinglePingResponseCallback: got response for address 0464dba52392/172.29.0.6, thread 25319, seq 1 with a responseTime 0.513ms
+2018-08-09 21:05:28,150 INFO  [Main] o.o.n.i.SinglePingResponseCallback: finished waiting for ping to 0464dba52392/172.29.0.6 to finish
+2018-08-09 21:05:28,172 DEBUG [Main] o.o.j.j.NativeDatagramSocket: org.opennms.jicmp.jna.UnixV4NativeSocket(2, 1, 28944)
+2018-08-09 21:05:28,258 DEBUG [Main] o.o.j.j.NativeDatagramSocket: Failed to create class org.opennms.jicmp.jna.UnixV4NativeSocket SOCK_DGRAM socket (null).  Trying with SOCK_RAW.
+2018-08-09 21:05:28,272 DEBUG [Main] o.o.j.j.NativeDatagramSocket: org.opennms.jicmp.jna.UnixV6NativeSocket(10, 58, 28944)
+2018-08-09 21:05:28,280 DEBUG [Main] o.o.j.j.NativeDatagramSocket: Failed to create class org.opennms.jicmp.jna.UnixV6NativeSocket SOCK_DGRAM socket (null).  Trying with SOCK_RAW.
+2018-08-09 21:05:28,289 DEBUG [Main] o.o.n.i.j.JnaPingRequest: 1533841528289: Sending Ping Request: [ID=JnaPingRequestId[addr = 0464dba52392/172.29.0.6, ident = 28944, seqNum = 1, tId = 1],Retries=0,Timeout=500,Packet-Size=64,Expiration=-1,Callback=org.opennms.netmgt.icmp.LogPrefixPreservingPingResponseCallback@40e03d2d]
+2018-08-09 21:05:28,295 DEBUG [Main] o.o.p.r.RequestTracker: Scheding timeout for request to [ID=JnaPingRequestId[addr = 0464dba52392/172.29.0.6, ident = 28944, seqNum = 1, tId = 1],Retries=0,Timeout=500,Packet-Size=64,Expiration=1533841528789,Callback=org.opennms.netmgt.icmp.LogPrefixPreservingPingResponseCallback@40e03d2d] in 494 ms
+2018-08-09 21:05:28,295 INFO  [Main] o.o.n.i.SinglePingResponseCallback: waiting for ping to 0464dba52392/172.29.0.6 to finish
+2018-08-09 21:05:28,300 INFO  [JNA-ICMP-28944-Callback-Processor] o.o.n.i.SinglePingResponseCallback: got response for address 0464dba52392/172.29.0.6, thread 28944, seq 1 with a responseTime 3.861384ms
+2018-08-09 21:05:28,300 INFO  [Main] o.o.n.i.SinglePingResponseCallback: finished waiting for ping to 0464dba52392/172.29.0.6 to finish
+2018-08-09 21:05:28,301 INFO  [Main] o.o.n.i.b.BestMatchPingerFactory: Best available pinger is: class org.opennms.netmgt.icmp.jni6.Jni6Pinger
+2018-08-09 21:05:28,308 INFO  [Main] o.o.n.v.Manager: Using ICMP implementation: org.opennms.netmgt.icmp.best.BestMatchPinger
+2018-08-09 21:05:28,308 INFO  [Main] o.o.n.v.Manager: IPv4 ICMP available? true
+2018-08-09 21:05:28,308 INFO  [Main] o.o.n.v.Manager: IPv6 ICMP available? true
+2018-08-09 21:05:28,313 DEBUG [Main] o.o.n.v.Invoker: Invocation doTestLoadLibraries successful for MBean OpenNMS:Name=TestLoadLibraries
+2018-08-09 21:05:28,314 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Eventd will invoke method "init"
+2018-08-09 21:05:28,314 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Eventd
+2018-08-09 21:05:52,868 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Eventd
+2018-08-09 21:05:52,868 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Alarmd will invoke method "init"
+2018-08-09 21:05:52,868 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Alarmd
+2018-08-09 21:05:52,993 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Alarmd
+2018-08-09 21:05:52,994 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Bsmd will invoke method "init"
+2018-08-09 21:05:52,994 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Bsmd
+2018-08-09 21:05:53,047 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Bsmd
+2018-08-09 21:05:53,047 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Ticketer will invoke method "init"
+2018-08-09 21:05:53,048 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Ticketer
+2018-08-09 21:05:53,148 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Ticketer
+2018-08-09 21:05:53,149 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Trapd will invoke method "init"
+2018-08-09 21:05:53,149 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Trapd
+2018-08-09 21:05:53,261 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Trapd
+2018-08-09 21:05:53,261 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Queued will invoke method "init"
+2018-08-09 21:05:53,261 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Queued
+2018-08-09 21:05:53,342 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Queued
+2018-08-09 21:05:53,342 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Actiond will invoke method "init"
+2018-08-09 21:05:53,342 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Actiond
+2018-08-09 21:05:53,378 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Actiond
+2018-08-09 21:05:53,378 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Notifd will invoke method "init"
+2018-08-09 21:05:53,378 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Notifd
+2018-08-09 21:05:53,758 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Notifd
+2018-08-09 21:05:53,758 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Scriptd will invoke method "init"
+2018-08-09 21:05:53,758 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Scriptd
+2018-08-09 21:05:53,803 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Scriptd
+2018-08-09 21:05:53,803 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Rtcd will invoke method "init"
+2018-08-09 21:05:53,803 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Rtcd
+2018-08-09 21:05:53,985 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Rtcd
+2018-08-09 21:05:53,986 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Pollerd will invoke method "init"
+2018-08-09 21:05:53,986 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Pollerd
+2018-08-09 21:05:54,767 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Pollerd
+2018-08-09 21:05:54,767 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=PollerBackEnd will invoke method "init"
+2018-08-09 21:05:54,767 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=PollerBackEnd
+2018-08-09 21:05:55,296 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=PollerBackEnd
+2018-08-09 21:05:55,296 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=EnhancedLinkd will invoke method "init"
+2018-08-09 21:05:55,296 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=EnhancedLinkd
+2018-08-09 21:05:55,861 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=EnhancedLinkd
+2018-08-09 21:05:55,861 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Collectd will invoke method "init"
+2018-08-09 21:05:55,861 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Collectd
+2018-08-09 21:05:56,349 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Collectd
+2018-08-09 21:05:56,349 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Discovery will invoke method "init"
+2018-08-09 21:05:56,349 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Discovery
+2018-08-09 21:05:56,438 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Discovery
+2018-08-09 21:05:56,438 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Vacuumd will invoke method "init"
+2018-08-09 21:05:56,438 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Vacuumd
+2018-08-09 21:05:56,492 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Vacuumd
+2018-08-09 21:05:56,492 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=EventTranslator will invoke method "init"
+2018-08-09 21:05:56,492 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=EventTranslator
+2018-08-09 21:05:56,527 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=EventTranslator
+2018-08-09 21:05:56,527 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=PassiveStatusd will invoke method "init"
+2018-08-09 21:05:56,527 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=PassiveStatusd
+2018-08-09 21:05:56,543 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=PassiveStatusd
+2018-08-09 21:05:56,543 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Statsd will invoke method "init"
+2018-08-09 21:05:56,543 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Statsd
+2018-08-09 21:05:56,637 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Statsd
+2018-08-09 21:05:56,637 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Provisiond will invoke method "init"
+2018-08-09 21:05:56,637 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Provisiond
+2018-08-09 21:05:58,040 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Provisiond
+2018-08-09 21:05:58,041 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Reportd will invoke method "init"
+2018-08-09 21:05:58,041 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Reportd
+2018-08-09 21:05:58,219 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Reportd
+2018-08-09 21:05:58,220 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Ackd will invoke method "init"
+2018-08-09 21:05:58,220 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Ackd
+2018-08-09 21:05:58,358 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Ackd
+2018-08-09 21:05:58,358 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=JettyServer will invoke method "init"
+2018-08-09 21:05:58,359 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=JettyServer
+2018-08-09 21:05:58,820 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=JettyServer
+2018-08-09 21:05:58,820 DEBUG [Main] o.o.n.v.Invoker: pass 0 on service OpenNMS:Name=Telemetryd will invoke method "init"
+2018-08-09 21:05:58,820 DEBUG [Main] o.o.n.v.Invoker: Invoking init on object OpenNMS:Name=Telemetryd
+2018-08-09 21:05:58,907 DEBUG [Main] o.o.n.v.Invoker: Invocation init successful for MBean OpenNMS:Name=Telemetryd
+2018-08-09 21:05:58,908 DEBUG [Main] o.o.n.v.Invoker: completed pass 0
+2018-08-09 21:05:58,908 DEBUG [Main] o.o.n.v.Invoker: starting pass 1
+2018-08-09 21:05:58,908 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Eventd will invoke method "start"
+2018-08-09 21:05:58,908 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Eventd
+2018-08-09 21:05:58,911 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Eventd
+2018-08-09 21:05:58,911 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Alarmd will invoke method "start"
+2018-08-09 21:05:58,911 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Alarmd
+2018-08-09 21:05:58,911 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Alarmd
+2018-08-09 21:05:58,911 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Bsmd will invoke method "start"
+2018-08-09 21:05:58,911 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Bsmd
+2018-08-09 21:05:58,934 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Bsmd
+2018-08-09 21:05:58,935 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Ticketer will invoke method "start"
+2018-08-09 21:05:58,935 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Ticketer
+2018-08-09 21:05:58,935 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Ticketer
+2018-08-09 21:05:58,935 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Trapd will invoke method "start"
+2018-08-09 21:05:58,935 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Trapd
+2018-08-09 21:05:58,994 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Trapd
+2018-08-09 21:05:58,994 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Queued will invoke method "start"
+2018-08-09 21:05:58,994 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Queued
+2018-08-09 21:05:58,994 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Queued
+2018-08-09 21:05:58,994 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Actiond will invoke method "start"
+2018-08-09 21:05:58,994 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Actiond
+2018-08-09 21:05:59,001 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Actiond
+2018-08-09 21:05:59,001 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Notifd will invoke method "start"
+2018-08-09 21:05:59,001 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Notifd
+2018-08-09 21:05:59,002 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Notifd
+2018-08-09 21:05:59,002 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Scriptd will invoke method "start"
+2018-08-09 21:05:59,002 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Scriptd
+2018-08-09 21:05:59,006 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Scriptd
+2018-08-09 21:05:59,006 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Rtcd will invoke method "start"
+2018-08-09 21:05:59,006 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Rtcd
+2018-08-09 21:05:59,006 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Rtcd
+2018-08-09 21:05:59,006 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Pollerd will invoke method "start"
+2018-08-09 21:05:59,006 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Pollerd
+2018-08-09 21:05:59,010 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Pollerd
+2018-08-09 21:05:59,010 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=PollerBackEnd will invoke method "start"
+2018-08-09 21:05:59,010 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=PollerBackEnd
+2018-08-09 21:05:59,011 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=PollerBackEnd
+2018-08-09 21:05:59,011 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=EnhancedLinkd will invoke method "start"
+2018-08-09 21:05:59,011 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=EnhancedLinkd
+2018-08-09 21:05:59,013 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=EnhancedLinkd
+2018-08-09 21:05:59,013 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Collectd will invoke method "start"
+2018-08-09 21:05:59,013 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Collectd
+2018-08-09 21:05:59,017 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Collectd
+2018-08-09 21:05:59,017 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Discovery will invoke method "start"
+2018-08-09 21:05:59,018 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Discovery
+2018-08-09 21:05:59,019 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Discovery
+2018-08-09 21:05:59,019 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Vacuumd will invoke method "start"
+2018-08-09 21:05:59,019 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Vacuumd
+2018-08-09 21:05:59,021 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Vacuumd
+2018-08-09 21:05:59,021 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=EventTranslator will invoke method "start"
+2018-08-09 21:05:59,021 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=EventTranslator
+2018-08-09 21:05:59,021 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=EventTranslator
+2018-08-09 21:05:59,021 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=PassiveStatusd will invoke method "start"
+2018-08-09 21:05:59,021 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=PassiveStatusd
+2018-08-09 21:05:59,022 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=PassiveStatusd
+2018-08-09 21:05:59,022 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Statsd will invoke method "start"
+2018-08-09 21:05:59,022 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Statsd
+2018-08-09 21:05:59,022 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Statsd
+2018-08-09 21:05:59,022 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Provisiond will invoke method "start"
+2018-08-09 21:05:59,022 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Provisiond
+2018-08-09 21:06:00,364 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Provisiond
+2018-08-09 21:06:00,364 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Reportd will invoke method "start"
+2018-08-09 21:06:00,364 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Reportd
+2018-08-09 21:06:00,366 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Reportd
+2018-08-09 21:06:00,366 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Ackd will invoke method "start"
+2018-08-09 21:06:00,366 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Ackd
+2018-08-09 21:06:00,367 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Ackd
+2018-08-09 21:06:00,367 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=JettyServer will invoke method "start"
+2018-08-09 21:06:00,371 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=JettyServer
+2018-08-09 21:06:28,754 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=JettyServer
+2018-08-09 21:06:28,754 DEBUG [Main] o.o.n.v.Invoker: pass 1 on service OpenNMS:Name=Telemetryd will invoke method "start"
+2018-08-09 21:06:28,754 DEBUG [Main] o.o.n.v.Invoker: Invoking start on object OpenNMS:Name=Telemetryd
+2018-08-09 21:06:28,755 DEBUG [Main] o.o.n.v.Invoker: Invocation start successful for MBean OpenNMS:Name=Telemetryd
+2018-08-09 21:06:28,755 DEBUG [Main] o.o.n.v.Invoker: completed pass 1
+2018-08-09 21:06:28,755 DEBUG [Main] o.o.n.v.Starter: Startup complete

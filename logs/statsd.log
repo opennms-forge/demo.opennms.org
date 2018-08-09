@@ -1,0 +1,42 @@
+2018-08-09 21:01:26,033 INFO  [Main] o.s.c.s.ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5d240d57: startup date [Thu Aug 09 21:01:26 CEST 2018]; parent: ApplicationContext 'daoContext'
+2018-08-09 21:01:26,037 INFO  [Main] o.s.b.f.x.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [META-INF/opennms/applicationContext-statisticsDaemon.xml]
+2018-08-09 21:01:26,061 INFO  [Main] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-09 21:01:26,087 INFO  [Main] o.q.i.StdSchedulerFactory: Using default implementation for ThreadExecutor
+2018-08-09 21:01:26,091 INFO  [Main] o.q.c.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-08-09 21:01:26,091 INFO  [Main] o.q.c.QuartzScheduler: Quartz Scheduler v.2.2.3 created.
+2018-08-09 21:01:26,091 INFO  [Main] o.q.s.RAMJobStore: RAMJobStore initialized.
+2018-08-09 21:01:26,091 INFO  [Main] o.q.c.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.3) 'Statsd' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-08-09 21:01:26,091 INFO  [Main] o.q.i.StdSchedulerFactory: Quartz scheduler 'Statsd' initialized from an externally provided properties instance.
+2018-08-09 21:01:26,091 INFO  [Main] o.q.i.StdSchedulerFactory: Quartz scheduler version: 2.2.3
+2018-08-09 21:01:26,091 INFO  [Main] o.q.c.QuartzScheduler: JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@36f7baaa
+2018-08-09 21:01:26,107 INFO  [Main] o.s.c.s.DefaultLifecycleProcessor: Starting beans in phase 2147483647
+2018-08-09 21:01:26,107 INFO  [Main] o.s.s.q.SchedulerFactoryBean: Starting Quartz Scheduler now
+2018-08-09 21:01:26,107 INFO  [Main] o.q.c.QuartzScheduler: Scheduler Statsd_$_NON_CLUSTERED started.
+2018-08-09 21:05:56,549 INFO  [Main] o.s.c.s.ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7b1bb327: startup date [Thu Aug 09 21:05:56 CEST 2018]; parent: ApplicationContext 'daoContext'
+2018-08-09 21:05:56,551 INFO  [Main] o.s.b.f.x.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [META-INF/opennms/applicationContext-statisticsDaemon.xml]
+2018-08-09 21:05:56,581 INFO  [Main] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-09 21:05:56,611 INFO  [Main] o.q.i.StdSchedulerFactory: Using default implementation for ThreadExecutor
+2018-08-09 21:05:56,617 INFO  [Main] o.q.c.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-08-09 21:05:56,618 INFO  [Main] o.q.c.QuartzScheduler: Quartz Scheduler v.2.2.3 created.
+2018-08-09 21:05:56,618 INFO  [Main] o.q.s.RAMJobStore: RAMJobStore initialized.
+2018-08-09 21:05:56,618 INFO  [Main] o.q.c.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.3) 'Statsd' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-08-09 21:05:56,618 INFO  [Main] o.q.i.StdSchedulerFactory: Quartz scheduler 'Statsd' initialized from an externally provided properties instance.
+2018-08-09 21:05:56,618 INFO  [Main] o.q.i.StdSchedulerFactory: Quartz scheduler version: 2.2.3
+2018-08-09 21:05:56,618 INFO  [Main] o.q.c.QuartzScheduler: JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@72f9c6d7
+2018-08-09 21:05:56,636 INFO  [Main] o.s.c.s.DefaultLifecycleProcessor: Starting beans in phase 2147483647
+2018-08-09 21:05:56,637 INFO  [Main] o.s.s.q.SchedulerFactoryBean: Starting Quartz Scheduler now
+2018-08-09 21:05:56,637 INFO  [Main] o.q.c.QuartzScheduler: Scheduler Statsd_$_NON_CLUSTERED started.

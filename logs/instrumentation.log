@@ -1,0 +1,252 @@
+2018-08-09 21:01:28,402 INFO  [Collectd-Thread-1-of-50] scheduleExistingInterfaces: begin
+2018-08-09 21:01:28,679 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: JMX-Cassandra-Newts
+2018-08-09 21:01:28,679 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: JMX-Cassandra-Newts
+2018-08-09 21:01:29,288 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: JMX-Cassandra-Newts. found 0 interfaces.
+2018-08-09 21:01:29,288 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: JMX-Cassandra-Newts
+2018-08-09 21:01:29,288 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: VMware-VirtualMachine
+2018-08-09 21:01:29,288 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: VMware-VirtualMachine
+2018-08-09 21:01:29,296 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: VMware-VirtualMachine. found 0 interfaces.
+2018-08-09 21:01:29,296 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: VMware-VirtualMachine
+2018-08-09 21:01:29,296 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: PostgreSQL
+2018-08-09 21:01:29,296 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: PostgreSQL
+2018-08-09 21:01:29,300 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: PostgreSQL. found 0 interfaces.
+2018-08-09 21:01:29,300 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: PostgreSQL
+2018-08-09 21:01:29,300 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: JMX-Java8-JVM
+2018-08-09 21:01:29,300 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: JMX-Java8-JVM
+2018-08-09 21:01:29,302 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: JMX-Java8-JVM. found 1 interfaces.
+2018-08-09 21:01:29,302 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: begin: 580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:01:29,489 INFO  [Collectd-Thread-1-of-50] collector.initialize: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:01:29,489 INFO  [Collectd-Thread-1-of-50] collector.initialize: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:01:29,751 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: end: 580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:01:29,751 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: JMX-Java8-JVM
+2018-08-09 21:01:29,751 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: VMwareCim-HostSystem
+2018-08-09 21:01:29,751 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: VMwareCim-HostSystem
+2018-08-09 21:01:29,760 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: VMwareCim-HostSystem. found 0 interfaces.
+2018-08-09 21:01:29,760 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: VMwareCim-HostSystem
+2018-08-09 21:01:29,760 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: JMX-Kafka
+2018-08-09 21:01:29,760 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: JMX-Kafka
+2018-08-09 21:01:29,764 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: JMX-Kafka. found 0 interfaces.
+2018-08-09 21:01:29,764 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: JMX-Kafka
+2018-08-09 21:01:29,764 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: WMI
+2018-08-09 21:01:29,764 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: WMI
+2018-08-09 21:01:29,768 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: WMI. found 0 interfaces.
+2018-08-09 21:01:29,768 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: WMI
+2018-08-09 21:01:29,768 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: Elasticsearch
+2018-08-09 21:01:29,768 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: Elasticsearch
+2018-08-09 21:01:29,771 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: Elasticsearch. found 0 interfaces.
+2018-08-09 21:01:29,771 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: Elasticsearch
+2018-08-09 21:01:29,771 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: JMX-Cassandra
+2018-08-09 21:01:29,771 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: JMX-Cassandra
+2018-08-09 21:01:29,774 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: JMX-Cassandra. found 0 interfaces.
+2018-08-09 21:01:29,774 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: JMX-Cassandra
+2018-08-09 21:01:29,774 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: WS-Man
+2018-08-09 21:01:29,774 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: WS-Man
+2018-08-09 21:01:29,777 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: WS-Man. found 0 interfaces.
+2018-08-09 21:01:29,777 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: WS-Man
+2018-08-09 21:01:29,777 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: OpenNMS-JVM
+2018-08-09 21:01:29,778 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: OpenNMS-JVM
+2018-08-09 21:01:29,781 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: OpenNMS-JVM. found 1 interfaces.
+2018-08-09 21:01:29,781 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: begin: 580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:01:29,783 INFO  [Collectd-Thread-1-of-50] collector.initialize: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:01:29,783 INFO  [Collectd-Thread-1-of-50] collector.initialize: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:01:29,784 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: end: 580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:01:29,784 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: OpenNMS-JVM
+2018-08-09 21:01:29,784 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: HTTP-Drinks
+2018-08-09 21:01:29,784 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: HTTP-Drinks
+2018-08-09 21:01:29,796 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: HTTP-Drinks. found 1 interfaces.
+2018-08-09 21:01:29,796 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: begin: 573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:01:29,815 INFO  [Collectd-Thread-1-of-50] collector.initialize: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:01:29,816 INFO  [Collectd-Thread-1-of-50] collector.initialize: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:01:29,816 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: end: 573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:01:29,816 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: HTTP-Drinks
+2018-08-09 21:01:29,816 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: SNMP
+2018-08-09 21:01:29,816 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: SNMP
+2018-08-09 21:01:29,819 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: SNMP. found 5 interfaces.
+2018-08-09 21:01:29,819 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: begin: 573/172.20.1.26/SNMP
+2018-08-09 21:01:29,820 INFO  [Collectd-Thread-1-of-50] collector.initialize: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 21:01:29,827 INFO  [Collectd-Thread-1-of-50] collector.initialize: end: example1/573/172.20.1.26/SNMP
+2018-08-09 21:01:29,994 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: end: 573/172.20.1.26/SNMP
+2018-08-09 21:01:29,995 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: begin: 574/172.20.1.238/SNMP
+2018-08-09 21:01:30,001 INFO  [Collectd-Thread-1-of-50] collector.initialize: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 21:01:30,002 INFO  [Collectd-Thread-1-of-50] collector.initialize: end: example1/574/172.20.1.238/SNMP
+2018-08-09 21:01:30,019 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: end: 574/172.20.1.238/SNMP
+2018-08-09 21:01:30,019 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: begin: 575/172.29.0.30/SNMP
+2018-08-09 21:01:30,069 INFO  [Collectd-Thread-1-of-50] collector.initialize: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 21:01:30,074 INFO  [Collectd-Thread-1-of-50] collector.initialize: end: example1/575/172.29.0.30/SNMP
+2018-08-09 21:01:30,078 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: end: 575/172.29.0.30/SNMP
+2018-08-09 21:01:30,078 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: begin: 576/172.20.1.239/SNMP
+2018-08-09 21:01:30,133 INFO  [Collectd-Thread-1-of-50] collector.initialize: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 21:01:30,137 INFO  [Collectd-Thread-1-of-50] collector.initialize: end: example1/576/172.20.1.239/SNMP
+2018-08-09 21:01:30,169 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: end: 576/172.20.1.239/SNMP
+2018-08-09 21:01:30,169 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: begin: 577/172.29.0.31/SNMP
+2018-08-09 21:01:30,213 INFO  [Collectd-Thread-1-of-50] collector.initialize: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 21:01:30,218 INFO  [Collectd-Thread-1-of-50] collector.initialize: end: example1/577/172.29.0.31/SNMP
+2018-08-09 21:01:30,222 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: end: 577/172.29.0.31/SNMP
+2018-08-09 21:01:30,222 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: SNMP
+2018-08-09 21:01:30,222 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: VMware-HostSystem
+2018-08-09 21:01:30,222 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: VMware-HostSystem
+2018-08-09 21:01:30,237 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: VMware-HostSystem. found 0 interfaces.
+2018-08-09 21:01:30,237 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: VMware-HostSystem
+2018-08-09 21:01:30,237 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: JMX-Minion
+2018-08-09 21:01:30,237 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: JMX-Minion
+2018-08-09 21:01:30,247 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: JMX-Minion. found 0 interfaces.
+2018-08-09 21:01:30,247 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: JMX-Minion
+2018-08-09 21:01:30,256 INFO  [Collectd-Thread-1-of-50] scheduleExistingInterfaces: end
+2018-08-09 21:01:30,917 INFO  [Collectd-Thread-2-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:01:30,993 INFO  [Collectd-Thread-5-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 21:01:30,999 INFO  [Collectd-Thread-3-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:01:31,005 INFO  [Collectd-Thread-7-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 21:01:31,009 INFO  [Collectd-Thread-4-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:01:31,015 INFO  [Collectd-Thread-6-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 21:01:31,031 INFO  [Collectd-Thread-9-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 21:01:31,189 INFO  [Collectd-Thread-8-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 21:01:31,593 INFO  [Collectd-Thread-2-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:01:31,593 INFO  [Collectd-Thread-2-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:01:31,761 INFO  [Collectd-Thread-3-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:01:31,761 INFO  [Collectd-Thread-3-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:01:32,041 INFO  [Collectd-Thread-2-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:01:32,045 INFO  [Collectd-Thread-3-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:01:32,046 INFO  [Collectd-Thread-4-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:01:32,046 INFO  [Collectd-Thread-4-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:01:32,054 INFO  [Collectd-Thread-4-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:01:32,941 INFO  [Collectd-Thread-9-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 21:01:32,942 INFO  [Collectd-Thread-9-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 21:01:32,952 INFO  [Collectd-Thread-7-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 21:01:32,952 INFO  [Collectd-Thread-7-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 21:01:32,955 INFO  [Collectd-Thread-6-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 21:01:32,955 INFO  [Collectd-Thread-6-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 21:01:32,957 INFO  [Collectd-Thread-5-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 21:01:32,957 INFO  [Collectd-Thread-5-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 21:01:33,077 INFO  [Collectd-Thread-8-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 21:01:33,077 INFO  [Collectd-Thread-8-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 21:01:33,282 INFO  [Collectd-Thread-5-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 21:01:33,607 INFO  [Collectd-Thread-9-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 21:01:33,705 INFO  [Collectd-Thread-7-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 21:01:34,085 INFO  [Collectd-Thread-6-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP
+2018-08-09 21:01:34,248 INFO  [Collectd-Thread-8-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 21:05:59,048 INFO  [Collectd-Thread-1-of-50] scheduleExistingInterfaces: begin
+2018-08-09 21:05:59,082 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: JMX-Cassandra-Newts
+2018-08-09 21:05:59,082 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: JMX-Cassandra-Newts
+2018-08-09 21:05:59,471 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: JMX-Cassandra-Newts. found 0 interfaces.
+2018-08-09 21:05:59,471 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: JMX-Cassandra-Newts
+2018-08-09 21:05:59,471 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: VMware-VirtualMachine
+2018-08-09 21:05:59,472 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: VMware-VirtualMachine
+2018-08-09 21:05:59,474 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: VMware-VirtualMachine. found 0 interfaces.
+2018-08-09 21:05:59,474 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: VMware-VirtualMachine
+2018-08-09 21:05:59,475 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: PostgreSQL
+2018-08-09 21:05:59,475 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: PostgreSQL
+2018-08-09 21:05:59,476 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: PostgreSQL. found 0 interfaces.
+2018-08-09 21:05:59,476 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: PostgreSQL
+2018-08-09 21:05:59,477 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: JMX-Java8-JVM
+2018-08-09 21:05:59,477 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: JMX-Java8-JVM
+2018-08-09 21:05:59,480 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: JMX-Java8-JVM. found 1 interfaces.
+2018-08-09 21:05:59,480 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: begin: 580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:05:59,615 INFO  [Collectd-Thread-1-of-50] collector.initialize: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:05:59,615 INFO  [Collectd-Thread-1-of-50] collector.initialize: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:05:59,945 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: end: 580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:05:59,945 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: JMX-Java8-JVM
+2018-08-09 21:05:59,945 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: VMwareCim-HostSystem
+2018-08-09 21:05:59,945 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: VMwareCim-HostSystem
+2018-08-09 21:05:59,948 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: VMwareCim-HostSystem. found 0 interfaces.
+2018-08-09 21:05:59,948 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: VMwareCim-HostSystem
+2018-08-09 21:05:59,948 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: JMX-Kafka
+2018-08-09 21:05:59,948 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: JMX-Kafka
+2018-08-09 21:05:59,949 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: JMX-Kafka. found 0 interfaces.
+2018-08-09 21:05:59,949 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: JMX-Kafka
+2018-08-09 21:05:59,949 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: WMI
+2018-08-09 21:05:59,949 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: WMI
+2018-08-09 21:05:59,950 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: WMI. found 0 interfaces.
+2018-08-09 21:05:59,950 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: WMI
+2018-08-09 21:05:59,950 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: Elasticsearch
+2018-08-09 21:05:59,950 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: Elasticsearch
+2018-08-09 21:05:59,952 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: Elasticsearch. found 0 interfaces.
+2018-08-09 21:05:59,952 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: Elasticsearch
+2018-08-09 21:05:59,952 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: JMX-Cassandra
+2018-08-09 21:05:59,952 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: JMX-Cassandra
+2018-08-09 21:05:59,953 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: JMX-Cassandra. found 0 interfaces.
+2018-08-09 21:05:59,953 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: JMX-Cassandra
+2018-08-09 21:05:59,953 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: WS-Man
+2018-08-09 21:05:59,953 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: WS-Man
+2018-08-09 21:05:59,955 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: WS-Man. found 0 interfaces.
+2018-08-09 21:05:59,955 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: WS-Man
+2018-08-09 21:05:59,955 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: OpenNMS-JVM
+2018-08-09 21:05:59,955 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: OpenNMS-JVM
+2018-08-09 21:05:59,956 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: OpenNMS-JVM. found 1 interfaces.
+2018-08-09 21:05:59,956 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: begin: 580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:05:59,958 INFO  [Collectd-Thread-1-of-50] collector.initialize: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:05:59,958 INFO  [Collectd-Thread-1-of-50] collector.initialize: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:05:59,959 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: end: 580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:05:59,959 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: OpenNMS-JVM
+2018-08-09 21:05:59,959 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: HTTP-Drinks
+2018-08-09 21:05:59,959 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: HTTP-Drinks
+2018-08-09 21:05:59,960 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: HTTP-Drinks. found 1 interfaces.
+2018-08-09 21:05:59,960 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: begin: 573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:05:59,963 INFO  [Collectd-Thread-1-of-50] collector.initialize: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:05:59,963 INFO  [Collectd-Thread-1-of-50] collector.initialize: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:05:59,963 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: end: 573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:05:59,964 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: HTTP-Drinks
+2018-08-09 21:05:59,964 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: SNMP
+2018-08-09 21:05:59,964 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: SNMP
+2018-08-09 21:05:59,965 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: SNMP. found 5 interfaces.
+2018-08-09 21:05:59,965 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: begin: 573/172.20.1.26/SNMP
+2018-08-09 21:05:59,966 INFO  [Collectd-Thread-1-of-50] collector.initialize: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 21:05:59,977 INFO  [Collectd-Thread-1-of-50] collector.initialize: end: example1/573/172.20.1.26/SNMP
+2018-08-09 21:06:00,078 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: end: 573/172.20.1.26/SNMP
+2018-08-09 21:06:00,078 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: begin: 574/172.20.1.238/SNMP
+2018-08-09 21:06:00,098 INFO  [Collectd-Thread-1-of-50] collector.initialize: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 21:06:00,099 INFO  [Collectd-Thread-1-of-50] collector.initialize: end: example1/574/172.20.1.238/SNMP
+2018-08-09 21:06:00,103 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: end: 574/172.20.1.238/SNMP
+2018-08-09 21:06:00,103 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: begin: 575/172.29.0.30/SNMP
+2018-08-09 21:06:00,109 INFO  [Collectd-Thread-1-of-50] collector.initialize: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 21:06:00,110 INFO  [Collectd-Thread-1-of-50] collector.initialize: end: example1/575/172.29.0.30/SNMP
+2018-08-09 21:06:00,113 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: end: 575/172.29.0.30/SNMP
+2018-08-09 21:06:00,113 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: begin: 576/172.20.1.239/SNMP
+2018-08-09 21:06:00,144 INFO  [Collectd-Thread-1-of-50] collector.initialize: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 21:06:00,153 INFO  [Collectd-Thread-1-of-50] collector.initialize: end: example1/576/172.20.1.239/SNMP
+2018-08-09 21:06:00,162 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: end: 576/172.20.1.239/SNMP
+2018-08-09 21:06:00,162 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: begin: 577/172.29.0.31/SNMP
+2018-08-09 21:06:00,179 INFO  [Collectd-Thread-1-of-50] collector.initialize: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 21:06:00,183 INFO  [Collectd-Thread-1-of-50] collector.initialize: end: example1/577/172.29.0.31/SNMP
+2018-08-09 21:06:00,186 INFO  [Collectd-Thread-1-of-50] scheduleInterfaceWithService: end: 577/172.29.0.31/SNMP
+2018-08-09 21:06:00,186 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: SNMP
+2018-08-09 21:06:00,186 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: VMware-HostSystem
+2018-08-09 21:06:00,186 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: VMware-HostSystem
+2018-08-09 21:06:00,197 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: VMware-HostSystem. found 0 interfaces.
+2018-08-09 21:06:00,197 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: VMware-HostSystem
+2018-08-09 21:06:00,197 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: begin: JMX-Minion
+2018-08-09 21:06:00,197 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: begin: JMX-Minion
+2018-08-09 21:06:00,202 INFO  [Collectd-Thread-1-of-50] scheduleFindInterfacesWithService: end: JMX-Minion. found 0 interfaces.
+2018-08-09 21:06:00,202 INFO  [Collectd-Thread-1-of-50] scheduleInterfacesWithService: end: JMX-Minion
+2018-08-09 21:06:00,207 INFO  [Collectd-Thread-1-of-50] scheduleExistingInterfaces: end
+2018-08-09 21:06:01,008 INFO  [Collectd-Thread-4-of-50] collector.collect: begin:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:06:01,025 INFO  [Collectd-Thread-3-of-50] collector.collect: begin:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:06:01,097 INFO  [Collectd-Thread-6-of-50] collector.collect: begin:example1/574/172.20.1.238/SNMP
+2018-08-09 21:06:01,117 INFO  [Collectd-Thread-2-of-50] collector.collect: begin:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:06:01,124 INFO  [Collectd-Thread-7-of-50] collector.collect: begin:example1/575/172.29.0.30/SNMP
+2018-08-09 21:06:01,143 INFO  [Collectd-Thread-8-of-50] collector.collect: begin:example1/576/172.20.1.239/SNMP
+2018-08-09 21:06:01,149 INFO  [Collectd-Thread-9-of-50] collector.collect: begin:example1/577/172.29.0.31/SNMP
+2018-08-09 21:06:01,157 INFO  [Collectd-Thread-5-of-50] collector.collect: begin:example1/573/172.20.1.26/SNMP
+2018-08-09 21:06:01,637 INFO  [Collectd-Thread-2-of-50] collector.collect: end:example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:06:01,637 INFO  [Collectd-Thread-2-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:06:01,641 INFO  [Collectd-Thread-3-of-50] collector.collect: end:example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:06:01,641 INFO  [Collectd-Thread-3-of-50] collector.collect: persistDataQueueing: begin: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:06:01,968 INFO  [Collectd-Thread-2-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/JMX-Java8-JVM
+2018-08-09 21:06:02,022 INFO  [Collectd-Thread-3-of-50] collector.collect: persistDataQueueing: end: example1/580/127.0.0.1/OpenNMS-JVM
+2018-08-09 21:06:02,821 INFO  [Collectd-Thread-9-of-50] collector.collect: end:example1/577/172.29.0.31/SNMP
+2018-08-09 21:06:02,821 INFO  [Collectd-Thread-9-of-50] collector.collect: persistDataQueueing: begin: example1/577/172.29.0.31/SNMP
+2018-08-09 21:06:02,968 INFO  [Collectd-Thread-4-of-50] collector.collect: end:opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:06:02,968 INFO  [Collectd-Thread-4-of-50] collector.collect: persistDataQueueing: begin: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:06:02,983 INFO  [Collectd-Thread-4-of-50] collector.collect: persistDataQueueing: end: opennms/573/172.20.1.26/HTTP-Drinks
+2018-08-09 21:06:03,322 INFO  [Collectd-Thread-5-of-50] collector.collect: end:example1/573/172.20.1.26/SNMP
+2018-08-09 21:06:03,322 INFO  [Collectd-Thread-5-of-50] collector.collect: persistDataQueueing: begin: example1/573/172.20.1.26/SNMP
+2018-08-09 21:06:03,421 INFO  [Collectd-Thread-7-of-50] collector.collect: end:example1/575/172.29.0.30/SNMP
+2018-08-09 21:06:03,421 INFO  [Collectd-Thread-7-of-50] collector.collect: persistDataQueueing: begin: example1/575/172.29.0.30/SNMP
+2018-08-09 21:06:03,648 INFO  [Collectd-Thread-8-of-50] collector.collect: end:example1/576/172.20.1.239/SNMP
+2018-08-09 21:06:03,649 INFO  [Collectd-Thread-8-of-50] collector.collect: persistDataQueueing: begin: example1/576/172.20.1.239/SNMP
+2018-08-09 21:06:03,754 INFO  [Collectd-Thread-6-of-50] collector.collect: end:example1/574/172.20.1.238/SNMP
+2018-08-09 21:06:03,754 INFO  [Collectd-Thread-6-of-50] collector.collect: persistDataQueueing: begin: example1/574/172.20.1.238/SNMP
+2018-08-09 21:06:03,810 INFO  [Collectd-Thread-9-of-50] collector.collect: persistDataQueueing: end: example1/577/172.29.0.31/SNMP
+2018-08-09 21:06:03,828 INFO  [Collectd-Thread-5-of-50] collector.collect: persistDataQueueing: end: example1/573/172.20.1.26/SNMP
+2018-08-09 21:06:04,484 INFO  [Collectd-Thread-7-of-50] collector.collect: persistDataQueueing: end: example1/575/172.29.0.30/SNMP
+2018-08-09 21:06:04,597 INFO  [Collectd-Thread-8-of-50] collector.collect: persistDataQueueing: end: example1/576/172.20.1.239/SNMP
+2018-08-09 21:06:05,091 INFO  [Collectd-Thread-6-of-50] collector.collect: persistDataQueueing: end: example1/574/172.20.1.238/SNMP

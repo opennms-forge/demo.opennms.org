@@ -1,0 +1,6 @@
+2018-08-09 21:01:27,665 INFO  [Main] o.s.c.s.ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6fa5c557: startup date [Thu Aug 09 21:01:27 CEST 2018]; root of context hierarchy
+2018-08-09 21:01:27,667 INFO  [Main] o.s.b.f.x.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [META-INF/opennms/applicationContext-jettyServer.xml]
+2018-08-09 21:01:36,255 WARN  [Main] o.e.j.u.DeprecationWarning: Using @Deprecated Class org.apache.felix.http.proxy.ProxyListener
+2018-08-09 21:05:58,371 INFO  [Main] o.s.c.s.ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@121dcda: startup date [Thu Aug 09 21:05:58 CEST 2018]; root of context hierarchy
+2018-08-09 21:05:58,373 INFO  [Main] o.s.b.f.x.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [META-INF/opennms/applicationContext-jettyServer.xml]
+2018-08-09 21:06:06,955 WARN  [Main] o.e.j.u.DeprecationWarning: Using @Deprecated Class org.apache.felix.http.proxy.ProxyListener

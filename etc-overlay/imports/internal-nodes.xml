@@ -1,0 +1,37 @@
+<model-import xmlns="http://xmlns.opennms.org/xsd/config/model-import" date-stamp="2018-08-09T19:30:01.966+02:00" foreign-source="internal-nodes" last-import="2018-08-09T19:30:01.982+02:00">
+   <node foreign-id="beverage-machine" node-label="beverage-machine">
+      <interface ip-addr="172.20.1.26" snmp-primary="P">
+         <monitored-service service-name="SNMP"/>
+         <monitored-service service-name="HTTP"/>
+         <monitored-service service-name="ICMP"/>
+         <monitored-service service-name="HTTP-Drinks"/>
+      </interface>
+      <category name="organisation:opennms-org"/>
+   </node>
+   <node foreign-id="synology1" node-label="synology1">
+      <interface ip-addr="172.20.1.239" snmp-primary="P">
+         <monitored-service service-name="SNMP"/>
+         <monitored-service service-name="Synology-Raid-Status"/>
+         <monitored-service service-name="Synology-Update-Status"/>
+         <monitored-service service-name="ICMP"/>
+         <monitored-service service-name="Synology-Drive-Physical"/>
+         <monitored-service service-name="Synology-CPU-Fan"/>
+         <monitored-service service-name="Synology-Update-Server"/>
+         <monitored-service service-name="Synology-System-Status"/>
+         <monitored-service service-name="Synology-Power-Status"/>
+      </interface>
+   </node>
+   <node foreign-id="synology2" node-label="synology2">
+      <interface ip-addr="172.20.1.238" snmp-primary="P">
+         <monitored-service service-name="SNMP"/>
+         <monitored-service service-name="Synology-Raid-Status"/>
+         <monitored-service service-name="Synology-Update-Status"/>
+         <monitored-service service-name="ICMP"/>
+         <monitored-service service-name="Synology-Drive-Physical"/>
+         <monitored-service service-name="Synology-CPU-Fan"/>
+         <monitored-service service-name="Synology-Update-Server"/>
+         <monitored-service service-name="Synology-System-Status"/>
+         <monitored-service service-name="Synology-Power-Status"/>
+      </interface>
+   </node>
+</model-import>

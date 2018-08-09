@@ -1,0 +1,16 @@
+2018-08-09 21:01:25,402 INFO  [Main] o.s.c.s.ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@695f0d1d: startup date [Thu Aug 09 21:01:25 CEST 2018]; parent: ApplicationContext 'daoContext'
+2018-08-09 21:01:25,404 INFO  [Main] o.s.b.f.x.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [META-INF/opennms/applicationContext-rpc-collector.xml]
+2018-08-09 21:01:25,423 INFO  [Main] o.s.b.f.x.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [META-INF/opennms/applicationContext-collectd.xml]
+2018-08-09 21:01:25,448 INFO  [Main] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-09 21:01:29,750 WARN  [Collectd-Thread-1-of-50] o.o.n.t.ThresholdingVisitor: create: the ipaddress/service 127.0.0.1/JMX-Java8-JVM on node 580 has no configured thresholds.
+2018-08-09 21:01:29,784 WARN  [Collectd-Thread-1-of-50] o.o.n.t.ThresholdingVisitor: create: the ipaddress/service 127.0.0.1/OpenNMS-JVM on node 580 has no configured thresholds.
+2018-08-09 21:01:29,816 WARN  [Collectd-Thread-1-of-50] o.o.n.t.ThresholdingVisitor: create: the ipaddress/service 172.20.1.26/HTTP-Drinks on node 573 has no configured thresholds.
+2018-08-09 21:01:32,028 WARN  [pool-10-thread-7] o.o.n.c.HttpCollector: doCollection: More than 1 Content-Language headers received. Ignoring them!
+2018-08-09 21:05:55,871 INFO  [Main] o.s.c.s.ClassPathXmlApplicationContext: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4a4febb4: startup date [Thu Aug 09 21:05:55 CEST 2018]; parent: ApplicationContext 'daoContext'
+2018-08-09 21:05:55,873 INFO  [Main] o.s.b.f.x.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [META-INF/opennms/applicationContext-rpc-collector.xml]
+2018-08-09 21:05:55,889 INFO  [Main] o.s.b.f.x.XmlBeanDefinitionReader: Loading XML bean definitions from class path resource [META-INF/opennms/applicationContext-collectd.xml]
+2018-08-09 21:05:55,911 INFO  [Main] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-09 21:05:59,944 WARN  [Collectd-Thread-1-of-50] o.o.n.t.ThresholdingVisitor: create: the ipaddress/service 127.0.0.1/JMX-Java8-JVM on node 580 has no configured thresholds.
+2018-08-09 21:05:59,958 WARN  [Collectd-Thread-1-of-50] o.o.n.t.ThresholdingVisitor: create: the ipaddress/service 127.0.0.1/OpenNMS-JVM on node 580 has no configured thresholds.
+2018-08-09 21:05:59,963 WARN  [Collectd-Thread-1-of-50] o.o.n.t.ThresholdingVisitor: create: the ipaddress/service 172.20.1.26/HTTP-Drinks on node 573 has no configured thresholds.
+2018-08-09 21:06:02,941 WARN  [pool-10-thread-2] o.o.n.c.HttpCollector: doCollection: More than 1 Content-Language headers received. Ignoring them!
