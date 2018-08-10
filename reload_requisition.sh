@@ -3,7 +3,7 @@
 programname=$0
 ONMS_ACCOUNT=admin
 ONMS_PASSWORD=admin
-ONMS_IP=172.29.0.6
+ONMS_IP=127.0.0.1
 
 
 function usage {
