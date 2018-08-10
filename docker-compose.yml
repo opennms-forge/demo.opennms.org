@@ -3,6 +3,7 @@ version: '2.3'
 volumes:
   data-postgres: {}
   data-opennms: {}
+  data-grafana: {}
 
 networks:
   net-demo:
@@ -75,6 +76,28 @@ services:
       - "8000:8000"
     healthcheck:
       test: [ "CMD", "curl", "-f", "-I", "http://localhost:8000/documentation/index.html" ]
+      interval: 1m
+      timeout: 5s
+      retries: 3
+
+  grafana:
+    image: grafana/grafana:5.2.2
+    container_name: demo-grafana
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.8
+    environment:
+      - TZ=Europe/Berlin
+      - GF_SERVER_ROOT_URL=http://localhost
+    env_file:
+      - .grafana-secret
+    volumes:
+      - data-grafana:/var/lib/grafana
+      - ./grafana/provisioning:/etc/grafana/provisioning
+    ports:
+      - "3000:3000"
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "-I", "http://localhost:3000" ]
       interval: 1m
       timeout: 5s
       retries: 3

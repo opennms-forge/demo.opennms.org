@@ -1,3 +1,4 @@
 etc/configured
 data/
 logs/
+.grafana-secret
