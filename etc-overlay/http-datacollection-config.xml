@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<http-datacollection-config  
+    xmlns:http-dc="http://xmlns.opennms.org/xsd/config/http-datacollection" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://xmlns.opennms.org/xsd/config/http-datacollection http://www.opennms.org/xsd/config/http-datacollection-config.xsd" 
+    rrdRepository="/opt/opennms/share/rrd/snmp/" >
+  <!--
+  <http-collection name="doc-count">
+    <rrd step="300">
+      <rra>RRA:AVERAGE:0.5:1:2016</rra>
+      <rra>RRA:AVERAGE:0.5:12:1488</rra>
+      <rra>RRA:AVERAGE:0.5:288:366</rra>
+      <rra>RRA:MAX:0.5:288:366</rra>
+      <rra>RRA:MIN:0.5:288:366</rra>
+    </rrd>
+    <uris>
+      <uri name="document-counts">
+        <url path="/test/resources/httpcolltest.html"
+             user-agent="Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/412 (KHTML, like Gecko) Safari/412" 
+             matches=".*([0-9]+).*" response-range="100-399" >
+        </url>
+        <attributes>
+          <attrib alias="documentCount" match-group="1" type="counter32"/>
+        </attributes>
+      </uri>
+    </uris>
+  </http-collection>
+  -->
+  <http-collection name="drink-count">
+    <rrd step="300">
+      <rra>RRA:LAST:0.5:1:2016</rra>
+      <rra>RRA:LAST:0.5:12:1488</rra>
+      <rra>RRA:LAST:0.5:288:366</rra>
+    </rrd>
+    <uris>
+      <uri name="drink-counts">
+        <url path="/drinks.txt"
+             user-agent="Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/412 (KHTML, like Gecko) Safari/412" 
+             matches="(?s).*Slot 010: ([A-Za-z0-9 ]+): ([0-9]+).*Slot 011: ([A-Za-z0-9 ]+): ([0-9]+).*Slot 012: ([A-Za-z0-9 ]+): ([0-9]+).*Slot 013: ([A-Za-z0-9 ]+): ([0-9]+).*Slot 014: ([A-Za-z0-9 ]+): ([0-9]+).*Slot 015: ([A-Za-z0-9 ]+): ([0-9]+).*Slot 016: ([A-Za-z0-9 ]+): ([0-9]+).*Slot 017: ([A-Za-z0-9 ]+): ([0-9]+).*Slot 018: ([A-Za-z0-9 ]+): ([0-9]+).*Slot 019: ([A-Za-z0-9 ]+): ([0-9]+).*PA1\*010.*?PA2\*([0-9]+).*PA1\*011.*?PA2\*([0-9]+).*PA1\*012.*?PA2\*([0-9]+).*PA1\*013.*?PA2\*([0-9]+).*PA1\*014.*?PA2\*([0-9]+).*PA1\*015.*?PA2\*([0-9]+).*PA1\*016.*?PA2\*([0-9]+).*PA1\*017.*?PA2\*([0-9]+).*PA1\*018.*?PA2\*([0-9]+).*PA1\*019.*?PA2\*([0-9]+).*$" response-range="100-399" >
+        </url>
+        <attributes>
+          <attrib alias="slot010name"    match-group="1"   type="string"/>
+          <attrib alias="slot010stocked" match-group="2"   type="gauge"/>
+          <attrib alias="slot011name"    match-group="3"   type="string"/>
+          <attrib alias="slot011stocked" match-group="4"   type="gauge"/>
+          <attrib alias="slot012name"    match-group="5"   type="string"/>
+          <attrib alias="slot012stocked" match-group="6"   type="gauge"/>
+          <attrib alias="slot013name"    match-group="7"   type="string"/>
+          <attrib alias="slot013stocked" match-group="8"   type="gauge"/>
+          <attrib alias="slot014name"    match-group="9"   type="string"/>
+          <attrib alias="slot014stocked" match-group="10"  type="gauge"/>
+          <attrib alias="slot015name"    match-group="11"  type="string"/>
+          <attrib alias="slot015stocked" match-group="12"  type="gauge"/>
+          <attrib alias="slot016name"    match-group="13"  type="string"/>
+          <attrib alias="slot016stocked" match-group="14"  type="gauge"/>
+          <attrib alias="slot017name"    match-group="15"  type="string"/>
+          <attrib alias="slot017stocked" match-group="16"  type="gauge"/>
+          <attrib alias="slot018name"    match-group="17"  type="string"/>
+          <attrib alias="slot018stocked" match-group="18"  type="gauge"/>
+          <attrib alias="slot019name"    match-group="19"  type="string"/>
+          <attrib alias="slot019stocked" match-group="20"  type="gauge"/>
+          <attrib alias="slot010sold"    match-group="21"  type="gauge"/>
+          <attrib alias="slot011sold"    match-group="22"  type="gauge"/>
+          <attrib alias="slot012sold"    match-group="23"  type="gauge"/>
+          <attrib alias="slot013sold"    match-group="24"  type="gauge"/>
+          <attrib alias="slot014sold"    match-group="25"  type="gauge"/>
+          <attrib alias="slot015sold"    match-group="26"  type="gauge"/>
+          <attrib alias="slot016sold"    match-group="27"  type="gauge"/>
+          <attrib alias="slot017sold"    match-group="28"  type="gauge"/>
+          <attrib alias="slot018sold"    match-group="29"  type="gauge"/>
+          <attrib alias="slot019sold"    match-group="30"  type="gauge"/>
+        </attributes>
+      </uri>
+    </uris>
+  </http-collection>
+</http-datacollection-config>

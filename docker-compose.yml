@@ -50,6 +50,7 @@ services:
     volumes:
       - data-opennms:/opennms-data
       - ./etc-overlay:/opt/opennms-etc-overlay
+      - ./logs:/opennms-data/logs
     command: ["-s"]
     ports:
       - "8980:8980"
