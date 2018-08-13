@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+      <user>
+         <user-id>grafana</user-id>
+         <email></email>
+         <password>M1/5v5wgMYMphKGPzTzkoSNw/e2q2BRT5SELuacQW5AOP1TlbG0CStSQ/fWwKk5I</password>
+         <passwordSalt>true</passwordSalt>
+         <role>ROLE_USER</role>
+      </user>

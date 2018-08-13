@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+      <user>
+         <user-id>minion</user-id>
+         <email></email>
+         <password>kDA1QeObVHXCZvK1M8m1llVaNCVAK7vii0YBj1aVDopoP4BA2tmGE/UKx3URvLuk</password>
+         <passwordSalt>true</passwordSalt>
+         <role>ROLE_MINION</role>
+      </user>
