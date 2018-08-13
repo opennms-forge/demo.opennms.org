@@ -34,7 +34,7 @@ echo "DONE"
 
 echo -n "Edit Admin user                                 ... "
 curl -s -u ${OPENNMS_USER}:${OPENNMS_PASS} \
-     -X POST \
+     -X PUT \
      -H "Content-Type: application/xml" \
      -H "Accept: application/xml" \
      -d @setup/admin-user.xml \
