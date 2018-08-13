@@ -96,6 +96,7 @@ services:
       - ./grafana/provisioning:/etc/grafana/provisioning
     ports:
       - "3000:3000"
+    user: "472"
     healthcheck:
       test: [ "CMD", "curl", "-f", "-I", "http://localhost:3000" ]
       interval: 1m
