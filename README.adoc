@@ -1,0 +1,34 @@
+== OpenNMS Horizon Demo System
+
+This is the repository with scripts and configurations for the demo.opennms.org system
+
+=== Requirements
+
+* git
+* Docker
+* Docker Compose
+
+=== Usage
+
+Check out the source code and clone the configuration modules.
+
+[source, bash]
+----
+git clone https://github.com/opennms-forge/demo.opennms.org.git
+cd demo.opennms.org
+git submodule update --init
+----
+
+Start the application stack
+
+[source, bash]
+----
+docker-compose up -d
+----
+
+Import the preconfigured requisition
+
+[source, bash]
+----
+./reload_all_requisitions.sh
+----
