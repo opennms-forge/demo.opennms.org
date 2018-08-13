@@ -1,0 +1,15 @@
+[submodule "etc-overlay/config-modules/java-virtual-machine"]
+	path = etc-overlay/config-modules/java-virtual-machine
+	url = https://github.com/opennms-config-modules/java-virtual-machine.git
+[submodule "etc-overlay/config-modules/ubiquiti"]
+	path = etc-overlay/config-modules/ubiquiti
+	url = https://github.com/opennms-config-modules/ubiquiti.git
+[submodule "etc-overlay/config-modules/synology"]
+	path = etc-overlay/config-modules/synology
+	url = https://github.com/opennms-config-modules/synology.git
+[submodule "etc-overlay/config-modules/net-snmp"]
+	path = etc-overlay/config-modules/net-snmp
+	url = https://github.com/opennms-config-modules/net-snmp.git
+[submodule "etc-overlay/config-modules/snmp-mib2"]
+	path = etc-overlay/config-modules/snmp-mib2
+	url = https://github.com/opennms-config-modules/snmp-mib2.git
