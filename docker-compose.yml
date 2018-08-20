@@ -90,7 +90,7 @@ services:
       - TZ=Europe/Berlin
       - GF_SERVER_ROOT_URL=http://localhost
     env_file:
-      - .grafana-secret
+      - .grafana.env
     volumes:
       - data-grafana:/var/lib/grafana
       - ./grafana/provisioning:/etc/grafana/provisioning
