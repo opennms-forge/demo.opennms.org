@@ -17,7 +17,7 @@ shorewall clear
 
 echo "#### Initializing new Horizon Stack"
 
-docker-compose down -v && docker-compose pull && systemctl restart docker && systemctl start docker-compose@horizon
+docker-compose down -v && docker-compose pull && systemctl restart docker && docker-compose up -d
 
 echo -n "#### Waiting for OpenNMS to come online"
 until $(curl -L --output /dev/null --silent --head --fail http://${OPENNMS_HOST}:8980); do

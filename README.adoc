@@ -23,5 +23,6 @@ Start the application stack
 
 [source, bash]
 ----
-./setup/init.sh
+cd setup
+./init.sh
 ----
