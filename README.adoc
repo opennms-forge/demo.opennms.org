@@ -23,12 +23,5 @@ Start the application stack
 
 [source, bash]
 ----
-docker-compose up -d
-----
-
-Import the preconfigured requisition
-
-[source, bash]
-----
-./reload_all_requisitions.sh
+./setup/init.sh
 ----

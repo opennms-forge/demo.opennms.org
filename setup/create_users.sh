@@ -14,7 +14,7 @@ echo " DONE"
 # Change to project root directory
 cd ..
 
-echo -n "Create Minion user                                 ... "
+echo -n "Create Minion user                                  "
 curl -s -u ${OPENNMS_USER}:${OPENNMS_PASS} \
      -X POST \
      -H "Content-Type: application/xml" \
@@ -23,7 +23,7 @@ curl -s -u ${OPENNMS_USER}:${OPENNMS_PASS} \
      http://${OPENNMS_HOST}:${OPENNMS_PORT}/opennms/rest/users
 echo "DONE"
 
-echo -n "Create Grafana user                                 ... "
+echo -n "Create Grafana user                                 "
 curl -s -u ${OPENNMS_USER}:${OPENNMS_PASS} \
      -X POST \
      -H "Content-Type: application/xml" \
@@ -32,9 +32,9 @@ curl -s -u ${OPENNMS_USER}:${OPENNMS_PASS} \
      http://${OPENNMS_HOST}:${OPENNMS_PORT}/opennms/rest/users
 echo "DONE"
 
-echo -n "Edit Admin user                                 ... "
+echo -n "Edit Admin user                                     "
 curl -s -u ${OPENNMS_USER}:${OPENNMS_PASS} \
-     -X PUT \
+     -X POST \
      -H "Content-Type: application/xml" \
      -H "Accept: application/xml" \
      -d @setup/admin-user.xml \
