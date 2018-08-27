@@ -2,6 +2,15 @@
 
 This is the repository with scripts and configurations for the demo.opennms.org system
 
+=== What does it present?
+
+* Service monitoring
+* Performance datacollection Windows/Linux
+* Custom datacollections/monitors
+* Geomap Example
+* 
+
+
 === Requirements
 
 * git
