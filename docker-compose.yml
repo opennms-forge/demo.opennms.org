@@ -55,6 +55,7 @@ services:
     command: ["-s"]
     ports:
       - "8980:8980"
+      - "61616:61616"
     healthcheck:
       test: [ "CMD", "curl", "-f", "-I", "http://localhost:8980/opennms/login.jsp" ]
       interval: 1m
