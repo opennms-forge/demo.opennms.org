@@ -4,11 +4,11 @@ This is the repository with scripts and configurations for the demo.opennms.org 
 
 === What does it present?
 
-* Service monitoring
-* Performance datacollection Windows/Linux
+* Service monitoring in general
+* Performance datacollection Linux
 * Custom datacollections/monitors
-* Geomap Example
-* 
+* Geomap Examples
+* JDBC Monitor
 
 
 === Requirements
