@@ -150,8 +150,5 @@ services:
     command: ["-u user1;badpass", "-s public;/share", "-s user1 private;/user1;no;no;no;user1" ]
     volumes:
       - ./samba:/user1
-    ports:
-      - "139:139"
-      - "445:445"
     environment:
       - TZ=Europe/Berlin
