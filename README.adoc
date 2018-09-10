@@ -76,7 +76,7 @@ cd setup
 === Restart application stack
 
 To restart the whole stack use:
-`systemctl restart docker-compose@horizon`
+`systemctl restart docker-compose@demo.opennms.org`
 
 === Configuration updates
 
