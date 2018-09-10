@@ -1,24 +1,56 @@
-== OpenNMS Horizon Demo System
+= OpenNMS Horizon Demo System
 
-This is the repository with scripts and configurations for the demo.opennms.org system
+== What's inside?
 
-=== What does it present?
+* OpenNMS Horizon
+* OpenNMS PRIS
+* Grafana
+* Samba server
+* Web server
+* NetSNMP instance
+* Postgresql server
+
+== What does it show?
 
 * Service monitoring
-* Performance datacollection Windows/Linux
-* Custom datacollections/monitors
-* Geomap Example
-* 
+  * Default services
+  * Custom services
+* Collecting and thresholding data 
+  * Default SNMP metrics
+  * Custom SNMP metrics
+  * Custom HTTP metrics
+* Geomap example
+* Website monitoring
+* DNS monitoring
 
+=== Used Monitors
 
-=== Requirements
+* SnmpMonitor
+* IcmpMonitor
+* JdbcMonitor
+* JcifsMonitor
+* Jsr160Monitor
+* DNSResolutionMonitor
+* SshMonitor
+* PageSequenceMonitor
+
+=== Collectors
+
+* SnmpCollector
+* HttpCollector
+* Jsr160Collector
+* JdbcCollector
+
+== Requirements
 
 * git
 * Docker
 * Docker Compose
 
-=== Usage
+== Installation
 
+In the current state this applications stack is tested with CentOS only.
+It is installed on *demo01.internal.opennms.com*.
 Check out the source code and clone the configuration modules.
 
 [source, bash]
@@ -28,10 +60,34 @@ cd demo.opennms.org
 git submodule update --init
 ----
 
-Start the application stack
+=== Initiate the application stack
+
+The process contains a full redeploy, so the current system (if it is running) will deleted completely.
+**All rrd archives and Postgresql database will be lost!**
 
 [source, bash]
 ----
 cd setup
 ./init.sh
 ----
+
+== Usage 
+
+=== Restart application stack
+
+To restart the whole stack use:
+`systemctl restart docker-compose@horizon`
+
+=== Configuration updates
+
+Configuration updates or changes should be provided as a pull request.
+Please add @mfuhrmann or @indigo423 as reviewer.
+Once the pull request is merged and pulled to the local repository on the demo system, the changes can be loaded with:
+
+`#/etc/docker/compose/demo.opennms.org/: docker-compose up -d`
+
+in the root folder.
+
+=== OpenNMS Update
+
+Docker-compose file already use `latest` repo, so a re-deploy explained above or `docker-compose pull` will do an upgrade.
