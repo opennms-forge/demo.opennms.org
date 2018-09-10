@@ -50,7 +50,7 @@
 == Installation
 
 In the current state this applications stack is tested with CentOS only.
-It is installed on *demo01.internal.opennms.com*.
+It is installed on *demo01.internal.opennms.com* in */etc/docker/compose/*.
 Check out the source code and clone the configuration modules.
 
 [source, bash]
