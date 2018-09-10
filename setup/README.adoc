@@ -1,0 +1,51 @@
+# Tools
+
+## https://github.com/opennms-forge/demo.opennms.org/blob/master/setup/create_users.sh[create_users.sh]
+
+A script to create users in ONMS.
+The user definition can be found in **"*-user. xml"** files.
+
+## https://github.com/opennms-forge/demo.opennms.org/blob/master/setup/reload_requisition.sh[reload_requisition.sh]
+
+A script to reload a specific requisition.
+
+[source,bash]
+----
+[root@demo01 setup]# ./reload_requisition.sh 
+Choose a requisition to reload
+------------------------------
+docker-compose-nodes
+geomap-nodes
+internal-nodes
+opennms-websites
+public-dns
+------------------------------
+usage: ./reload_requisition.sh [requisition-name]
+----
+
+**Attention:** The script is using the default admin password. When **init.sh** has been executed, the default password is not working anymore! 
+
+## https://github.com/opennms-forge/demo.opennms.org/blob/master/setup/reload_all_requisition.sh[reload_all_requisitions.sh]
+
+A script to reload all requisitions.
+In the current setup all requisitions will be provided by a https://github.com/opennms-forge/demo.opennms.org/blob/master/requisitions/demo-opennms-org.xls[*xls file*] 
+
+**Attention:** The script is using the default admin password. When init.sh has been executed, the default password is not working anymore! 
+
+## https://github.com/opennms-forge/demo.opennms.org/blob/master/setup/setup-dashboards.sh[setup-dashboard.sh]
+
+A script to install default OpenNMS Grafana dashboards. The dashboard IDs can be found in the script.
+
+## https://github.com/opennms-forge/demo.opennms.org/blob/master/setup/setup-helm.sh[setup-helm.sh]
+
+A script to install OpenNMS Helm plugin.
+
+## https://github.com/opennms-forge/demo.opennms.org/blob/master/setup/init.sh[init.sh]
+
+The script combines all scripts above in the following order:
+
+* initializing the application stack using docker-compose
+* install Helm
+* importing dashboard
+* reloading all requisitions
+* creating/modifing users
