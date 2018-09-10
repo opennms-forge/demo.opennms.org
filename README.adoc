@@ -73,10 +73,15 @@ cd setup
 
 == Usage 
 
+The provided scripts in `setup` folder are described https://github.com/opennms-forge/demo.opennms.org/blob/master/setup/README.adoc[here].
+
 === Restart application stack
 
 To restart the whole stack use:
-`systemctl restart docker-compose@demo.opennms.org`
+[source, bash]
+----
+systemctl restart docker-compose@demo.opennms.org
+----
 
 === Configuration updates
 
@@ -84,7 +89,10 @@ Configuration updates or changes should be provided as a pull request.
 Please add @mfuhrmann or @indigo423 as reviewer.
 Once the pull request is merged and pulled to the local repository on the demo system, the changes can be loaded with:
 
-`#/etc/docker/compose/demo.opennms.org/: docker-compose up -d`
+[source, bash]
+----
+#/etc/docker/compose/demo.opennms.org/: docker-compose up -d
+----
 
 in the root folder.
 
