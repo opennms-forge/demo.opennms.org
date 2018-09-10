@@ -30,7 +30,12 @@
       <parameter key="rrd-base-name" value="dns-res-v6"/>
       <parameter key="ds-name" value="dns-res-v6"/>
     </service>
-
+    <service name="OpenNMS-DBMS" interval="30000" user-defined="true" status="on">
+      <parameter key="driver" value="org.postgresql.Driver"/>
+      <parameter key="url" value="jdbc:postgresql://OPENNMS_JDBC_HOSTNAME:5432/opennms"/>
+      <parameter key="user" value="opennms"/>
+      <parameter key="password" value="Yh4SCH9XGyH83G5d"/>
+    </service>
     <service name="HTTP" interval="300000" user-defined="false" status="on">
       <parameter key="retry" value="1"/>
       <parameter key="timeout" value="3000"/>
@@ -61,7 +66,6 @@
       <parameter key="url" value="/"/>
       <parameter key="response" value="200-202,299,301,302"/>
     </service>
-
     <service name="ICMP" interval="300000" user-defined="false" status="on">
       <parameter key="retry" value="2"/>
       <parameter key="timeout" value="3000"/>
@@ -69,7 +73,6 @@
       <parameter key="rrd-base-name" value="icmp"/>
       <parameter key="ds-name" value="icmp"/>
     </service>
-
     <service name="JMX-Java8-JVM" interval="300000" user-defined="false" status="on">
       <parameter key="port" value="18980"/>
       <parameter key="retry" value="2"/>
@@ -90,7 +93,6 @@
       <parameter key="timeout" value="3000"/>
       <parameter key="rrd-repository" value="/opt/opennms/share/rrd/response"/>
     </service>
-
     <service name="Minion-Heartbeat" interval="300000" user-defined="false" status="on">
       <parameter key="period" value="30000"/>
     </service>
@@ -175,7 +177,6 @@
       <parameter key="operand" value="1"/>
       <parameter key="reason-template" value="Synology has to be upgraded. Please check DSM for more details: https://${ipaddr}:5001"/>
     </service>
-
     <service name="Web-Landing-Page" interval="300000" user-defined="true" status="on">
       <parameter key="retry" value="1"/>
       <parameter key="timeout" value="5000"/>
@@ -208,20 +209,16 @@
   </package>
   <monitor service="DNS-Resolution-v4" class-name="org.opennms.netmgt.poller.monitors.DNSResolutionMonitor"/>
   <monitor service="DNS-Resolution-v6" class-name="org.opennms.netmgt.poller.monitors.DNSResolutionMonitor"/>
-
+  <monitor service="OpenNMS-DBMS" class-name="org.opennms.netmgt.poller.monitors.JDBCMonitor" />
   <monitor service="HTTP" class-name="org.opennms.netmgt.poller.monitors.HttpMonitor"/>
   <monitor service="HTTP-8000" class-name="org.opennms.netmgt.poller.monitors.HttpMonitor"/>
   <monitor service="HTTPS" class-name="org.opennms.netmgt.poller.monitors.HttpsMonitor"/>
-
   <monitor service="ICMP" class-name="org.opennms.netmgt.poller.monitors.IcmpMonitor"/>
-
   <monitor service="JMX-Java8-JVM" class-name="org.opennms.netmgt.poller.monitors.Jsr160Monitor"/>  
   <monitor service="JMX-Minion" class-name="org.opennms.netmgt.poller.monitors.Jsr160Monitor"/>
   <monitor service="JMX-OpenNMS" class-name="org.opennms.netmgt.poller.monitors.Jsr160Monitor"/>
-
   <monitor service="Minion-Heartbeat" class-name="org.opennms.netmgt.poller.monitors.MinionHeartbeatMonitor"/>
   <monitor service="Minion-RPC" class-name="org.opennms.netmgt.poller.monitors.MinionRpcMonitor"/>
-
   <monitor service="SNMP" class-name="org.opennms.netmgt.poller.monitors.SnmpMonitor"/>
   <monitor service="SSH" class-name="org.opennms.netmgt.poller.monitors.SshMonitor"/>
   <monitor service="StrafePing" class-name="org.opennms.netmgt.poller.monitors.StrafePingMonitor"/>
@@ -233,7 +230,6 @@
   <monitor service="Synology-System-Status" class-name="org.opennms.netmgt.poller.monitors.SnmpMonitor"/>
   <monitor service="Synology-Update-Server" class-name="org.opennms.netmgt.poller.monitors.SnmpMonitor"/>
   <monitor service="Synology-Update-Status" class-name="org.opennms.netmgt.poller.monitors.SnmpMonitor"/>
-  
   <monitor service="Web-Landing-Page" class-name="org.opennms.netmgt.poller.monitors.PageSequenceMonitor"/>
   <monitor service="Web-Landing-Page-SSL" class-name="org.opennms.netmgt.poller.monitors.PageSequenceMonitor"/>
 </poller-configuration>
