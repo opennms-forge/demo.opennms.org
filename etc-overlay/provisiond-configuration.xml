@@ -167,4 +167,7 @@
 <requisition-def import-name="json-nodes" import-url-resource="http://pris:8000/requisitions/json-nodes">
   <cron-schedule>* */30 * * * ? *</cron-schedule>
 </requisition-def>
+<requisition-def import-name="ubiquiti-nodes" import-url-resource="http://pris:8000/requisitions/ubiquiti-nodes">
+  <cron-schedule>* */30 * * * ? *</cron-schedule>
+</requisition-def>
 </provisiond-configuration>
