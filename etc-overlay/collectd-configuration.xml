@@ -46,8 +46,8 @@
          <parameter key="ds-name" value="java8-jvm"/>
          <parameter key="friendly-name" value="java8-jvm"/>
       </service>
-      <service name="CodiMD" interval="300000" user-defined="true" status="on">
-         <parameter key="collection" value="CodiMD"/>
+      <service name="JSON-CodiMD" interval="300000" user-defined="false" status="on">
+         <parameter key="collection" value="codimd-status" />
          <parameter key="handler-class" value="org.opennms.protocols.json.collector.DefaultJsonCollectionHandler"/>
       </service>
    </package>
@@ -65,5 +65,5 @@
    <collector service="JMX-Minion" class-name="org.opennms.netmgt.collectd.Jsr160Collector"/>
    <collector service="JMX-Java8-JVM" class-name="org.opennms.netmgt.collectd.Jsr160Collector"/>
    <collector service="HTTP-Drinks" class-name="org.opennms.netmgt.collectd.HttpCollector"/>
-   <collector service="CodiMD" class-name="org.opennms.protocols.xml.collector.XmlCollector"/>
+   <collector service="JSON-CodiMD" class-name="org.opennms.protocols.xml.collector.XmlCollector"/>
 </collectd-configuration>
