@@ -13,3 +13,6 @@
 [submodule "etc-overlay/config-modules/snmp-mib2"]
 	path = etc-overlay/config-modules/snmp-mib2
 	url = https://github.com/opennms-config-modules/snmp-mib2.git
+[submodule "etc-overlay/config-modules/codimd"]
+	path = etc-overlay/config-modules/codimd
+	url = https://github.com/opennms-config-modules/codimd.git
