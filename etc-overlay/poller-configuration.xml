@@ -199,6 +199,15 @@
         </page-sequence>
       </parameter>
     </service>
+    <service name="CIFS-Monitor-Example" interval="30000" user-defined="true" status="on">
+      <parameter key="retry" value="1" />
+      <parameter key="timeout" value="3000" />
+      <parameter key="domain" value="MYGROUP" />
+      <parameter key="username" value="user1" />
+      <parameter key="password" value="badpass" />
+      <parameter key="path" value="/user1/" />
+      <parameter key="mode" value="folder_not_empty" />
+</service>
     <downtime interval="30000" begin="0" end="300000"/>
     <!-- 30s, 0, 5m -->
     <downtime interval="300000" begin="300000" end="43200000"/>
@@ -232,4 +241,5 @@
   <monitor service="Synology-Update-Status" class-name="org.opennms.netmgt.poller.monitors.SnmpMonitor"/>
   <monitor service="Web-Landing-Page" class-name="org.opennms.netmgt.poller.monitors.PageSequenceMonitor"/>
   <monitor service="Web-Landing-Page-SSL" class-name="org.opennms.netmgt.poller.monitors.PageSequenceMonitor"/>
+  <monitor service="CIFS-Monitor-Example" class-name="org.opennms.netmgt.poller.monitors.JCifsMonitor" />
 </poller-configuration>
