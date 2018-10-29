@@ -1,9 +1,6 @@
 [submodule "etc-overlay/config-modules/java-virtual-machine"]
 	path = etc-overlay/config-modules/java-virtual-machine
 	url = https://github.com/opennms-config-modules/java-virtual-machine.git
-[submodule "etc-overlay/config-modules/ubiquiti"]
-	path = etc-overlay/config-modules/ubiquiti
-	url = https://github.com/opennms-config-modules/ubiquiti.git
 [submodule "etc-overlay/config-modules/synology"]
 	path = etc-overlay/config-modules/synology
 	url = https://github.com/opennms-config-modules/synology.git

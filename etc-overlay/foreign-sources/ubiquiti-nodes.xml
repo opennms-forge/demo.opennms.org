@@ -1,5 +1,0 @@
-<foreign-source xmlns="http://xmlns.opennms.org/xsd/config/foreign-source" name="ubiquiti-nodes" date-stamp="2018-07-31T15:19:05.575+02:00">
-   <scan-interval>1w</scan-interval>
-   <detectors/>
-   <policies/>
-</foreign-source>

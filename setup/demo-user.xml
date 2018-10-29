@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-      <user>
-         <user-id>demo</user-id>
-         <email></email>
-         <password>WYyh8KnpWwj1ft8HHQbm9jjpgRQZ03w2oDfPpkGh0ftfvEhRZkRA74ERuwChkjb0</password>
-         <role>ROLE_READONLY</role>
-         <role>ROLE_USER</role>
-         <passwordSalt>true</passwordSalt>
-      </user>

@@ -1,16 +1,30 @@
 <userinfo xmlns="http://xmlns.opennms.org/xsd/users">
    <header>
       <rev>.9</rev>
-      <created>Thursday, November 3, 2011 9:28:08 PM GMT</created>
+      <created>Monday, October 8, 2018 6:29:01 PM GMT</created>
       <mstation>master.nmanage.com</mstation>
    </header>
    <users>
       <user>
          <user-id>admin</user-id>
-         <full-name>Administrator</full-name>
-         <user-comments>Default administrator, do not delete</user-comments>
-         <password>21232F297A57A5A743894A0E4A801FC3</password>
+         <password salt="true">5vRenWryGrHsJ1cQKa8zYygp1PZuz4Da49lTxPQ5+B77vvxUETihkoDA22t4VhaQ</password>
          <role>ROLE_ADMIN</role>
+      </user>
+      <user>
+         <user-id>demo</user-id>
+         <password salt="true">WYyh8KnpWwj1ft8HHQbm9jjpgRQZ03w2oDfPpkGh0ftfvEhRZkRA74ERuwChkjb0</password>
+         <role>ROLE_READONLY</role>
+         <role>ROLE_USER</role>
+      </user>
+      <user>
+         <user-id>grafana</user-id>
+         <password salt="true">M1/5v5wgMYMphKGPzTzkoSNw/e2q2BRT5SELuacQW5AOP1TlbG0CStSQ/fWwKk5I</password>
+         <role>ROLE_USER</role>
+      </user>
+      <user>
+         <user-id>minion</user-id>
+         <password salt="true">Kx4GhghRe83IsoyJqN8xajlHEY5Nr6LhIfCe/XBwrIDoH/NK/KLM1z4WVsKDadVw</password>
+         <role>ROLE_MINION</role>
       </user>
       <user>
          <user-id>rtc</user-id>

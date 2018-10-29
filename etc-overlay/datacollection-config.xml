@@ -13,6 +13,5 @@
       <include-collection dataCollectionGroup="SNMP-MIB2-Network-Interfaces"/>
       <include-collection dataCollectionGroup="SNMP-MIB2-Protocols"/>
       <include-collection dataCollectionGroup="Synology"/>
-      <include-collection dataCollectionGroup="Ubiquiti"/>
    </snmp-collection>
 </datacollection-config>

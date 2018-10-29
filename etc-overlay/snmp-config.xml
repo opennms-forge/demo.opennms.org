@@ -2,7 +2,4 @@
    <definition read-community="YrUsonoZ" location="Default">
       <range begin="172.20.1.238" end="172.20.1.239"/>
    </definition>
-   <definition read-community="snmpmonitor" version="v1">
-      <range begin="192.168.5.1" end="192.168.5.254"/>
-   </definition>
 </snmp-config>
