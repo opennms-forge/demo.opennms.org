@@ -1,5 +1,2 @@
 <snmp-config xmlns="http://xmlns.opennms.org/xsd/config/snmp" version="v2c" read-community="public" timeout="1800" retry="1">
-   <definition read-community="YrUsonoZ" location="Default">
-      <range begin="172.20.1.238" end="172.20.1.239"/>
-   </definition>
 </snmp-config>

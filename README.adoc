@@ -14,11 +14,8 @@
 
 * Service monitoring
 ** Default services
-** Custom services
 * Collecting and thresholding data 
 ** Default SNMP metrics
-** Custom SNMP metrics
-** Custom HTTP metrics
 * Geomap example
 * Website monitoring
 * DNS monitoring
@@ -37,9 +34,9 @@
 === Collectors
 
 * SnmpCollector
-* HttpCollector
 * Jsr160Collector
 * JdbcCollector
+* XmlCollector
 
 == Requirements
 
@@ -82,11 +79,13 @@ To restart the whole stack use:
 ----
 systemctl restart docker-compose@demo.opennms.org
 ----
+=== Enhancements & Ideas
+
+Ideas for new implementations of other OpenNMS features can be documented in the issue section.
 
 === Configuration updates
 
 Configuration updates or changes should be provided as a pull request.
-Please add @mfuhrmann or @indigo423 as reviewer.
 Once the pull request is merged and pulled to the local repository on the demo system, the changes can be loaded with:
 
 [source, bash]

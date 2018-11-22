@@ -49,27 +49,4 @@
       <expression description="Trigger an alert when the coffee pot level reaches or goes below 25% in one measurement interval" type="low" ds-type="node" value="25.0" rearm="100.0" trigger="1" filterOperator="OR" expression="coffeePotLevel / coffeePotCapacity * 100.0"/>
    </group>
 
-
-   <group name="drinks" rrdRepository="/opt/opennms/share/rrd/snmp/">
-      <threshold description="Sold Drink Threshold" type="absoluteChange" ds-type="node" value="1.0" rearm="0.0" trigger="1" ds-label="slot010name" triggeredUEI="uei.opennms.org/drinks/sold" filterOperator="OR" ds-name="slot010sold"/>
-      <threshold description="Sold Drink Threshold" type="absoluteChange" ds-type="node" value="1.0" rearm="0.0" trigger="1" ds-label="slot011name" triggeredUEI="uei.opennms.org/drinks/sold" filterOperator="OR" ds-name="slot011sold"/>
-      <threshold description="Sold Drink Threshold" type="absoluteChange" ds-type="node" value="1.0" rearm="0.0" trigger="1" ds-label="slot012name" triggeredUEI="uei.opennms.org/drinks/sold" filterOperator="OR" ds-name="slot012sold"/>
-      <threshold description="Sold Drink Threshold" type="absoluteChange" ds-type="node" value="1.0" rearm="0.0" trigger="1" ds-label="slot013name" triggeredUEI="uei.opennms.org/drinks/sold" filterOperator="OR" ds-name="slot013sold"/>
-      <threshold description="Sold Drink Threshold" type="absoluteChange" ds-type="node" value="1.0" rearm="0.0" trigger="1" ds-label="slot014name" triggeredUEI="uei.opennms.org/drinks/sold" filterOperator="OR" ds-name="slot014sold"/>
-      <threshold description="Sold Drink Threshold" type="absoluteChange" ds-type="node" value="1.0" rearm="0.0" trigger="1" ds-label="slot015name" triggeredUEI="uei.opennms.org/drinks/sold" filterOperator="OR" ds-name="slot015sold"/>
-      <threshold description="Sold Drink Threshold" type="absoluteChange" ds-type="node" value="1.0" rearm="0.0" trigger="1" ds-label="slot016name" triggeredUEI="uei.opennms.org/drinks/sold" filterOperator="OR" ds-name="slot016sold"/>
-      <threshold description="Sold Drink Threshold" type="absoluteChange" ds-type="node" value="1.0" rearm="0.0" trigger="1" ds-label="slot017name" triggeredUEI="uei.opennms.org/drinks/sold" filterOperator="OR" ds-name="slot017sold"/>
-      <threshold description="Sold Drink Threshold" type="absoluteChange" ds-type="node" value="1.0" rearm="0.0" trigger="1" ds-label="slot018name" triggeredUEI="uei.opennms.org/drinks/sold" filterOperator="OR" ds-name="slot018sold"/>
-      <threshold description="Sold Drink Threshold" type="absoluteChange" ds-type="node" value="1.0" rearm="0.0" trigger="1" ds-label="slot019name" triggeredUEI="uei.opennms.org/drinks/sold" filterOperator="OR" ds-name="slot019sold"/>
-      <expression type="low" ds-type="node" value="3.0" rearm="10.0" trigger="1" ds-label="slot010name" triggeredUEI="uei.opennms.org/threshold/drinks/almostOut" rearmedUEI="uei.opennms.org/threshold/drinks/refilled" filterOperator="OR" expression="slot010stocked - slot010sold"/>
-      <expression type="low" ds-type="node" value="3.0" rearm="10.0" trigger="1" ds-label="slot011name" triggeredUEI="uei.opennms.org/threshold/drinks/almostOut" rearmedUEI="uei.opennms.org/threshold/drinks/refilled" filterOperator="OR" expression="slot011stocked - slot011sold"/>
-      <expression type="low" ds-type="node" value="3.0" rearm="10.0" trigger="1" ds-label="slot012name" triggeredUEI="uei.opennms.org/threshold/drinks/almostOut" rearmedUEI="uei.opennms.org/threshold/drinks/refilled" filterOperator="OR" expression="slot012stocked - slot012sold"/>
-      <expression type="low" ds-type="node" value="3.0" rearm="10.0" trigger="1" ds-label="slot013name" triggeredUEI="uei.opennms.org/threshold/drinks/almostOut" rearmedUEI="uei.opennms.org/threshold/drinks/refilled" filterOperator="OR" expression="slot013stocked - slot013sold"/>
-      <expression type="low" ds-type="node" value="3.0" rearm="10.0" trigger="1" ds-label="slot014name" triggeredUEI="uei.opennms.org/threshold/drinks/almostOut" rearmedUEI="uei.opennms.org/threshold/drinks/refilled" filterOperator="OR" expression="slot014stocked - slot014sold"/>
-      <expression type="low" ds-type="node" value="3.0" rearm="10.0" trigger="1" ds-label="slot015name" triggeredUEI="uei.opennms.org/threshold/drinks/almostOut" rearmedUEI="uei.opennms.org/threshold/drinks/refilled" filterOperator="OR" expression="slot015stocked - slot015sold"/>
-      <expression type="low" ds-type="node" value="3.0" rearm="10.0" trigger="1" ds-label="slot016name" triggeredUEI="uei.opennms.org/threshold/drinks/almostOut" rearmedUEI="uei.opennms.org/threshold/drinks/refilled" filterOperator="OR" expression="slot016stocked - slot016sold"/>
-      <expression type="low" ds-type="node" value="3.0" rearm="10.0" trigger="1" ds-label="slot017name" triggeredUEI="uei.opennms.org/threshold/drinks/almostOut" rearmedUEI="uei.opennms.org/threshold/drinks/refilled" filterOperator="OR" expression="slot017stocked - slot017sold"/>
-      <expression type="low" ds-type="node" value="3.0" rearm="10.0" trigger="1" ds-label="slot018name" triggeredUEI="uei.opennms.org/threshold/drinks/almostOut" rearmedUEI="uei.opennms.org/threshold/drinks/refilled" filterOperator="OR" expression="slot018stocked - slot018sold"/>
-      <expression type="low" ds-type="node" value="3.0" rearm="10.0" trigger="1" ds-label="slot019name" triggeredUEI="uei.opennms.org/threshold/drinks/almostOut" rearmedUEI="uei.opennms.org/threshold/drinks/refilled" filterOperator="OR" expression="slot019stocked - slot019sold"/>
-   </group>
 </thresholding-config>
