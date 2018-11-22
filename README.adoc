@@ -14,11 +14,8 @@
 
 * Service monitoring
 ** Default services
-** Custom services
 * Collecting and thresholding data 
 ** Default SNMP metrics
-** Custom SNMP metrics
-** Custom HTTP metrics
 * Geomap example
 * Website monitoring
 * DNS monitoring
@@ -37,7 +34,6 @@
 === Collectors
 
 * SnmpCollector
-* HttpCollector
 * Jsr160Collector
 * JdbcCollector
 

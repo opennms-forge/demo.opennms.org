@@ -12,6 +12,5 @@
       <include-collection dataCollectionGroup="SNMP-MIB2-Host-Resources"/>
       <include-collection dataCollectionGroup="SNMP-MIB2-Network-Interfaces"/>
       <include-collection dataCollectionGroup="SNMP-MIB2-Protocols"/>
-      <include-collection dataCollectionGroup="Synology"/>
    </snmp-collection>
 </datacollection-config>
