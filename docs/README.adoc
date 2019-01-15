@@ -1,0 +1,38 @@
+**under contruction**
+
+== What's in the containers?
+
+* OpenNMS Horizon
+* OpenNMS PRIS
+* Grafana
+* Samba server
+* Web server
+* NetSNMP instance
+* Postgresql server
+
+== What does this Demo system show?
+
+* Service monitoring
+* Collecting and thresholding data 
+** Default SNMP metrics
+* Geomap example
+* Website monitoring
+* DNS monitoring
+
+=== Used Monitors
+
+* SnmpMonitor
+* IcmpMonitor
+* JdbcMonitor
+* JcifsMonitor
+* Jsr160Monitor
+* DNSResolutionMonitor
+* SshMonitor
+* PageSequenceMonitor
+
+=== Collectors
+
+* SnmpCollector
+* Jsr160Collector
+* JdbcCollector
+* XmlCollector
