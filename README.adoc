@@ -38,7 +38,7 @@
 * JdbcCollector
 * XmlCollector
 
-== Requirements
+== Software Requirements
 
 * git
 * Docker
@@ -56,6 +56,36 @@ git clone https://github.com/opennms-forge/demo.opennms.org.git
 cd demo.opennms.org
 git submodule update --init
 ----
+
+=== Environment variables
+
+In the repositories root folder you will need some environment files.
+Especially for setting the passwords in the system.
+
+`.opennms.env`
+```
+TZ=Europe/Berlin
+OPENNMS_DBNAME=opennms
+OPENNMS_DBUSER=opennms
+OPENNMS_DBPASS=PASSWORD
+OPENNMS_ADMIN=admin
+OPENNMS_ADMIN_SALT=ADMINS_SALT
+OPENNMS_GRAFANA=PASSWORD_FOR_GRAFANA_USER
+```
+
+`.grafana.env`
+```
+GF_SECURITY_ADMIN_PASSWORD=PASSWORD_FOR_GRAFANA_ADMIN
+```
+
+`.postgres.env`
+```
+TZ=Europe/Berlin
+POSTGRES_HOST=database
+POSTGRES_PORT=5432
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=PASSWORD_FOR_POSTGRES_USER
+```
 
 === Initiate the application stack
 

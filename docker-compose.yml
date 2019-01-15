@@ -82,7 +82,7 @@ services:
       retries: 3
 
   grafana:
-    image: grafana/grafana:5.2.2
+    image: grafana/grafana:5.4.3
     container_name: demo-grafana
     networks:
       net-demo:
@@ -94,7 +94,6 @@ services:
       - .grafana.env
     volumes:
       - data-grafana:/var/lib/grafana
-      - ./grafana/provisioning:/etc/grafana/provisioning
     ports:
       - "3000:3000"
     user: "472"

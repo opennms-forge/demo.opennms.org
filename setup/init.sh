@@ -34,10 +34,11 @@ if [ "$input" == "yes" ]
 
  echo "#### Setup Grafana HELM Plugin ####"
  ./setup-helm.sh
+
  echo "#### Installing Grafana Dashboards ####"
  ./setup-dashboards.sh
 
- # Start importing PRIS requisitions
+# Start importing PRIS requisitions
  echo "#### Start importing requisitions ####"
  docker exec -it demo-horizon /bin/sh -c 'for i in $(/usr/bin/find /opt/opennms/etc/imports -type f -printf "%f\n"); do /opt/opennms/bin/send-event.pl -p '"'url http://pris:8000/requisitions/'"'${i%.*}'"''"' uei.opennms.org/internal/importer/reloadImport; done'
 
