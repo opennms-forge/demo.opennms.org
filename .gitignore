@@ -1,3 +1,6 @@
 .DS_Store
 data/
 logs/
+.grafana.env
+.opennms.env
+.postgres.env

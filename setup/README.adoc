@@ -11,7 +11,7 @@ A script to install default OpenNMS Grafana dashboards. The dashboard IDs can be
 
 ## https://github.com/opennms-forge/demo.opennms.org/blob/master/setup/setup-helm.sh[setup-helm.sh]
 
-A script to install OpenNMS Helm plugin.
+A script to install OpenNMS Helm plugin and set up the required datasources.
 
 ## https://github.com/opennms-forge/demo.opennms.org/blob/master/setup/init.sh[init.sh]
 
