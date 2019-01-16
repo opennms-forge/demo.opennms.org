@@ -65,6 +65,7 @@ cd setup
 == Accessing the components
 
 OpenNMS: http://localhost:8980/opennms
+
 Grafana: http://localhost:3000
 
 == Usage 
