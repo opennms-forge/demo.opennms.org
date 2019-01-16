@@ -13,3 +13,6 @@
 [submodule "etc-overlay/config-modules/codimd"]
 	path = etc-overlay/config-modules/codimd
 	url = https://github.com/opennms-config-modules/codimd.git
+[submodule "etc-overlay/config-modules/postgresql"]
+	path = etc-overlay/config-modules/postgresql
+	url = https://github.com/opennms-config-modules/postgresql.git

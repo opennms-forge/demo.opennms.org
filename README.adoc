@@ -62,6 +62,11 @@ cd setup
 ./init.sh
 ----
 
+== Accessing the components
+
+OpenNMS: http://localhost:8980/opennms
+Grafana: http://localhost:3000
+
 == Usage 
 
 There are some script which are used to setup the application stack. They can be found in the `setup` folder and are described https://github.com/opennms-forge/demo.opennms.org/blob/master/setup/README.adoc[here].
