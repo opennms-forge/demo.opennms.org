@@ -145,6 +145,14 @@
         </page-sequence>
       </parameter>
     </service>
+    <service name="Elasticsearch" interval="300000" user-defined="true" status="on">
+      <parameter key="retry" value="1"/>
+      <parameter key="timeout" value="3000"/>
+      <parameter key="port" value="9200"/>
+      <parameter key="url" value="/_cluster/stats"/>
+      <parameter key="response" value="200-202,299"/>
+      <parameter key="response-text" value="~.*status.:.green.*"/>
+    </service>
     <downtime interval="30000" begin="0" end="300000"/>
     <!-- 30s, 0, 5m -->
     <downtime interval="300000" begin="300000" end="43200000"/>
@@ -153,6 +161,7 @@
     <!-- 10m, 12h, 5d -->
     <downtime begin="432000000"/>
   </package>
+  <monitor service="Elasticsearch" class-name="org.opennms.netmgt.poller.monitors.HttpMonitor" />
   <monitor service="DNS-Resolution-v4" class-name="org.opennms.netmgt.poller.monitors.DNSResolutionMonitor"/>
   <monitor service="DNS-Resolution-v6" class-name="org.opennms.netmgt.poller.monitors.DNSResolutionMonitor"/>
   <monitor service="OpenNMS-DBMS" class-name="org.opennms.netmgt.poller.monitors.JDBCMonitor" />
