@@ -45,7 +45,7 @@ else
 fi
 
 echo "Fault Management:"
-curl --silent -X POST "http://$GF_USER:$GF_PASS@127.0.0.1:3000/api/datasources/" -H 'Content-Type: application/json;charset=UTF-8' --data-binary '{ "orgId":1,"id":2,"name":"OpenNMS Horizon FM","type":"opennms-helm-performance-datasource","typeLogoUrl":"public/plugins/opennms-helm-performance-datasource/img/fm-ds.svg","access":"proxy","url":"http://demo-horizon:8980/opennms","password":"","user":"","database":"","basicAuth":true,"basicAuthUser":"'$ONMS_USER'","basicAuthPassword":"'$ONMS_PASS'","isDefault":false,"jsonData":null}' >/dev/null
+curl --silent -X POST "http://$GF_USER:$GF_PASS@127.0.0.1:3000/api/datasources/" -H 'Content-Type: application/json;charset=UTF-8' --data-binary '{ "orgId":1,"id":2,"name":"OpenNMS Horizon FM","type":"opennms-helm-fault-datasource","typeLogoUrl":"public/plugins/opennms-helm-performance-datasource/img/fm-ds.svg","access":"proxy","url":"http://demo-horizon:8980/opennms","password":"","user":"","database":"","basicAuth":true,"basicAuthUser":"'$ONMS_USER'","basicAuthPassword":"'$ONMS_PASS'","isDefault":false,"jsonData":null}' >/dev/null
 if [ $? -eq 0 ]; then
     echo -e "${GREEN}done${NO_COLOR}"
 else
