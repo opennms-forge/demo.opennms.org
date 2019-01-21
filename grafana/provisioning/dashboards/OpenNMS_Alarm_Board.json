@@ -1,0 +1,960 @@
+{
+  "__inputs": [],
+  "__requires": [
+    {
+      "type": "grafana",
+      "id": "grafana",
+      "name": "Grafana",
+      "version": "5.4.3"
+    },
+    {
+      "type": "panel",
+      "id": "opennms-helm-alarm-table-panel",
+      "name": "Alarm Table",
+      "version": ""
+    },
+    {
+      "type": "datasource",
+      "id": "opennms-helm-fault-datasource",
+      "name": "OpenNMS Faults",
+      "version": "1.0.0"
+    }
+  ],
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": "-- Grafana --",
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "description": "Some examples how alarms can be presented",
+  "editable": true,
+  "gnetId": null,
+  "graphTooltip": 0,
+  "id": null,
+  "iteration": 1548103077596,
+  "links": [],
+  "panels": [
+    {
+      "columns": [
+        {
+          "desc": true,
+          "hidden": false,
+          "sort": true,
+          "style": {
+            "alias": "",
+            "colorMode": null,
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "decimals": 2,
+            "pattern": "/.*/",
+            "thresholds": [],
+            "type": "number",
+            "unit": "short"
+          },
+          "text": "UEI",
+          "title": "UEI"
+        },
+        {
+          "hidden": false,
+          "style": {
+            "alias": "",
+            "colorMode": null,
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "decimals": 2,
+            "pattern": "/.*/",
+            "thresholds": [],
+            "type": "number",
+            "unit": "short"
+          },
+          "text": "Log Message",
+          "title": "Log Message"
+        },
+        {
+          "hidden": false,
+          "style": {
+            "alias": "",
+            "colorMode": null,
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "decimals": 2,
+            "pattern": "/.*/",
+            "thresholds": [],
+            "type": "number",
+            "unit": "short"
+          },
+          "text": "Node Label",
+          "title": "Node Label"
+        },
+        {
+          "hidden": false,
+          "style": {
+            "decimals": 0,
+            "pattern": "Count",
+            "type": "number",
+            "unit": "short"
+          },
+          "text": "Count",
+          "title": "Count"
+        },
+        {
+          "hidden": false,
+          "style": {
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "pattern": "/.*Time/",
+            "type": "date"
+          },
+          "text": "Last Event Time",
+          "title": "Last Event Time"
+        }
+      ],
+      "datasource": "$instance",
+      "description": "This box presents all current alarms.",
+      "fontSize": "100%",
+      "gridPos": {
+        "h": 15,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "hideTimeOverride": false,
+      "id": 2,
+      "links": [],
+      "pageSize": 20,
+      "scroll": true,
+      "severity": true,
+      "severityIcons": true,
+      "showHeader": true,
+      "sort": {
+        "col": 0,
+        "desc": true
+      },
+      "styles": [
+        {
+          "dateFormat": "YYYY-MM-DD HH:mm:ss",
+          "pattern": "/.*Time/",
+          "type": "date"
+        },
+        {
+          "dateFormat": "YYYY-MM-DD HH:mm:ss",
+          "pattern": "Suppressed Until",
+          "type": "date"
+        },
+        {
+          "pattern": "/.*ID/",
+          "type": "string"
+        },
+        {
+          "pattern": "Description",
+          "sanitize": true,
+          "type": "string"
+        },
+        {
+          "decimals": 0,
+          "pattern": "Count",
+          "type": "number",
+          "unit": "short"
+        },
+        {
+          "alias": "",
+          "colorMode": null,
+          "colors": [
+            "rgba(245, 54, 54, 0.9)",
+            "rgba(237, 129, 40, 0.89)",
+            "rgba(50, 172, 45, 0.97)"
+          ],
+          "decimals": 2,
+          "pattern": "/.*/",
+          "thresholds": [],
+          "type": "number",
+          "unit": "short"
+        }
+      ],
+      "targets": [
+        {
+          "filter": {
+            "clauses": [],
+            "limit": 0
+          },
+          "refId": "A"
+        }
+      ],
+      "timeFrom": "6w",
+      "timeShift": null,
+      "title": "All Alarms",
+      "transform": "table",
+      "type": "opennms-helm-alarm-table-panel"
+    },
+    {
+      "columns": [
+        {
+          "desc": true,
+          "hidden": false,
+          "sort": true,
+          "style": {
+            "alias": "",
+            "colorMode": null,
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "decimals": 2,
+            "pattern": "/.*/",
+            "thresholds": [],
+            "type": "number",
+            "unit": "short"
+          },
+          "text": "UEI",
+          "title": "UEI"
+        },
+        {
+          "hidden": false,
+          "style": {
+            "alias": "",
+            "colorMode": null,
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "decimals": 2,
+            "pattern": "/.*/",
+            "thresholds": [],
+            "type": "number",
+            "unit": "short"
+          },
+          "text": "Log Message",
+          "title": "Log Message"
+        },
+        {
+          "hidden": false,
+          "style": {
+            "alias": "",
+            "colorMode": null,
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "decimals": 2,
+            "pattern": "/.*/",
+            "thresholds": [],
+            "type": "number",
+            "unit": "short"
+          },
+          "text": "Node Label",
+          "title": "Node Label"
+        },
+        {
+          "hidden": false,
+          "style": {
+            "decimals": 0,
+            "pattern": "Count",
+            "type": "number",
+            "unit": "short"
+          },
+          "text": "Count",
+          "title": "Count"
+        },
+        {
+          "hidden": false,
+          "style": {
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "pattern": "/.*Time/",
+            "type": "date"
+          },
+          "text": "Last Event Time",
+          "title": "Last Event Time"
+        }
+      ],
+      "datasource": "$instance",
+      "description": "This box presents all alarms of a specific surveillance category.",
+      "fontSize": "100%",
+      "gridPos": {
+        "h": 12,
+        "w": 12,
+        "x": 0,
+        "y": 15
+      },
+      "hideTimeOverride": false,
+      "id": 3,
+      "links": [],
+      "pageSize": 20,
+      "scroll": true,
+      "severity": true,
+      "severityIcons": true,
+      "showHeader": true,
+      "sort": {
+        "col": 0,
+        "desc": true
+      },
+      "styles": [
+        {
+          "dateFormat": "YYYY-MM-DD HH:mm:ss",
+          "pattern": "/.*Time/",
+          "type": "date"
+        },
+        {
+          "dateFormat": "YYYY-MM-DD HH:mm:ss",
+          "pattern": "Suppressed Until",
+          "type": "date"
+        },
+        {
+          "pattern": "/.*ID/",
+          "type": "string"
+        },
+        {
+          "pattern": "Description",
+          "sanitize": true,
+          "type": "string"
+        },
+        {
+          "decimals": 0,
+          "pattern": "Count",
+          "type": "number",
+          "unit": "short"
+        },
+        {
+          "alias": "",
+          "colorMode": null,
+          "colors": [
+            "rgba(245, 54, 54, 0.9)",
+            "rgba(237, 129, 40, 0.89)",
+            "rgba(50, 172, 45, 0.97)"
+          ],
+          "decimals": 2,
+          "pattern": "/.*/",
+          "thresholds": [],
+          "type": "number",
+          "unit": "short"
+        }
+      ],
+      "targets": [
+        {
+          "filter": {
+            "clauses": [
+              {
+                "operator": {
+                  "id": 1,
+                  "label": "AND"
+                },
+                "restriction": {
+                  "attribute": "category.name",
+                  "comparator": {
+                    "id": 1,
+                    "label": "EQ"
+                  },
+                  "value": "environment:production"
+                }
+              }
+            ],
+            "limit": 0
+          },
+          "refId": "A"
+        }
+      ],
+      "timeFrom": "6w",
+      "timeShift": null,
+      "title": "Alarms from a specific category",
+      "transform": "table",
+      "type": "opennms-helm-alarm-table-panel"
+    },
+    {
+      "columns": [
+        {
+          "desc": true,
+          "hidden": false,
+          "sort": true,
+          "style": {
+            "alias": "",
+            "colorMode": null,
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "decimals": 2,
+            "pattern": "/.*/",
+            "thresholds": [],
+            "type": "number",
+            "unit": "short"
+          },
+          "text": "UEI",
+          "title": "UEI"
+        },
+        {
+          "hidden": false,
+          "style": {
+            "alias": "",
+            "colorMode": null,
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "decimals": 2,
+            "pattern": "/.*/",
+            "thresholds": [],
+            "type": "number",
+            "unit": "short"
+          },
+          "text": "Log Message",
+          "title": "Log Message"
+        },
+        {
+          "hidden": false,
+          "style": {
+            "alias": "",
+            "colorMode": null,
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "decimals": 2,
+            "pattern": "/.*/",
+            "thresholds": [],
+            "type": "number",
+            "unit": "short"
+          },
+          "text": "Node Label",
+          "title": "Node Label"
+        },
+        {
+          "hidden": false,
+          "style": {
+            "decimals": 0,
+            "pattern": "Count",
+            "type": "number",
+            "unit": "short"
+          },
+          "text": "Count",
+          "title": "Count"
+        },
+        {
+          "hidden": false,
+          "style": {
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "pattern": "/.*Time/",
+            "type": "date"
+          },
+          "text": "Last Event Time",
+          "title": "Last Event Time"
+        }
+      ],
+      "datasource": "$instance",
+      "description": "This box presents all alarms with a severity of MINOR or higher.",
+      "fontSize": "100%",
+      "gridPos": {
+        "h": 12,
+        "w": 12,
+        "x": 12,
+        "y": 15
+      },
+      "hideTimeOverride": false,
+      "id": 4,
+      "links": [],
+      "pageSize": 20,
+      "scroll": true,
+      "severity": true,
+      "severityIcons": true,
+      "showHeader": true,
+      "sort": {
+        "col": 0,
+        "desc": true
+      },
+      "styles": [
+        {
+          "dateFormat": "YYYY-MM-DD HH:mm:ss",
+          "pattern": "/.*Time/",
+          "type": "date"
+        },
+        {
+          "dateFormat": "YYYY-MM-DD HH:mm:ss",
+          "pattern": "Suppressed Until",
+          "type": "date"
+        },
+        {
+          "pattern": "/.*ID/",
+          "type": "string"
+        },
+        {
+          "pattern": "Description",
+          "sanitize": true,
+          "type": "string"
+        },
+        {
+          "decimals": 0,
+          "pattern": "Count",
+          "type": "number",
+          "unit": "short"
+        },
+        {
+          "alias": "",
+          "colorMode": null,
+          "colors": [
+            "rgba(245, 54, 54, 0.9)",
+            "rgba(237, 129, 40, 0.89)",
+            "rgba(50, 172, 45, 0.97)"
+          ],
+          "decimals": 2,
+          "pattern": "/.*/",
+          "thresholds": [],
+          "type": "number",
+          "unit": "short"
+        }
+      ],
+      "targets": [
+        {
+          "filter": {
+            "clauses": [
+              {
+                "operator": {
+                  "id": 1,
+                  "label": "AND"
+                },
+                "restriction": {
+                  "attribute": "severity",
+                  "comparator": {
+                    "id": 7,
+                    "label": "GE"
+                  },
+                  "value": "MINOR"
+                }
+              }
+            ],
+            "limit": 0
+          },
+          "refId": "A"
+        }
+      ],
+      "timeFrom": "6w",
+      "timeShift": null,
+      "title": "Alarms  with Severity > MINOR",
+      "transform": "table",
+      "type": "opennms-helm-alarm-table-panel"
+    },
+    {
+      "columns": [
+        {
+          "desc": true,
+          "hidden": false,
+          "sort": true,
+          "style": {
+            "alias": "",
+            "colorMode": null,
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "decimals": 2,
+            "pattern": "/.*/",
+            "thresholds": [],
+            "type": "number",
+            "unit": "short"
+          },
+          "text": "UEI",
+          "title": "UEI"
+        },
+        {
+          "hidden": false,
+          "style": {
+            "alias": "",
+            "colorMode": null,
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "decimals": 2,
+            "pattern": "/.*/",
+            "thresholds": [],
+            "type": "number",
+            "unit": "short"
+          },
+          "text": "Log Message",
+          "title": "Log Message"
+        },
+        {
+          "hidden": false,
+          "style": {
+            "alias": "",
+            "colorMode": null,
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "decimals": 2,
+            "pattern": "/.*/",
+            "thresholds": [],
+            "type": "number",
+            "unit": "short"
+          },
+          "text": "Node Label",
+          "title": "Node Label"
+        },
+        {
+          "hidden": false,
+          "style": {
+            "decimals": 0,
+            "pattern": "Count",
+            "type": "number",
+            "unit": "short"
+          },
+          "text": "Count",
+          "title": "Count"
+        },
+        {
+          "hidden": false,
+          "style": {
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "pattern": "/.*Time/",
+            "type": "date"
+          },
+          "text": "Last Event Time",
+          "title": "Last Event Time"
+        }
+      ],
+      "datasource": "$instance",
+      "description": "This box presents service related alarms. In this case it's the service \"Web-Landing-Page\".",
+      "fontSize": "100%",
+      "gridPos": {
+        "h": 12,
+        "w": 12,
+        "x": 0,
+        "y": 27
+      },
+      "hideTimeOverride": false,
+      "id": 6,
+      "links": [],
+      "pageSize": 20,
+      "scroll": true,
+      "severity": true,
+      "severityIcons": true,
+      "showHeader": true,
+      "sort": {
+        "col": 0,
+        "desc": true
+      },
+      "styles": [
+        {
+          "dateFormat": "YYYY-MM-DD HH:mm:ss",
+          "pattern": "/.*Time/",
+          "type": "date"
+        },
+        {
+          "dateFormat": "YYYY-MM-DD HH:mm:ss",
+          "pattern": "Suppressed Until",
+          "type": "date"
+        },
+        {
+          "pattern": "/.*ID/",
+          "type": "string"
+        },
+        {
+          "pattern": "Description",
+          "sanitize": true,
+          "type": "string"
+        },
+        {
+          "decimals": 0,
+          "pattern": "Count",
+          "type": "number",
+          "unit": "short"
+        },
+        {
+          "alias": "",
+          "colorMode": null,
+          "colors": [
+            "rgba(245, 54, 54, 0.9)",
+            "rgba(237, 129, 40, 0.89)",
+            "rgba(50, 172, 45, 0.97)"
+          ],
+          "decimals": 2,
+          "pattern": "/.*/",
+          "thresholds": [],
+          "type": "number",
+          "unit": "short"
+        }
+      ],
+      "targets": [
+        {
+          "filter": {
+            "clauses": [
+              {
+                "operator": {
+                  "id": 1,
+                  "label": "AND"
+                },
+                "restriction": {
+                  "attribute": "serviceType.name",
+                  "comparator": {
+                    "id": 1,
+                    "label": "EQ"
+                  },
+                  "value": "Web-Landing-Page"
+                }
+              }
+            ],
+            "limit": 0
+          },
+          "refId": "A"
+        }
+      ],
+      "timeFrom": "6w",
+      "timeShift": null,
+      "title": "Service related Alarms",
+      "transform": "table",
+      "type": "opennms-helm-alarm-table-panel"
+    },
+    {
+      "columns": [
+        {
+          "desc": true,
+          "hidden": false,
+          "sort": true,
+          "style": {
+            "alias": "",
+            "colorMode": null,
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "decimals": 2,
+            "pattern": "/.*/",
+            "thresholds": [],
+            "type": "number",
+            "unit": "short"
+          },
+          "text": "UEI",
+          "title": "UEI"
+        },
+        {
+          "hidden": false,
+          "style": {
+            "alias": "",
+            "colorMode": null,
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "decimals": 2,
+            "pattern": "/.*/",
+            "thresholds": [],
+            "type": "number",
+            "unit": "short"
+          },
+          "text": "Log Message",
+          "title": "Log Message"
+        },
+        {
+          "hidden": false,
+          "style": {
+            "alias": "",
+            "colorMode": null,
+            "colors": [
+              "rgba(245, 54, 54, 0.9)",
+              "rgba(237, 129, 40, 0.89)",
+              "rgba(50, 172, 45, 0.97)"
+            ],
+            "decimals": 2,
+            "pattern": "/.*/",
+            "thresholds": [],
+            "type": "number",
+            "unit": "short"
+          },
+          "text": "Node Label",
+          "title": "Node Label"
+        },
+        {
+          "hidden": false,
+          "style": {
+            "decimals": 0,
+            "pattern": "Count",
+            "type": "number",
+            "unit": "short"
+          },
+          "text": "Count",
+          "title": "Count"
+        },
+        {
+          "hidden": false,
+          "style": {
+            "dateFormat": "YYYY-MM-DD HH:mm:ss",
+            "pattern": "/.*Time/",
+            "type": "date"
+          },
+          "text": "Last Event Time",
+          "title": "Last Event Time"
+        }
+      ],
+      "datasource": "$instance",
+      "description": "This box presents specific event based alarms only.\nIn this case only nodeLostService alarms.",
+      "fontSize": "100%",
+      "gridPos": {
+        "h": 12,
+        "w": 12,
+        "x": 12,
+        "y": 27
+      },
+      "hideTimeOverride": false,
+      "id": 5,
+      "links": [],
+      "pageSize": 20,
+      "scroll": true,
+      "severity": true,
+      "severityIcons": true,
+      "showHeader": true,
+      "sort": {
+        "col": 0,
+        "desc": true
+      },
+      "styles": [
+        {
+          "dateFormat": "YYYY-MM-DD HH:mm:ss",
+          "pattern": "/.*Time/",
+          "type": "date"
+        },
+        {
+          "dateFormat": "YYYY-MM-DD HH:mm:ss",
+          "pattern": "Suppressed Until",
+          "type": "date"
+        },
+        {
+          "pattern": "/.*ID/",
+          "type": "string"
+        },
+        {
+          "pattern": "Description",
+          "sanitize": true,
+          "type": "string"
+        },
+        {
+          "decimals": 0,
+          "pattern": "Count",
+          "type": "number",
+          "unit": "short"
+        },
+        {
+          "alias": "",
+          "colorMode": null,
+          "colors": [
+            "rgba(245, 54, 54, 0.9)",
+            "rgba(237, 129, 40, 0.89)",
+            "rgba(50, 172, 45, 0.97)"
+          ],
+          "decimals": 2,
+          "pattern": "/.*/",
+          "thresholds": [],
+          "type": "number",
+          "unit": "short"
+        }
+      ],
+      "targets": [
+        {
+          "filter": {
+            "clauses": [
+              {
+                "operator": {
+                  "id": 1,
+                  "label": "AND"
+                },
+                "restriction": {
+                  "attribute": "uei",
+                  "comparator": {
+                    "id": 1,
+                    "label": "EQ"
+                  },
+                  "value": "uei.opennms.org/nodes/nodeLostService"
+                }
+              }
+            ],
+            "limit": 0
+          },
+          "refId": "A"
+        }
+      ],
+      "timeFrom": "6w",
+      "timeShift": null,
+      "title": "nodeLostService Alarms only",
+      "transform": "table",
+      "type": "opennms-helm-alarm-table-panel"
+    }
+  ],
+  "schemaVersion": 16,
+  "style": "dark",
+  "tags": [],
+  "templating": {
+    "list": [
+      {
+        "current": {
+          "text": "OpenNMS Faults",
+          "value": "OpenNMS Faults"
+        },
+        "hide": 0,
+        "label": "OpenNMS  Instance",
+        "name": "instance",
+        "options": [],
+        "query": "opennms-helm-fault-datasource",
+        "refresh": 1,
+        "regex": "",
+        "skipUrlSync": false,
+        "type": "datasource"
+      }
+    ]
+  },
+  "time": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "timepicker": {
+    "refresh_intervals": [
+      "5s",
+      "10s",
+      "30s",
+      "1m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "1d"
+    ],
+    "time_options": [
+      "5m",
+      "15m",
+      "1h",
+      "6h",
+      "12h",
+      "24h",
+      "2d",
+      "7d",
+      "30d"
+    ]
+  },
+  "timezone": "",
+  "title": "OpenNMS Alarms",
+  "uid": "fMVv8XQiz",
+  "version": 1
+}

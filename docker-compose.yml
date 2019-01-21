@@ -94,6 +94,8 @@ services:
       - .grafana.env
     volumes:
       - data-grafana:/var/lib/grafana
+      - ./grafana/provisioning/dashboards/default.yaml:/etc/grafana/provisioning/dashboards/default.yaml
+      - ./grafana/provisioning/dashboards/OpenNMS_Alarm_Board.json:/var/lib/grafana/dashboards/OpenNMS_Alarm_Board.json
     ports:
       - "3000:3000"
     user: "472"
