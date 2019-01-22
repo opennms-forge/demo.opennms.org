@@ -1,0 +1,33 @@
+version: 2.0
+
+jobs:
+  shellcheck:
+    docker:
+      - image: no42org/shellcheck:0.5.0
+    steps:
+      - checkout
+      - run:
+          name: Shellcheck Scripts
+          command: |
+            find . -type f -name '*.sh' | wc -l
+            find . -type f -name '*.sh' | xargs shellcheck --external-sources -e SC2129,SC2001,SC2013
+  
+  test-opennms-config:
+    docker:
+      - image: docker:18.06.0-ce-git
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: Test configuration files with OpenNMS config tester
+          command: |
+            docker run --rm -v $(pwd)/etc-overlay/:/opt/opennms-etc-overlay/ horizon-core-web:23.0.1 -t -a
+
+workflows:
+  version: 2
+  container_build_:
+    jobs:
+      - shellcheck
+      - test-opennms-config:
+          requires:
+            - shellcheck

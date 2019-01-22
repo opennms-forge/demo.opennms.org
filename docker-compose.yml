@@ -1,3 +1,4 @@
+---
 version: '2.3'
 
 volumes:
@@ -32,7 +33,7 @@ services:
       retries: 3
 
   horizon:
-    image: opennms/horizon-core-web:latest
+    image: opennms/horizon-core-web:23.0.2-1
     container_name: demo-horizon
     mem_limit: 3072M
     cap_add:
