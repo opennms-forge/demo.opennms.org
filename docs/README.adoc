@@ -9,6 +9,7 @@
 * Web server
 * NetSNMP instance
 * Postgresql server
+* Elasticsearch cluster
 
 == What does this Demo system show?
 
