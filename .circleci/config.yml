@@ -1,9 +1,14 @@
 version: 2.0
 
+aliases:
+  - &opennms_environment
+    - image: opennms/horizon-core-web:23.0.2-1
+  - &shellcheck_environment
+    - image: opennms/shellcheck:latest
+
 jobs:
   shellcheck:
-    docker:
-      - image: no42org/shellcheck:0.5.0
+    docker: *shellcheck_environment
     steps:
       - checkout
       - run:
@@ -13,15 +18,26 @@ jobs:
             find . -type f -name '*.sh' | xargs shellcheck --external-sources -e SC2129,SC2001,SC2013
   
   test-opennms-config:
-    docker:
-      - image: docker:18.06.0-ce-git
+    docker: *opennms_environment
+    working_directory: /root/project
     steps:
+      - run: 
+          name: Add git to retrieve the demo repository
+          command: |
+            yum -y install git-core
       - checkout
-      - setup_remote_docker
+      - run:
+          name: Initialise configuration submodules
+          command: |
+            git submodule update --init
+      - run:
+          name: Add custom etc overlay configuration
+          command: |
+            cp -r ./etc-overlay/* /opt/opennms-etc-overlay
       - run:
           name: Test configuration files with OpenNMS config tester
           command: |
-            docker run --rm -v $(pwd)/etc-overlay/:/opt/opennms-etc-overlay/ horizon-core-web:23.0.1 -t -a
+            /docker-entrypoint.sh -t -a
 
 workflows:
   version: 2
