@@ -41,7 +41,7 @@ jobs:
 
 workflows:
   version: 2
-  container_build_:
+  validate-demo-setup:
     jobs:
       - shellcheck
       - test-opennms-config:
