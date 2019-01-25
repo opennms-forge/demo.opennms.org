@@ -99,6 +99,7 @@ services:
       - data-grafana:/var/lib/grafana
       - ./grafana/provisioning/dashboards/default.yaml:/etc/grafana/provisioning/dashboards/default.yaml
       - ./grafana/provisioning/dashboards/OpenNMS_Alarm_Board.json:/var/lib/grafana/dashboards/OpenNMS_Alarm_Board.json
+      - ./grafana/custom.ini:/etc/grafana/conf/custom.ini
     ports:
       - "3000:3000"
     user: "472"
@@ -107,6 +108,7 @@ services:
       interval: 1m
       timeout: 5s
       retries: 3
+    command: --config /etc/grafana/conf/custom.ini
 
   dc.srv.01:
     image: indigo/docker-netsnmp

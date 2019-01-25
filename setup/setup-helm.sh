@@ -26,6 +26,14 @@ docker-compose up -d
    sleep 2
  done
  echo "Grafana is online!"
+
+echo "Setting Organisation Name"
+if curl --silent -X PUT "http://$GF_USER:$GF_PASS@127.0.0.1:3000/api/orgs/1" -H 'Content-Type: application/json;charset=UTF-8' --data-binary '{ "name":"OpenNMS" }' &>/dev/null; then
+    echo -e "${GREEN}done${NO_COLOR}"
+else
+    echo -e "${RED}failed${NO_COLOR}"
+fi
+
 echo "Enabling HELM App"
 if curl --basic -PUT "$GF_USER:$GF_PASS@localhost:3000/api/plugins/opennms-helm-app/settings?enabled=true" -d '' 2>/dev/null; then
     echo -e "${GREEN}done${NO_COLOR}"
