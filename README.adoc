@@ -19,7 +19,6 @@ Clone this repository and initialize the configuration modules.
 ----
 git clone https://github.com/opennms-forge/demo.opennms.org.git
 cd demo.opennms.org
-git submodule update --init
 ----
 
 === Environment variables
@@ -54,9 +53,7 @@ POSTGRES_PASSWORD=PASSWORD_FOR_POSTGRES_USER
 
 === Elasticsearch cluster
 
-The `vm.max_map_count` kernel setting needs to be set to at least 262144 for production use. Depending on your platform:
-
-The `vm.max_map_count` setting should be set permanently in `/etc/sysctl.conf`:
+The `vm.max_map_count` kernel setting needs to be set to at least 262144 for production use.
 
 ```
 $ grep vm.max_map_count /etc/sysctl.conf
@@ -64,6 +61,8 @@ vm.max_map_count=262144
 ```
 
 To apply the setting on a live system type: `sysctl -w vm.max_map_count=262144`
+
+The deploy script will do it automatically!
 
 Reference: https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html#docker-cli-run-prod-mode
 
@@ -73,6 +72,7 @@ Reference: https://www.elastic.co/guide/en/elasticsearch/reference/current/docke
 The process contains a full redeploy, so the current system (if it is running) will deleted completely.
 **All rrd archives and Postgresql database will be lost!**
 
+Run as `root`:
 [source, bash]
 ----
 cd setup
