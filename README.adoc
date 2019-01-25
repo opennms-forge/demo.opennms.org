@@ -5,6 +5,7 @@ For more details see https://github.com/opennms-forge/demo.opennms.org/blob/mast
 
 == Software Requirements
 
+* JQ
 * git
 * Docker
 * Docker Compose
@@ -50,6 +51,22 @@ POSTGRES_PORT=5432
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=PASSWORD_FOR_POSTGRES_USER
 ```
+
+=== Elasticsearch cluster
+
+The `vm.max_map_count` kernel setting needs to be set to at least 262144 for production use. Depending on your platform:
+
+The `vm.max_map_count` setting should be set permanently in `/etc/sysctl.conf`:
+
+```
+$ grep vm.max_map_count /etc/sysctl.conf
+vm.max_map_count=262144
+```
+
+To apply the setting on a live system type: `sysctl -w vm.max_map_count=262144`
+
+Reference: https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html#docker-cli-run-prod-mode
+
 
 === Initiate the application stack
 

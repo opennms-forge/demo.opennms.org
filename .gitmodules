@@ -16,3 +16,6 @@
 [submodule "etc-overlay/config-modules/postgresql"]
 	path = etc-overlay/config-modules/postgresql
 	url = https://github.com/opennms-config-modules/postgresql.git
+[submodule "etc-overlay/config-modules/elasticsearch"]
+	path = etc-overlay/config-modules/elasticsearch
+	url = https://github.com/opennms-config-modules/elasticsearch.git

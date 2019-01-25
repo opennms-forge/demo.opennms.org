@@ -5,6 +5,8 @@ volumes:
   data-postgres: {}
   data-opennms: {}
   data-grafana: {}
+  data-esdata1: {}
+  data-esdata2: {}
 
 networks:
   net-demo:
@@ -154,3 +156,38 @@ services:
       - ./samba:/user1
     environment:
       - TZ=Europe/Berlin
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:6.5.4
+    container_name: elasticsearch1
+    environment:
+      - cluster.name=demo-elasticsearch-cluster
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - data-esdata1:/usr/share/elasticsearch/data
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.33
+
+  elasticsearch2:
+    image: docker.elastic.co/elasticsearch/elasticsearch:6.5.4
+    container_name: elasticsearch2
+    environment:
+      - cluster.name=demo-elasticsearch-cluster
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - "discovery.zen.ping.unicast.hosts=elasticsearch1"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - data-esdata2:/usr/share/elasticsearch/data
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.34
