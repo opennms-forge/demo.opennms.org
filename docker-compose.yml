@@ -170,11 +170,10 @@ services:
         hard: -1
     volumes:
       - data-esdata1:/usr/share/elasticsearch/data
-    ports:
-      - 9200:9200
     networks:
       net-demo:
         ipv4_address: 172.29.0.33
+
   elasticsearch2:
     image: docker.elastic.co/elasticsearch/elasticsearch:6.5.4
     container_name: elasticsearch2
