@@ -1,6 +1,7 @@
 .DS_Store
 data/
 logs/
+etc-overlay/config-modules/
 .grafana.env
 .opennms.env
 .postgres.env

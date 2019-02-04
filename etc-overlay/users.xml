@@ -7,23 +7,23 @@
    <users>
       <user>
          <user-id>admin</user-id>
-         <password salt="true">5vRenWryGrHsJ1cQKa8zYygp1PZuz4Da49lTxPQ5+B77vvxUETihkoDA22t4VhaQ</password>
+         <password salt="true">L/NLgFOJ/Oq31aDV3vQfqVo/tRh807OvsoN2I4oedx0hoioiuaQ8HJHu60fkK878</password>
          <role>ROLE_ADMIN</role>
       </user>
       <user>
          <user-id>demo</user-id>
-         <password salt="true">WYyh8KnpWwj1ft8HHQbm9jjpgRQZ03w2oDfPpkGh0ftfvEhRZkRA74ERuwChkjb0</password>
+         <password salt="true">qX88cMQw/cRS84qwIgvp9los/UeQ/5XRFM4R2zhJ5nob+4za9U+HQk1Gy99Bc/qr</password>
          <role>ROLE_READONLY</role>
          <role>ROLE_USER</role>
       </user>
       <user>
          <user-id>grafana</user-id>
-         <password salt="true">M1/5v5wgMYMphKGPzTzkoSNw/e2q2BRT5SELuacQW5AOP1TlbG0CStSQ/fWwKk5I</password>
+         <password salt="true">7GhXac+6hAjMQTsqdZVXQiBCrVDib54PgvJAFoPF/W2ElZH7tnrxBR5c/XYWR5z2</password>
          <role>ROLE_USER</role>
       </user>
       <user>
          <user-id>minion</user-id>
-         <password salt="true">Kx4GhghRe83IsoyJqN8xajlHEY5Nr6LhIfCe/XBwrIDoH/NK/KLM1z4WVsKDadVw</password>
+         <password salt="true">CxU6uEWdnwGBGy9rtia5jzvi3uWkdCpVpFLmIUbcRE9+60F7w4coSD+gOyXlDXsU</password>
          <role>ROLE_MINION</role>
       </user>
       <user>

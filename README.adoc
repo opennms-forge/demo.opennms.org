@@ -21,6 +21,15 @@ git clone https://github.com/opennms-forge/demo.opennms.org.git
 cd demo.opennms.org
 ----
 
+=== OpenNMS user accounts and passwords
+
+These user accounts work out of the box. 
+
+* Administrator: `admin:admin`
+* Demo User: `demo:demo`
+* Grafana User: `grafana:grafana`
+* Minion User: `minion:minion`
+
 === Environment variables
 
 In the repositories root folder you will need some environment files.
