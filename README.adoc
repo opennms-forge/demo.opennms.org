@@ -21,15 +21,6 @@ git clone https://github.com/opennms-forge/demo.opennms.org.git
 cd demo.opennms.org
 ----
 
-=== OpenNMS user accounts and passwords
-
-These user accounts work out of the box. 
-
-* Administrator: `admin:admin`
-* Demo User: `demo:demo`
-* Grafana User: `grafana:grafana`
-* Minion User: `minion:minion`
-
 === Environment variables
 
 In the repositories root folder you will need some environment files.
@@ -40,15 +31,13 @@ Especially for setting the passwords in the system.
 TZ=Europe/Berlin
 OPENNMS_DBNAME=opennms
 OPENNMS_DBUSER=opennms
-OPENNMS_DBPASS=PASSWORD
-OPENNMS_ADMIN=admin
-OPENNMS_ADMIN_SALT=ADMINS_SALT
-OPENNMS_GRAFANA=PASSWORD_FOR_GRAFANA_USER
+OPENNMS_DBPASS=opennms
+OPENNMS_GRAFANA=grafana
 ```
 
 `.grafana.env`
 ```
-GF_SECURITY_ADMIN_PASSWORD=PASSWORD_FOR_GRAFANA_ADMIN
+GF_SECURITY_ADMIN_PASSWORD=grafana-admin
 ```
 
 `.postgres.env`
@@ -57,7 +46,7 @@ TZ=Europe/Berlin
 POSTGRES_HOST=database
 POSTGRES_PORT=5432
 POSTGRES_USER=postgres
-POSTGRES_PASSWORD=PASSWORD_FOR_POSTGRES_USER
+POSTGRES_PASSWORD=postgres
 ```
 
 === Elasticsearch cluster
@@ -100,6 +89,17 @@ OpenNMS: http://localhost:8980/opennms
 Grafana: http://localhost:3000
 
 == Usage 
+
+=== OpenNMS user accounts and passwords
+
+These user accounts work out of the box and are defined in `users.xml`.
+
+* Administrator: `admin:admin`
+* Demo User: `demo:demo`
+* Grafana User: `grafana:grafana`
+* Minion User: `minion:minion`
+
+=== Scripts 
 
 There are some script which are used to setup the application stack. They can be found in the `setup` folder and are described https://github.com/opennms-forge/demo.opennms.org/blob/master/setup/README.adoc[here].
 
