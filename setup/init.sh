@@ -46,3 +46,13 @@ else
   echo
   echo "-> Aborted"
 fi
+
+# Creating cron entry to restart the stack once a day
+ echo "Creating cron entry"
+if
+   grep -q "0\\ 0\\ \\*\\ \\*\\ \\*\\ \\ \\ root\\ \\ systemctl\\ restart\\ docker\\.service" /etc/crontab
+then
+   echo "Cron entry already existing"
+else
+   echo "0 0 * * *   root  systemctl restart docker.service" >> /etc/crontab
+fi

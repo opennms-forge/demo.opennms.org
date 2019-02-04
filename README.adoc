@@ -88,6 +88,11 @@ cd setup
 ./init.sh
 ----
 
+=== Daily restart
+
+The init file is creating a cron entry in `/etc/crontab` to restart the Docker deamon once a day.
+So be careful when deploying this setup on machines with other Docker containers running!
+
 == Accessing the components
 
 OpenNMS: http://localhost:8980/opennms
@@ -110,12 +115,19 @@ docker-compose restart
 Local configuration changes in `etc-overlay` can be reloaded with:
 [source, bash]
 ----
-docker-compose up -d
+docker-compose down && docker-compose up -d
 ----
 
 === Updating the stack
 
-Docker-compose file already use `latest` repo, so a re-deploy explained above or `docker-compose pull` will do an upgrade.
+The Horizon image definition in the docker-compose file is set to a specific version. For example:
+
+```
+horizon:
+  image: opennms/horizon-core-web:23.0.2-1
+```
+
+Just replace this version with an other version and run `docker-compose pull` which will do an upgrade.
 
 
 == Supporting this project
