@@ -22,7 +22,7 @@ read -r input
 
 if [ "$input" == "yes" ]; then
   echo "#### Initializing new Horizon Stack ####"
-  docker-compose pull && docker-compose down -v && git submodule update --init && sysctl -w vm.max_map_count=262144 && docker-compose up -d
+  docker-compose pull && docker-compose down -v && git submodule update --init && git submodule foreach git pull origin master && sysctl -w vm.max_map_count=262144 && docker-compose up -d
   echo -n "#### Waiting for OpenNMS to come online"
 
   until curl -L --output /dev/null --silent --head --fail http://${OPENNMS_HOST}:${OPENNMS_PORT}; do
