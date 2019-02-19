@@ -10,7 +10,7 @@
     {
       "type": "panel",
       "id": "opennms-helm-alarm-table-panel",
-      "name": "Alarm Table",
+      "name": "OpenNMS Alarm Table Examples",
       "version": ""
     },
     {
@@ -195,7 +195,6 @@
           "refId": "A"
         }
       ],
-      "timeFrom": "6w",
       "timeShift": null,
       "title": "All Alarms",
       "transform": "table",
@@ -370,7 +369,6 @@
           "refId": "A"
         }
       ],
-      "timeFrom": "6w",
       "timeShift": null,
       "title": "Alarms from a specific category",
       "transform": "table",
@@ -545,7 +543,6 @@
           "refId": "A"
         }
       ],
-      "timeFrom": "6w",
       "timeShift": null,
       "title": "Alarms  with Severity > MINOR",
       "transform": "table",
@@ -720,7 +717,6 @@
           "refId": "A"
         }
       ],
-      "timeFrom": "6w",
       "timeShift": null,
       "title": "Service related Alarms",
       "transform": "table",
@@ -895,7 +891,6 @@
           "refId": "A"
         }
       ],
-      "timeFrom": "6w",
       "timeShift": null,
       "title": "nodeLostService Alarms only",
       "transform": "table",
