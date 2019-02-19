@@ -115,7 +115,7 @@ services:
     restart: always
 
   dc.srv.01:
-    image: indigo/docker-netsnmp
+    image: opennms/net-snmp:5.7.3-r11-b1
     container_name: dc.srv.01
     networks:
       net-demo:
@@ -130,7 +130,7 @@ services:
     restart: always
 
   dc.srv.02:
-    image: indigo/docker-netsnmp
+    image: opennms/net-snmp:5.7.3-r11-b1
     container_name: dc.srv.02
     networks:
       net-demo:
