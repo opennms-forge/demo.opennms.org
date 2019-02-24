@@ -284,7 +284,7 @@
         }
       ],
       "datasource": "$instance",
-      "description": "This box presents all alarms of a specific surveillance category.",
+      "description": "This box presents all alarms of category web:clusternode.",
       "fontSize": "100%",
       "gridPos": {
         "h": 12,
@@ -360,7 +360,7 @@
                     "id": 1,
                     "label": "EQ"
                   },
-                  "value": "environment:production"
+                  "value": "web:clusternode"
                 }
               }
             ],
@@ -370,7 +370,7 @@
         }
       ],
       "timeShift": null,
-      "title": "Alarms from a specific category",
+      "title": "Alarms from category web:clusternodes",
       "transform": "table",
       "type": "opennms-helm-alarm-table-panel"
     },

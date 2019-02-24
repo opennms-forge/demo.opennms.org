@@ -203,3 +203,24 @@ services:
       net-demo:
         ipv4_address: 172.29.0.34
     restart: always
+
+  nginx1:
+    image: nginx:latest
+    container_name: demo_nginx1
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.35
+
+  nginx2:
+    image: nginx:latest
+    container_name: demo_nginx2
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.36
+
+  nginx3:
+    image: nginx:latest
+    container_name: demo_nginx3
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.37
