@@ -75,7 +75,7 @@ else
  else
   no=$(shuf -i 15-59 -n 1)
   path=$(pwd)
-  echo ""$no" * * * *   root  "$path"/http_outages.sh" >> /etc/crontab
+  echo "$no * * * *   root  "$path"/http_outages.sh" >> /etc/crontab
   echo "Done!"
  fi
 fi

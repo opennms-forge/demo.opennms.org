@@ -13,7 +13,7 @@ then
   docker-compose up -d
 else
  no=$(shuf -i 1-3 -n 1)
- echo "Shutting down demo_nginx"$no"..."
+ echo "Shutting down demo_nginx$no..."
  docker stop demo_nginx$no 1>/dev/null
  echo "Done!"
 fi
