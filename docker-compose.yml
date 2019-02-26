@@ -7,6 +7,14 @@ volumes:
   data-grafana: {}
   data-esdata1: {}
   data-esdata2: {}
+  dc2: 
+    # For details, see:
+    # https://docs.docker.com/engine/reference/commandline/volume_create/#driver-specific-options
+    driver: local
+    driver_opts:
+      o: "size=100M"
+      device: tmpfs
+      type: tmpfs
 
 networks:
   net-demo:
@@ -143,6 +151,8 @@ services:
       timeout: 5s
       retries: 3
     restart: always
+    volumes:
+      - dc2:/mnt
 
   dc.web.01:
     image: httpd

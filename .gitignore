@@ -4,3 +4,4 @@ logs/
 .grafana.env
 .opennms.env
 .postgres.env
+.install_path
