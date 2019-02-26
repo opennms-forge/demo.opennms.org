@@ -5,6 +5,14 @@
 A script to reload all requisitions.
 In the current setup all requisitions will be provided by a https://github.com/opennms-forge/demo.opennms.org/blob/master/requisitions/demo-opennms-org.xls[*xls file*] 
 
+## https://github.com/opennms-forge/demo.opennms.org/blob/master/setup/fill_disk.sh[fill_disk.sh]
+
+The script will simulate disk usage to trigger disk alarms.
+
+## https://github.com/opennms-forge/demo.opennms.org/blob/master/setup/http_outages.sh[http_outage.sh]
+
+The script will stop/start nginx docker containers to simulate node/interface down alarms.
+
 ## https://github.com/opennms-forge/demo.opennms.org/blob/master/setup/setup-dashboards.sh[setup-dashboard.sh]
 
 A script to install default OpenNMS Grafana dashboards. The dashboard IDs can be found in the script.
@@ -21,3 +29,5 @@ The script combines all scripts above in the following order:
 * install Helm
 * importing dashboard
 * reloading all requisitions
+* install outage script
+* install disk usage script
