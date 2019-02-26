@@ -54,7 +54,7 @@ else
  fi
 
  # Creating cron entry to restart the stack once a day
-  echo "Creating cron restart entry"
+ echo "Creating cron restart entry"
  if
     grep -q "0\\ 0\\ \\*\\ \\*\\ \\*\\ \\ \\ root\\ \\ systemctl\\ restart\\ docker\\.service" /etc/crontab
  then
@@ -67,15 +67,28 @@ else
 
  # Initiate automated HTTP outage setup  
 
- echo "Creating cron entry for http outage sript"
+ echo "Creating cron entry for http outage script"
  if grep -q http_outage /etc/crontab
  then
-  echo "Cron entry already exists!"
+  echo "Cron http outage entry already exists!"
   exit 0
  else
   no=$(shuf -i 15-59 -n 1)
   path=$(pwd)
   echo "$no * * * *   root  $path/http_outages.sh" >> /etc/crontab
-  echo "Done!"
+  echo "Creating cron entry for http outage script done!"
+ fi
+
+  # Initiate automated disk fill setup  
+
+ echo "Creating cron entry for fill disk script"
+ if grep -q fill_disk /etc/crontab
+ then
+  echo "Cron fill disk entry already exists!"
+  exit 0
+ else
+  path=$(pwd)
+  echo "*/6 * * * *   root  $path/fill_disk.sh" >> /etc/crontab
+  echo "Creating cron entry for fill disk script done!"
  fi
 fi

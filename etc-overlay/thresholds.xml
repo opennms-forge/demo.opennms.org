@@ -11,10 +11,10 @@
       </expression>
    </group>
    <group name="hrstorage" rrdRepository="/opt/opennms/share/rrd/snmp/">
-      <expression description="Trigger an alert when the percentage of disk space used reaches or goes above 90% for two consecutive measurement intervals (only for disks of type hrStorageFixedDisk, such as a locally attached or USB-attached hard disk)" type="high" ds-type="hrStorageIndex" value="90.0" rearm="75.0" trigger="2" ds-label="hrStorageDescr" filterOperator="OR" expression="hrStorageUsed / hrStorageSize * 100.0">
+      <expression description="disk usage high 90.0 and rearmed 89" type="high" ds-type="hrStorageIndex" value="90.0" rearm="89.0" trigger="1" ds-label="hrStorageDescr" triggeredUEI="disk_full_minor" rearmedUEI="disk_full_minor_resolved" filterOperator="OR" expression="hrStorageUsed / hrStorageSize * 100.0">
          <resource-filter field="hrStorageType">^\.1\.3\.6\.1\.2\.1\.25\.2\.1\.4$</resource-filter>
       </expression>
-      <expression description="Trigger an alert when the percentage of disk space used increases by a relative 33.3% compared to its most recent previous measurement (e.g. there is suddenly less free space) (only for disks of type hrStorageFixedDisk, such as a locally attached or USB-attached hard disk)" type="relativeChange" ds-type="hrStorageIndex" value="1.333" rearm="0.0" trigger="1" ds-label="hrStorageDescr" filterOperator="OR" expression="hrStorageUsed / hrStorageSize * 100.0">
+      <expression description="disk usage high 50.0 and rearmed 49.0" type="high" ds-type="hrStorageIndex" value="50.0" rearm="49.0" trigger="1" ds-label="hrStorageDescr" triggeredUEI="disk_full_warn" rearmedUEI="disk_full_warn_resolved" filterOperator="OR" expression="hrStorageUsed / hrStorageSize * 100.0">
          <resource-filter field="hrStorageType">^\.1\.3\.6\.1\.2\.1\.25\.2\.1\.4$</resource-filter>
       </expression>
    </group>

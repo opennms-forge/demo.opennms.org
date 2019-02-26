@@ -1,0 +1,74 @@
+<events xmlns="http://xmlns.opennms.org/xsd/eventconf">
+    <event>
+      <uei>disk_full_warn</uei>
+      <event-label>Disk usage warning event</event-label>
+      <descr>A threshold alarm for the following metric occured. &lt;br>&lt;table style='width:50%; white-space: nowrap;'>
+        &lt;tr>&lt;td>Data Source&lt;/td>&lt;td>%parm[ds]%&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Graph&lt;/td>&lt;td>&lt;a href='http://localhost:8980/opennms/graph/chooseresource.jsp?node=%nodeid%&amp;reports=all'>see here&lt;/a>&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Resource Label&lt;/td>&lt;td>%parm[label]%&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Resource Instance&lt;/td>&lt;td>%parm[instance]%&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Current Metric Value&lt;/td>&lt;td>%parm[value]%&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Threshold Value&lt;/td>&lt;td>%parm[threshold]%&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Rearm Value&lt;/td>&lt;td>%parm[rearm]%&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Trigger Value&lt;/td>&lt;td>%parm[trigger]%&lt;/td>&lt;/tr>
+        &lt;/table>
+      </descr>
+      <logmsg dest="logndisplay">Disk usage %parm[threshold]% for %parm[label]% exceeded.</logmsg>
+      <severity>Warning</severity>
+      <operinstruct>&lt;a href='https://www.cyberciti.biz/faq/linux-check-disk-space-command'>Check Disk Space Howto&lt;/a></operinstruct>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%interface%:%parm[ds]%:%parm[threshold]%:%parm[trigger]%:%parm[rearm]%" alarm-type="1" auto-clean="false"/>
+    </event>
+    <event>
+      <uei>disk_full_warn_resolved</uei>
+      <event-label>Disk usage warning resolved event</event-label>
+      <descr>A threshold alarm for the following metric rearmed. &lt;br>&lt;table style='width:50%; white-space: nowrap;'>
+        &lt;tr>&lt;td>Data Source&lt;/td>&lt;td>%parm[ds]%&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Graph&lt;/td>&lt;td>&lt;a href='http://localhost:8980/opennms/graph/chooseresource.jsp?node=%nodeid%&amp;reports=all'>see here&lt;/a>&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Resource Label&lt;/td>&lt;td>%parm[label]%&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Resource Instance&lt;/td>&lt;td>%parm[instance]%&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Current Metric Value&lt;/td>&lt;td>%parm[value]%&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Threshold Value&lt;/td>&lt;td>%parm[threshold]%&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Rearm Value&lt;/td>&lt;td>%parm[rearm]%&lt;/td>&lt;/tr>
+        &lt;/table>
+      </descr>
+      <logmsg dest="logndisplay">Disk usage %parm[threshold]% for %parm[label]% rearmed.</logmsg>
+      <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%interface%:%parm[ds]%:%parm[threshold]%:%parm[trigger]%:%parm[rearm]%" alarm-type="2" clear-key="disk_full_warn:%dpname%:%nodeid%:%interface%:%parm[ds]%:%parm[threshold]%:%parm[trigger]%:%parm[rearm]%" auto-clean="false"/>
+    </event>
+    <event>
+      <uei>disk_full_minor</uei>
+      <event-label>Disk usage minor event</event-label>
+      <descr>A threshold alarm for the following metric occured. &lt;br>&lt;table style='width:50%; white-space: nowrap;'>
+        &lt;tr>&lt;td>Data Source&lt;/td>&lt;td>%parm[ds]%&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Graph&lt;/td>&lt;td>&lt;a href='http://localhost:8980/opennms/graph/chooseresource.jsp?node=%nodeid%&amp;reports=all'>see here&lt;/a>&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Resource Label&lt;/td>&lt;td>%parm[label]%&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Resource Instance&lt;/td>&lt;td>%parm[instance]%&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Current Metric Value&lt;/td>&lt;td>%parm[value]%&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Threshold Value&lt;/td>&lt;td>%parm[threshold]%&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Rearm Value&lt;/td>&lt;td>%parm[rearm]%&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Trigger Value&lt;/td>&lt;td>%parm[trigger]%&lt;/td>&lt;/tr>
+        &lt;/table>
+      </descr>
+      <logmsg dest="logndisplay">Disk usage %parm[threshold]% for %parm[label]% exceeded.</logmsg>
+      <severity>Minor</severity>
+      <operinstruct>&lt;a href='https://www.cyberciti.biz/faq/linux-check-disk-space-command'>Check Disk Space Howto&lt;/a></operinstruct>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%interface%:%parm[ds]%:%parm[threshold]%:%parm[trigger]%:%parm[rearm]%" alarm-type="1" auto-clean="false"/>
+    </event>
+    <event>
+      <uei>disk_full_minor_resolved</uei>
+      <event-label>Disk usage minor resolved event</event-label>
+      <descr>A threshold alarm for the following metric rearmed. &lt;br>&lt;table style='width:50%; white-space: nowrap;'>
+        &lt;tr>&lt;td>Data Source&lt;/td>&lt;td>%parm[ds]%&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Graph&lt;/td>&lt;td>&lt;a href='http://localhost:8980/opennms/graph/chooseresource.jsp?node=%nodeid%&amp;reports=all'>see here&lt;/a>&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Resource Label&lt;/td>&lt;td>%parm[label]%&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Resource Instance&lt;/td>&lt;td>%parm[instance]%&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Current Metric Value&lt;/td>&lt;td>%parm[value]%&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Threshold Value&lt;/td>&lt;td>%parm[threshold]%&lt;/td>&lt;/tr>
+        &lt;tr>&lt;td>Rearm Value&lt;/td>&lt;td>%parm[rearm]%&lt;/td>&lt;/tr>
+        &lt;/table>
+      </descr>
+      <logmsg dest="logndisplay">Disk usage %parm[threshold]% for %parm[label]% rearmed.</logmsg>
+      <severity>Normal</severity>
+      <alarm-data reduction-key="%uei%:%dpname%:%nodeid%:%interface%:%parm[ds]%:%parm[threshold]%:%parm[trigger]%:%parm[rearm]%" alarm-type="2" clear-key="disk_full_minor:%dpname%:%nodeid%:%interface%:%parm[ds]%:%parm[threshold]%:%parm[trigger]%:%parm[rearm]%" auto-clean="false"/>
+</event>
+</events>
