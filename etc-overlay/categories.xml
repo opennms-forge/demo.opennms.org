@@ -1,0 +1,113 @@
+<catinfo>
+    <header>
+        <rev>1.3</rev>
+        <created>Wednesday, February 6, 2002 10:10:00 AM EST</created>
+        <mstation>checkers</mstation>
+    </header>
+    <categorygroup>
+        <name>WebConsole</name>
+        <comment>Service Level Availability by Functional Group</comment>
+        <common>
+            <rule><![CDATA[IPADDR != '0.0.0.0']]></rule>
+        </common>
+        <categories>
+            <category>
+                <label><![CDATA[Overall Service Availability]]></label>
+                <comment>This category reflects availability of all services currently being monitored by OpenNMS.</comment>
+                <normal>99.99</normal>
+                <warning>97</warning>
+                <rule><![CDATA[IPADDR != '0.0.0.0']]></rule>
+            </category>
+            <category>
+                <label><![CDATA[Physical Machines]]></label>
+                <comment>ICMP availabilty</comment>
+                <normal>99.99</normal>
+                <warning>97</warning>
+                <service>ICMP</service>
+                <rule><![CDATA[(catincphysical)]]></rule>
+            </category>
+            <category>
+                <label><![CDATA[Virtual Machines]]></label>
+                <comment>ICMP availabilty</comment>
+                <normal>99.99</normal>
+                <warning>97</warning>
+                <service>ICMP</service>
+                <rule><![CDATA[(catincvirtual)]]></rule>
+            </category>
+            <category>
+                <label><![CDATA[PRO Applications]]></label>
+                <comment>This category reflects the ability to 'ping' managed devices and working SNMP service.</comment>
+                <normal>99.99</normal>
+                <warning>97</warning>
+                <service>ICMP</service>
+                <service>SNMP</service>
+                <rule><![CDATA[(catincPRO & catincapplication)]]></rule>
+            </category>
+            <category>
+                <label><![CDATA[DEV Applications]]></label>
+                <comment>This category reflects the ability to 'ping' managed devices and working SNMP service.</comment>
+                <normal>99.99</normal>
+                <warning>97</warning>
+                <service>ICMP</service>
+                <service>SNMP</service>
+                <rule><![CDATA[(catincDEV & catincapplication)]]></rule>
+            </category>
+            <category>
+                <label><![CDATA[PRO Web Servers]]></label>
+                <comment>This category reflects the ability to 'ping' managed devices and working HTTP service.</comment>
+                <normal>99.99</normal>
+                <warning>97</warning>
+                <service>ICMP</service>
+                <service>HTTP</service>
+                <rule><![CDATA[(catincPRO & catincwebserver)]]></rule>
+            </category>
+            <category>
+                <label><![CDATA[DEV Web Servers]]></label>
+                <comment>This category reflects the ability to 'ping' managed devices and working HTTP service.</comment>
+                <normal>99.99</normal>
+                <warning>97</warning>
+                <service>ICMP</service>
+                <service>HTTP</service>
+                <rule><![CDATA[(catincDEV & catincwebserver)]]></rule>
+            </category>
+            <category>
+                <label><![CDATA[DEV Servers]]></label>
+                <comment>This category reflects the ability to 'ping' managed devices and working HTTP and SNMP service.</comment>
+                <normal>99.99</normal>
+                <warning>97</warning>
+                <service>ICMP</service>
+                <service>SNMP</service>
+                <service>HTTP</service>
+                <rule><![CDATA[(catincDEV)]]></rule>
+            </category>
+            <category>
+                <label><![CDATA[PRO Servers]]></label>
+                <comment>This category reflects the ability to 'ping' managed devices and working HTTP and SNMP service.</comment>
+                <normal>99.99</normal>
+                <warning>97</warning>
+                <service>ICMP</service>
+                <service>SNMP</service>
+                <service>HTTP</service>
+                <rule><![CDATA[(catincPRO)]]></rule>
+            </category>
+            <category>
+                <label><![CDATA[Application Servers]]></label>
+                <comment>This category reflects the ability to 'ping' managed devices and working SNMP service.</comment>
+                <normal>99.99</normal>
+                <warning>97</warning>
+                <service>ICMP</service>
+                <service>SNMP</service>
+                <rule><![CDATA[(catincapplication)]]></rule>
+            </category>
+            <category>
+                <label><![CDATA[Web Servers]]></label>
+                <comment>This category reflects the ability to 'ping' managed devices and working HTTP service.</comment>
+                <normal>99.99</normal>
+                <warning>97</warning>
+                <service>ICMP</service>
+                <service>HTTP</service>
+                <rule><![CDATA[(catincwebserver)]]></rule>
+            </category>
+        </categories>
+    </categorygroup>
+</catinfo>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<viewinfo>
+        <view>
+                <view-name>WebConsoleView</view-name>
+                <section>
+                        <section-name><![CDATA[Node types]]></section-name>
+                        <category><![CDATA[Physical Machines]]></category>
+                        <category><![CDATA[Virtual Machines]]></category>
+                </section>
+                <section>
+                        <section-name><![CDATA[Categorized Views]]></section-name>
+                        <category><![CDATA[Application Servers]]></category>
+                        <category><![CDATA[Web Servers]]></category>
+                </section>
+                <section>
+                        <section-name><![CDATA[Environmental Views]]></section-name>
+                        <category><![CDATA[PRO Servers]]></category>
+                        <category><![CDATA[DEV Servers]]></category>
+                </section>
+                <section>
+                        <section-name><![CDATA[Productive Systems]]></section-name>
+                        <category><![CDATA[PRO Applications]]></category>
+                        <category><![CDATA[PRO Web Servers]]></category>
+                </section>
+                <section>
+                        <section-name><![CDATA[Development Systems]]></section-name>
+                        <category><![CDATA[DEV Applications]]></category>
+                        <category><![CDATA[DEV Web Servers]]></category>
+                </section>
+                <section>
+                        <section-name><![CDATA[Total]]></section-name>
+                        <category><![CDATA[Overall Service Availability]]></category>
+                </section>
+        </view>
+</viewinfo>

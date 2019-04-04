@@ -4,17 +4,6 @@ version: '2.3'
 volumes:
   data-postgres: {}
   data-opennms: {}
-  data-grafana: {}
-  data-esdata1: {}
-  data-esdata2: {}
-  dc2: 
-    # For details, see:
-    # https://docs.docker.com/engine/reference/commandline/volume_create/#driver-specific-options
-    driver: local
-    driver_opts:
-      o: "size=100M"
-      device: tmpfs
-      type: tmpfs
 
 networks:
   net-demo:
@@ -44,7 +33,7 @@ services:
     restart: always
 
   horizon:
-    image: opennms/horizon-core-web:23.0.2-1
+    image: no42org/horizon:bleeding
     container_name: demo-horizon
     mem_limit: 3072M
     cap_add:
@@ -95,33 +84,6 @@ services:
       retries: 3
     restart: always
 
-  grafana:
-    image: grafana/grafana:5.4.3
-    container_name: demo-grafana
-    networks:
-      net-demo:
-        ipv4_address: 172.29.0.8
-    environment:
-      - TZ=Europe/Berlin
-      - GF_SERVER_ROOT_URL=http://localhost
-    env_file:
-      - .grafana.env
-    volumes:
-      - data-grafana:/var/lib/grafana
-      - ./grafana/provisioning/dashboards/default.yaml:/etc/grafana/provisioning/dashboards/default.yaml
-      - ./grafana/provisioning/dashboards/OpenNMS_Alarm_Board.json:/var/lib/grafana/dashboards/OpenNMS_Alarm_Board.json
-      - ./grafana/custom.ini:/etc/grafana/conf/custom.ini
-    ports:
-      - "3000:3000"
-    user: "472"
-    healthcheck:
-      test: [ "CMD", "curl", "-f", "-I", "http://localhost:3000" ]
-      interval: 1m
-      timeout: 5s
-      retries: 3
-    command: --config /etc/grafana/conf/custom.ini
-    restart: always
-
   dc.srv.01:
     image: opennms/net-snmp:5.7.3-r11-b1
     container_name: dc.srv.01
@@ -151,8 +113,156 @@ services:
       timeout: 5s
       retries: 3
     restart: always
-    volumes:
-      - dc2:/mnt
+
+  dc.srv.03:
+    image: opennms/net-snmp:5.7.3-r11-b1
+    container_name: dc.srv.03
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.32
+    environment:
+      - TZ=Europe/Berlin
+    healthcheck:
+      test: [ "CMD", "snmpget", "-v", "2c", "-c", "public", "localhost", ".1.3.6.1.2.1.1.2.0" ]
+      interval: 1m
+      timeout: 5s
+      retries: 3
+    restart: always
+
+  dc.srv.04:
+    image: opennms/net-snmp:5.7.3-r11-b1
+    container_name: dc.srv.04
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.33
+    environment:
+      - TZ=Europe/Berlin
+    healthcheck:
+      test: [ "CMD", "snmpget", "-v", "2c", "-c", "public", "localhost", ".1.3.6.1.2.1.1.2.0" ]
+      interval: 1m
+      timeout: 5s
+      retries: 3
+    restart: always
+
+  dc.srv.05:
+    image: opennms/net-snmp:5.7.3-r11-b1
+    container_name: dc.srv.05
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.34
+    environment:
+      - TZ=Europe/Berlin
+    healthcheck:
+      test: [ "CMD", "snmpget", "-v", "2c", "-c", "public", "localhost", ".1.3.6.1.2.1.1.2.0" ]
+      interval: 1m
+      timeout: 5s
+      retries: 3
+    restart: always
+
+  dc.srv.06:
+    image: opennms/net-snmp:5.7.3-r11-b1
+    container_name: dc.srv.06
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.35
+    environment:
+      - TZ=Europe/Berlin
+    healthcheck:
+      test: [ "CMD", "snmpget", "-v", "2c", "-c", "public", "localhost", ".1.3.6.1.2.1.1.2.0" ]
+      interval: 1m
+      timeout: 5s
+      retries: 3
+    restart: always
+
+  dc.srv.07:
+    image: opennms/net-snmp:5.7.3-r11-b1
+    container_name: dc.srv.07
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.36
+    environment:
+      - TZ=Europe/Berlin
+    healthcheck:
+      test: [ "CMD", "snmpget", "-v", "2c", "-c", "public", "localhost", ".1.3.6.1.2.1.1.2.0" ]
+      interval: 1m
+      timeout: 5s
+      retries: 3
+    restart: always
+
+  dc.srv.08:
+    image: opennms/net-snmp:5.7.3-r11-b1
+    container_name: dc.srv.08
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.37
+    environment:
+      - TZ=Europe/Berlin
+    healthcheck:
+      test: [ "CMD", "snmpget", "-v", "2c", "-c", "public", "localhost", ".1.3.6.1.2.1.1.2.0" ]
+      interval: 1m
+      timeout: 5s
+      retries: 3
+    restart: always
+
+  dc.srv.09:
+    image: opennms/net-snmp:5.7.3-r11-b1
+    container_name: dc.srv.09
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.38
+    environment:
+      - TZ=Europe/Berlin
+    healthcheck:
+      test: [ "CMD", "snmpget", "-v", "2c", "-c", "public", "localhost", ".1.3.6.1.2.1.1.2.0" ]
+      interval: 1m
+      timeout: 5s
+      retries: 3
+    restart: always
+
+  dc.srv.10:
+    image: opennms/net-snmp:5.7.3-r11-b1
+    container_name: dc.srv.10
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.39
+    environment:
+      - TZ=Europe/Berlin
+    healthcheck:
+      test: [ "CMD", "snmpget", "-v", "2c", "-c", "public", "localhost", ".1.3.6.1.2.1.1.2.0" ]
+      interval: 1m
+      timeout: 5s
+      retries: 3
+    restart: always
+
+  dc.srv.11:
+    image: opennms/net-snmp:5.7.3-r11-b1
+    container_name: dc.srv.11
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.40
+    environment:
+      - TZ=Europe/Berlin
+    healthcheck:
+      test: [ "CMD", "snmpget", "-v", "2c", "-c", "public", "localhost", ".1.3.6.1.2.1.1.2.0" ]
+      interval: 1m
+      timeout: 5s
+      retries: 3
+    restart: always
+
+  dc.srv.12:
+    image: opennms/net-snmp:5.7.3-r11-b1
+    container_name: dc.srv.12
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.41
+    environment:
+      - TZ=Europe/Berlin
+    healthcheck:
+      test: [ "CMD", "snmpget", "-v", "2c", "-c", "public", "localhost", ".1.3.6.1.2.1.1.2.0" ]
+      interval: 1m
+      timeout: 5s
+      retries: 3
+    restart: always
 
   dc.web.01:
     image: httpd
@@ -164,73 +274,82 @@ services:
       - TZ=Europe/Berlin
     restart: always
 
-  samba:
-    image: dperson/samba
-    container_name: samba
+  dc.web.02:
+    image: httpd
+    container_name: dc.web.02
     networks:
       net-demo:
-        ipv4_address: 172.29.0.32
-    command: ["-u user1;badpass", "-s public;/share", "-s user1 private;/user1;no;no;no;user1" ]
-    volumes:
-      - ./samba:/user1
+        ipv4_address: 172.29.0.51
+    environment:
+      - TZ=Europe/Berlin
+    restart: always
+  
+  dc.web.03:
+    image: httpd
+    container_name: dc.web.03
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.52
+    environment:
+      - TZ=Europe/Berlin
+    restart: always
+  
+  dc.web.04:
+    image: httpd
+    container_name: dc.web.04
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.53
+    environment:
+      - TZ=Europe/Berlin
+    restart: always
+  
+  dc.web.05:
+    image: httpd
+    container_name: dc.web.05
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.54
     environment:
       - TZ=Europe/Berlin
     restart: always
 
-  elasticsearch:
-    image: docker.elastic.co/elasticsearch/elasticsearch:6.5.4
-    container_name: elasticsearch1
-    environment:
-      - cluster.name=demo-elasticsearch-cluster
-      - bootstrap.memory_lock=true
-      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
-    ulimits:
-      memlock:
-        soft: -1
-        hard: -1
-    volumes:
-      - data-esdata1:/usr/share/elasticsearch/data
+  dc.web.06:
+    image: httpd
+    container_name: dc.web.06
     networks:
       net-demo:
-        ipv4_address: 172.29.0.33
+        ipv4_address: 172.29.0.55
+    environment:
+      - TZ=Europe/Berlin
     restart: always
 
-  elasticsearch2:
-    image: docker.elastic.co/elasticsearch/elasticsearch:6.5.4
-    container_name: elasticsearch2
+  dc.web.07:
+    image: httpd
+    container_name: dc.web.07
+    networks:
+      net-demo:
+        ipv4_address: 172.29.0.56
     environment:
-      - cluster.name=demo-elasticsearch-cluster
-      - bootstrap.memory_lock=true
-      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
-      - "discovery.zen.ping.unicast.hosts=elasticsearch1"
-    ulimits:
-      memlock:
-        soft: -1
-        hard: -1
-    volumes:
-      - data-esdata2:/usr/share/elasticsearch/data
-    networks:
-      net-demo:
-        ipv4_address: 172.29.0.34
+      - TZ=Europe/Berlin
     restart: always
-
-  nginx1:
-    image: nginx:latest
-    container_name: demo_nginx1
+  
+  dc.web.08:
+    image: httpd
+    container_name: dc.web.08
     networks:
       net-demo:
-        ipv4_address: 172.29.0.35
-
-  nginx2:
-    image: nginx:latest
-    container_name: demo_nginx2
+        ipv4_address: 172.29.0.57
+    environment:
+      - TZ=Europe/Berlin
+    restart: always
+  
+  dc.web.09:
+    image: httpd
+    container_name: dc.web.09
     networks:
       net-demo:
-        ipv4_address: 172.29.0.36
-
-  nginx3:
-    image: nginx:latest
-    container_name: demo_nginx3
-    networks:
-      net-demo:
-        ipv4_address: 172.29.0.37
+        ipv4_address: 172.29.0.58
+    environment:
+      - TZ=Europe/Berlin
+    restart: always
