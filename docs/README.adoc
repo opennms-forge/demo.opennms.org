@@ -6,10 +6,10 @@
 * OpenNMS PRIS
 * Grafana
 * Samba server
-* Web server
-* NetSNMP instance
+* Web servers
+* NetSNMP instances
 * Postgresql server
-* Elasticsearch cluster
+* Elasticsearch servers
 
 == What does this Demo system show?
 
@@ -19,6 +19,9 @@
 * Geomap example
 * Website monitoring
 * DNS monitoring
+* Mattermost integration
+* Simulated node/service outages and threshold alarms
+* Customized availability view
 
 === Used Monitors
 

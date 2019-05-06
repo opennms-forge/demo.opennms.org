@@ -9,9 +9,13 @@ In the current setup all requisitions will be provided by a https://github.com/o
 
 The script will simulate disk usage to trigger disk alarms.
 
-## https://github.com/opennms-forge/demo.opennms.org/blob/master/setup/http_outages.sh[http_outage.sh]
+## https://github.com/opennms-forge/demo.opennms.org/blob/master/setup/http_outages.sh[http_outages.sh]
 
-The script will stop/start nginx docker containers to simulate node/interface down alarms.
+The script will stop/start nginx docker containers to simulate interface/service down alarms.
+
+## https://github.com/opennms-forge/demo.opennms.org/blob/master/setup/node_outages.sh[node_outages.sh]
+
+The script will stop/start different docker containers to simulate node down alarms.
 
 ## https://github.com/opennms-forge/demo.opennms.org/blob/master/setup/setup-dashboards.sh[setup-dashboard.sh]
 
@@ -31,3 +35,4 @@ The script combines all scripts above in the following order:
 * reloading all requisitions
 * install outage script
 * install disk usage script
+* install node outage script
