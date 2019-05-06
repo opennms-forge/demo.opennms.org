@@ -9,8 +9,8 @@ RED='\033[0;31m'
 NO_COLOR='\033[0m'
 
 
-echo -n "Install OpenNMS Helm app ... "
-if docker-compose exec grafana /usr/share/grafana/bin/grafana-cli plugins install opennms-helm-app 1>/dev/null; then
+printf "Install OpenNMS Helm app ...\n"
+if  cd .. && docker exec -it demo-grafana /usr/share/grafana/bin/grafana-cli plugins install opennms-helm-app 1>/dev/null; then
     echo -e "${GREEN}done${NO_COLOR}"
 else
     echo -e "${RED}failed${NO_COLOR}"
@@ -20,12 +20,12 @@ echo "Restart Grafana ..."
 docker-compose stop grafana
 docker-compose up -d
 
- echo -n "#### Waiting for Grafana to come online ####"
+ printf "#### Waiting for Grafana to come online ####\n"
  until curl -L --output /dev/null --silent --head --fail "$GF_URL"; do
    printf '.'
    sleep 2
  done
- echo "Grafana is online!"
+ printf "Grafana is online!\n"
 
 echo "Setting Organisation Name"
 if curl --silent -X PUT "http://$GF_USER:$GF_PASS@127.0.0.1:3000/api/orgs/1" -H 'Content-Type: application/json;charset=UTF-8' --data-binary '{ "name":"OpenNMS" }' &>/dev/null; then

@@ -10,7 +10,6 @@ else
 
  OPENNMS_HOST=localhost
  OPENNMS_PORT=8980
- pwd > /etc/docker/.onms_install_path
 
  echo "#### Deploy Demo OpenNMS System #### "
  echo 
@@ -26,9 +25,14 @@ else
  echo "Do you want to continue?(yes/no)"
  read -r input
 
+if [[ ! -f ../.postgres.env || ! -f ../.opennms.env || ! -f ../.grafana.env ]];then
+    echo "Required environment files are not present. Please check README"
+    exit 0
+fi
+
  if [ "$input" == "yes" ]; then
    echo "#### Initializing new Horizon Stack ####"
-   docker-compose pull && docker-compose down -v && git submodule update --init && git submodule foreach git pull origin master && sysctl -w vm.max_map_count=262144 && docker-compose up -d
+   cd .. && docker-compose pull && docker-compose down -v && git submodule update --init && git submodule foreach git pull origin master && sysctl -w vm.max_map_count=262144 && docker-compose up -d
    echo -n "#### Waiting for OpenNMS to come online"
 
    until curl -L --output /dev/null --silent --head --fail http://${OPENNMS_HOST}:${OPENNMS_PORT}; do
@@ -38,14 +42,14 @@ else
 
    echo "OpenNMS is online!"
    echo "#### Setup Grafana HELM Plugin ####"
-   ./setup-helm.sh
+   cd setup && ./setup-helm.sh
 
    echo "#### Installing Grafana Dashboards ####"
    ./setup-dashboards.sh
 
    # Start importing PRIS requisitions
    echo "#### Start importing requisitions ####"
-   docker exec -it demo-horizon /bin/sh -c 'for i in $(/usr/bin/find /opt/opennms/etc/imports -type f -printf "%f\n"); do /opt/opennms/bin/send-event.pl -p '"'url http://pris:8000/requisitions/'"'${i%.*}'"''"' uei.opennms.org/internal/importer/reloadImport; done'
+   cd .. && docker exec -it demo-horizon /bin/sh -c 'for i in $(/usr/bin/find /opt/opennms/etc/imports -type f -printf "%f\n"); do /opt/opennms/bin/send-event.pl -p '"'url http://pris:8000/requisitions/'"'${i%.*}'"''"' uei.opennms.org/internal/importer/reloadImport; done'
 
    echo "Deploy process done!"
  else
