@@ -1,0 +1,21 @@
+<destinationPaths xmlns="http://xmlns.opennms.org/xsd/destinationPaths">
+   <header>
+      <rev>1.2</rev>
+      <created>Monday, August 13, 2018 11:09:01 AM GMT</created>
+      <mstation>localhost</mstation>
+   </header>
+   <path name="Email-Admin">
+      <target>
+         <name>Admin</name>
+         <command>javaEmail</command>
+      </target>
+   </path>
+   <path name="mattermost" initial-delay="0s">
+      <target>
+         <name>admin</name>
+         <autoNotify>on</autoNotify>
+         <command>mattermost</command>
+      </target>
+   </path>
+</destinationPaths>
+
