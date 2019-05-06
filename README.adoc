@@ -12,7 +12,7 @@ For more details see https://github.com/opennms-forge/demo.opennms.org/blob/mast
 
 == Installation
 
-In the current state this applications stack is tested with CentOS only.
+In the current state this applications stack is tested with Ubuntu only.
 Clone this repository and initialize the configuration modules.
 
 [source, bash]
