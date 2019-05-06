@@ -10,7 +10,7 @@ if [ "$nginxcount" -lt 3 ]
 then
   INSTALL_PATH=$(cat /etc/docker/.onms_install_path)
   cd "$INSTALL_PATH" || exit 2
-  docker-compose up -d
+  cd .. && docker-compose up -d
 else
  no=$(shuf -i 1-3 -n 1)
  echo "Shutting down demo_nginx$no..."

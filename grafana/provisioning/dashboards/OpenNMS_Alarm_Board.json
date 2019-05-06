@@ -16,7 +16,7 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "iteration": 1557174350322,
+  "iteration": 1557180103675,
   "links": [],
   "panels": [
     {
@@ -328,6 +328,10 @@
           "filter": {
             "clauses": [
               {
+                "operator": {
+                  "id": 1,
+                  "label": "AND"
+                },
                 "restriction": {
                   "attribute": "category.name",
                   "comparator": {
@@ -335,10 +339,6 @@
                     "label": "EQ"
                   },
                   "value": "webserver"
-                },
-                "operator": {
-                  "id": 1,
-                  "label": "AND"
                 }
               }
             ],
@@ -502,6 +502,10 @@
           "filter": {
             "clauses": [
               {
+                "operator": {
+                  "id": 1,
+                  "label": "AND"
+                },
                 "restriction": {
                   "attribute": "severity",
                   "comparator": {
@@ -509,10 +513,6 @@
                     "label": "GT"
                   },
                   "value": "MINOR"
-                },
-                "operator": {
-                  "id": 1,
-                  "label": "AND"
                 }
               }
             ],
@@ -676,6 +676,10 @@
           "filter": {
             "clauses": [
               {
+                "operator": {
+                  "id": 1,
+                  "label": "AND"
+                },
                 "restriction": {
                   "attribute": "serviceType.name",
                   "comparator": {
@@ -683,10 +687,6 @@
                     "label": "EQ"
                   },
                   "value": "Web-Landing-Page-SSL"
-                },
-                "operator": {
-                  "id": 1,
-                  "label": "AND"
                 }
               }
             ],
@@ -850,6 +850,10 @@
           "filter": {
             "clauses": [
               {
+                "operator": {
+                  "id": 1,
+                  "label": "AND"
+                },
                 "restriction": {
                   "attribute": "uei",
                   "comparator": {
@@ -857,10 +861,6 @@
                     "label": "EQ"
                   },
                   "value": "uei.opennms.org/nodes/nodeLostService"
-                },
-                "operator": {
-                  "id": 1,
-                  "label": "AND"
                 }
               }
             ],
