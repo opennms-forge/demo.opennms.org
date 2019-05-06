@@ -1,25 +1,4 @@
 {
-  "__inputs": [],
-  "__requires": [
-    {
-      "type": "grafana",
-      "id": "grafana",
-      "name": "Grafana",
-      "version": "5.4.3"
-    },
-    {
-      "type": "panel",
-      "id": "opennms-helm-alarm-table-panel",
-      "name": "OpenNMS Alarm Table Examples",
-      "version": ""
-    },
-    {
-      "type": "datasource",
-      "id": "opennms-helm-fault-datasource",
-      "name": "OpenNMS Faults",
-      "version": "1.0.0"
-    }
-  ],
   "annotations": {
     "list": [
       {
@@ -37,8 +16,7 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "id": null,
-  "iteration": 1548103077596,
+  "iteration": 1557174350322,
   "links": [],
   "panels": [
     {
@@ -350,17 +328,17 @@
           "filter": {
             "clauses": [
               {
-                "operator": {
-                  "id": 1,
-                  "label": "AND"
-                },
                 "restriction": {
                   "attribute": "category.name",
                   "comparator": {
                     "id": 1,
                     "label": "EQ"
                   },
-                  "value": "web:clusternode"
+                  "value": "webserver"
+                },
+                "operator": {
+                  "id": 1,
+                  "label": "AND"
                 }
               }
             ],
@@ -370,7 +348,7 @@
         }
       ],
       "timeShift": null,
-      "title": "Alarms from category web:clusternodes",
+      "title": "Alarms from category webserver",
       "transform": "table",
       "type": "opennms-helm-alarm-table-panel"
     },
@@ -524,17 +502,17 @@
           "filter": {
             "clauses": [
               {
-                "operator": {
-                  "id": 1,
-                  "label": "AND"
-                },
                 "restriction": {
                   "attribute": "severity",
                   "comparator": {
-                    "id": 7,
-                    "label": "GE"
+                    "id": 5,
+                    "label": "GT"
                   },
                   "value": "MINOR"
+                },
+                "operator": {
+                  "id": 1,
+                  "label": "AND"
                 }
               }
             ],
@@ -632,7 +610,7 @@
         }
       ],
       "datasource": "$instance",
-      "description": "This box presents service related alarms. In this case it's the service \"Web-Landing-Page\".",
+      "description": "This box presents service related alarms. In this case it's the service \"Web-Landing-Page-SSL\".",
       "fontSize": "100%",
       "gridPos": {
         "h": 12,
@@ -698,17 +676,17 @@
           "filter": {
             "clauses": [
               {
-                "operator": {
-                  "id": 1,
-                  "label": "AND"
-                },
                 "restriction": {
                   "attribute": "serviceType.name",
                   "comparator": {
                     "id": 1,
                     "label": "EQ"
                   },
-                  "value": "Web-Landing-Page"
+                  "value": "Web-Landing-Page-SSL"
+                },
+                "operator": {
+                  "id": 1,
+                  "label": "AND"
                 }
               }
             ],
@@ -872,10 +850,6 @@
           "filter": {
             "clauses": [
               {
-                "operator": {
-                  "id": 1,
-                  "label": "AND"
-                },
                 "restriction": {
                   "attribute": "uei",
                   "comparator": {
@@ -883,6 +857,10 @@
                     "label": "EQ"
                   },
                   "value": "uei.opennms.org/nodes/nodeLostService"
+                },
+                "operator": {
+                  "id": 1,
+                  "label": "AND"
                 }
               }
             ],
@@ -897,18 +875,20 @@
       "type": "opennms-helm-alarm-table-panel"
     }
   ],
-  "schemaVersion": 16,
+  "schemaVersion": 18,
   "style": "dark",
   "tags": [],
   "templating": {
     "list": [
       {
         "current": {
-          "text": "OpenNMS Faults",
-          "value": "OpenNMS Faults"
+          "text": "OpenNMS Horizon FM",
+          "value": "OpenNMS Horizon FM"
         },
         "hide": 0,
+        "includeAll": false,
         "label": "OpenNMS  Instance",
+        "multi": false,
         "name": "instance",
         "options": [],
         "query": "opennms-helm-fault-datasource",
