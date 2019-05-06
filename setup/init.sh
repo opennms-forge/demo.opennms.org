@@ -84,7 +84,7 @@ fi
  else
   no=$(shuf -i 15-59 -n 1)
   path=$(pwd)
-  echo "$no * * * *   root  $path/http_outages.sh" >> /etc/crontab
+  echo "$no * * * *   root  $path/setup/http_outages.sh" >> /etc/crontab
   echo "Creating cron entry for http outage script done!"
  fi
 
@@ -97,7 +97,21 @@ fi
   exit 0
  else
   path=$(pwd)
-  echo "*/6 * * * *   root  $path/fill_disk.sh" >> /etc/crontab
+  echo "*/6 * * * *   root  $path/setup/fill_disk.sh" >> /etc/crontab
   echo "Creating cron entry for fill disk script done!"
+ fi
+ 
+ # Initiate automated node outage setup  
+
+ echo "Creating cron entry for node outage script"
+ if grep -q node_outage /etc/crontab
+ then
+  echo "Cron node outage entry already exists!"
+  exit 0
+ else
+  no=$(shuf -i 15-36 -n 1)
+  path=$(pwd)
+  echo "$no * * * *   root  $path/setup/node_outages.sh" >> /etc/crontab
+  echo "Creating cron entry for node outage script done!"
  fi
 fi
