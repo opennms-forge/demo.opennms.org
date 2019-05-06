@@ -1,0 +1,52 @@
+<notifications xmlns="http://xmlns.opennms.org/xsd/notifications">
+   <header>
+      <rev>1.2</rev>
+      <created>Tuesday, March 26, 2019 10:07:52 PM GMT</created>
+      <mstation>localhost</mstation>
+   </header>
+   <notification name="Homepage not reachable" status="off" writeable="yes">
+      <uei>uei.opennms.org/nodes/nodeLostService</uei>
+      <rule>isWeb-Landing-Page-SSL'</rule>
+      <destinationPath>mattermost</destinationPath>
+      <text-message>https://%nodelabel% is not reachable</text-message>
+      <subject></subject>
+      <numeric-message>111-%noticeid%</numeric-message>
+   </notification>
+   <notification name="Node down" status="on">
+      <uei>uei.opennms.org/nodes/nodeDown</uei>
+      <rule>ipaddr iplike *.*.*.*</rule>
+      <destinationPath>mattermost</destinationPath>
+      <text-message>*Hostname:* &lt;https://demo02.internal.opennms.com/opennms/element/node.jsp?node=%nodeid%|%foreignid%&gt; - *Description:* %asset[description]% - &lt;https://demo02.internal.opennms.com/opennms/asset/modify.jsp?node=%nodeid%|more details&gt;</text-message>
+      <subject>Node %nodelabel% is down</subject>
+      <numeric-message>111-%noticeid%</numeric-message>
+   </notification>
+   <notification name="Dell Hardware Issues" status="on">
+      <uei>uei.opennms.org/nodes/nodeLostService</uei>
+      <rule>(servicename like 'Dell%')</rule>
+      <destinationPath>mattermost</destinationPath>
+      <text-message>
+	*Hostname:* &lt;https://demo02.internal.opennms.org/opennms/element/node.jsp?node=%nodeid%|%foreignid%&gt; - *Service:* %service%&#xd;
+	*Service Tag:* %asset[serialNumber]% - *Service Express Code:* %asset[assetNumber]%&#xd;
+	*Support:* %asset[supportPhone]% - *iDRAC URL:* https://%interface%&#xd;
+      </text-message>
+      <subject>Dell hardware outage on %nodelabel%</subject>
+      <numeric-message>111-%noticeid%</numeric-message>
+   </notification>
+   <notification name="Service Outages" status="on">
+      <uei>uei.opennms.org/nodes/nodeLostService</uei>
+      <rule>ipaddr iplike *.*.*.*</rule>
+      <destinationPath>mattermost</destinationPath>
+      <text-message>*Hostname:* &lt;https://demo02.internal.opennms.org/opennms/element/node.jsp?node=%nodeid%|%foreignid%&gt; - *Description:* %asset[description]% - &lt;https://demo02.internal.opennms.org/opennms/asset/modify.jsp?node=%nodeid%|more details&gt;</text-message>
+      <subject>%service% outage on %nodelabel%</subject>
+      <numeric-message>111-%noticeid%</numeric-message>
+   </notification>
+   <notification name="Interface down" status="on">
+      <uei>uei.opennms.org/nodes/interfaceDown</uei>
+      <rule>ipaddr iplike *.*.*.*</rule>
+      <destinationPath>mattermost</destinationPath>
+      <text-message>*Hostname:* &lt;https://demo02.internal.opennms.com/opennms/element/node.jsp?node=%nodeid%|%foreignid%&gt; - *Description:* %asset[description]% - &lt;https://demo02.internal.opennms.com/opennms/asset/modify.jsp?node=%nodeid%|more details&gt;</text-message>
+      <subject>Interface down on %nodelabel%</subject>
+      <numeric-message>111-%noticeid%</numeric-message>
+   </notification>
+</notifications>
+
