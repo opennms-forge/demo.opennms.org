@@ -36,7 +36,7 @@
       <uei>uei.opennms.org/nodes/nodeLostService</uei>
       <rule>ipaddr iplike *.*.*.*</rule>
       <destinationPath>mattermost</destinationPath>
-      <text-message>*Hostname:* &lt;https://demo02.internal.opennms.org/opennms/element/node.jsp?node=%nodeid%|%foreignid%&gt; - *Description:* %asset[description]% - &lt;https://demo02.internal.opennms.org/opennms/asset/modify.jsp?node=%nodeid%|more details&gt; - &lt;%operinstruct%|Service Operator Instructions&gt;</text-message>
+      <text-message>*Hostname:* &lt;https://demo02.internal.opennms.org/opennms/element/node.jsp?node=%nodeid%|%foreignid%&gt; - *Description:* %asset[description]% - &lt;https://demo02.internal.opennms.org/opennms/asset/modify.jsp?node=%nodeid%|more details&gt;</text-message>
       <subject>%service% outage on %nodelabel%</subject>
       <numeric-message>111-%noticeid%</numeric-message>
    </notification>
