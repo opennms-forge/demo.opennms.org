@@ -10,6 +10,11 @@ else
 
  OPENNMS_HOST=localhost
  OPENNMS_PORT=8980
+ 
+ # -------------------------------
+ # Required for http_outage script
+ pwd > /etc/docker/.onms_install_path
+ # -------------------------------
 
  echo "#### Deploy Demo OpenNMS System #### "
  echo 
