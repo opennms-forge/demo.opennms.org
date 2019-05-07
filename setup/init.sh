@@ -80,9 +80,8 @@ fi
  if grep -q http_outage /etc/crontab
  then
   echo "Cron http outage entry already exists!"
-  exit 0
  else
-  no=$(shuf -i 15-59 -n 1)
+  no=$(shuf -i 44-59 -n 1)
   path=$(pwd)
   echo "$no * * * *   root  $path/setup/http_outages.sh" >> /etc/crontab
   echo "Creating cron entry for http outage script done!"
@@ -94,10 +93,9 @@ fi
  if grep -q fill_disk /etc/crontab
  then
   echo "Cron fill disk entry already exists!"
-  exit 0
  else
   path=$(pwd)
-  echo "*/6 * * * *   root  $path/setup/fill_disk.sh" >> /etc/crontab
+  echo "*/16 * * * *   root  $path/setup/fill_disk.sh" >> /etc/crontab
   echo "Creating cron entry for fill disk script done!"
  fi
  
@@ -107,9 +105,8 @@ fi
  if grep -q node_outage /etc/crontab
  then
   echo "Cron node outage entry already exists!"
-  exit 0
  else
-  no=$(shuf -i 15-36 -n 1)
+  no=$(shuf -i 44-59 -n 1)
   path=$(pwd)
   echo "$no * * * *   root  $path/setup/node_outages.sh" >> /etc/crontab
   echo "Creating cron entry for node outage script done!"

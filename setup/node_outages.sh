@@ -14,7 +14,7 @@ then
 else
   mapfile -t array < <(docker ps --format '{{.Names}}' --filter "name=dc.*" --filter "name=elastic*")
   no=$(shuf -i 1-5 -n 1)
-  echo "Shutting down node ${array[$no]}..."
+  echo "Shutting down node \"${array[$no]}\"..."
   docker stop "${array[$no]}" 1>/dev/null
   echo "Done!"
 fi
